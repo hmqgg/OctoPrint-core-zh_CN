@@ -1,0 +1,20 @@
+name: Update PO template
+on:
+  schedule:
+    - cron:  '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Download .pot
+        run: wget https://github.com/OctoPrint/OctoPrint/raw/master/translations/messages.pot -O ./messages.pot
+
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v7.2.1
+        with:
+          add: "messages.pot"
+          branch: main
