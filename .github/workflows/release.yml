@@ -1,0 +1,44 @@
+name: Create Release
+on:
+  release:
+    types: [published]
+env:
+  ZIP_FILENAME: "zh_CN"
+  PACKAGE_CONTENT: "zh_CN/"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        id: checkout
+        uses: actions/checkout@v2
+
+      - name: Install gettext
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: gettext
+
+      - name: Compile PO file
+        id: build-mo
+        run: |
+          for po in $(find . -name '*.po'); do
+            msgfmt -o ${po%.po}.mo $po
+          done
+
+      - name: Create Artifact
+        id: build-zip
+        run: zip -r $ZIP_FILENAME.zip $PACKAGE_CONTENT
+
+      - name: Update Release with Files
+        id: create_version_release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          name: ${{ github.event.release.name }}
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "./${{env.ZIP_FILENAME}}.zip"
+          tag: ${{ github.event.release.tag_name }}
+          body: ${{ github.event.release.body }}
