@@ -54,6 +54,7 @@
 # 友璐 朱 <1109979791@qq.com>, 2019
 # 小巍 陈 <chenxiaowei107@163.com>, 2020
 # 瑞 杨钱 <1304688335@qq.com>, 2020
+# Mitch Hwang <mitchx7@outlook.com>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: OctoPrint\n"
