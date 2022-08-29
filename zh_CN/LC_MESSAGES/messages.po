@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2022-05-16 14:29+0200\n"
-"PO-Revision-Date: 2022-08-29 17:54+0800\n"
+"PO-Revision-Date: 2022-08-29 10:24+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -70,7 +70,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Weblate 4.13.1\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: src/octoprint/access/permissions.py:275
@@ -443,9 +443,8 @@ msgid "Allows administrating all application keys"
 msgstr "允许管理所有应用程序密钥"
 
 #: src/octoprint/plugins/appkeys/__init__.py:132
-#| msgid "Allows to read announcements"
 msgid "Allows to grant app access"
-msgstr ""
+msgstr "允许授予应用访问权限"
 
 #: src/octoprint/plugins/appkeys/__init__.py:142
 #: src/octoprint/plugins/appkeys/__init__.py:143
@@ -563,17 +562,18 @@ msgstr "二维码"
 #: src/octoprint/plugins/appkeys/templates/appkeys_authdialog.jinja2:48
 #, python-format
 msgid "Hello %(user)s!"
-msgstr ""
+msgstr "你好 %(user)s！"
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_authdialog.jinja2:50
-#| msgid ""
-#| "Do you want to allow access to this application with your user account?"
 msgid ""
 "\n"
 "                Do you want to allow access to this application with your "
 "user account?\n"
 "            "
 msgstr ""
+"\n"
+"                您想允许用您的用户账户访问此应用程序吗？\n"
+"            "
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_authdialog.jinja2:59
 msgid ""
@@ -582,6 +582,9 @@ msgid ""
 "this tab.\n"
 "            "
 msgstr ""
+"\n"
+"                已处理访问请求。您现在可以关闭此选项卡。\n"
+"            "
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_authdialog.jinja2:65
 msgid ""
@@ -590,6 +593,9 @@ msgid ""
 "You may now close this tab.\n"
 "            "
 msgstr ""
+"\n"
+"                处理访问请求时出现问题。您现在可以关闭此选项卡。\n"
+"            "
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_authdialog.jinja2:71
 msgid ""
@@ -597,6 +603,9 @@ msgid ""
 "                The server has gone offline. You may now close this tab.\n"
 "            "
 msgstr ""
+"\n"
+"                服务器已离线。您现在可以关闭此选项卡。\n"
+"            "
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_settings.jinja2:1
 #: src/octoprint/plugins/appkeys/templates/appkeys_usersettings.jinja2:1
@@ -1629,6 +1638,8 @@ msgid ""
 "cannot stall, block or otherwise influence internal execution with event "
 "handlers."
 msgstr ""
+"请注意，您在此处定义的任何事件处理程序都将<em>异步</em>处理到 OctoPrint "
+"自己的事件处理。您不能使用事件处理程序停止、阻止或以其他方式影响内部执行。"
 
 #: src/octoprint/plugins/eventmanager/templates/eventmanager_settings.jinja2:65
 msgid "Do not forget to save in main settings."
@@ -1646,28 +1657,24 @@ msgid ""
 msgstr "没有该插件，OctoPrint中的GCode Viewer将不再可用。"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:19
-#| msgid "Loading..."
 msgid "Downloading..."
-msgstr ""
+msgstr "下载中。。。"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:23
-#| msgid "Slicing ..."
 msgid "Splitting lines..."
-msgstr ""
+msgstr "分行中。。。"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:28
-#| msgid "Pausing"
 msgid "Parsing..."
-msgstr ""
+msgstr "解析中。。。"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:36
 msgid "Analyzing..."
 msgstr "分析中..."
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:43
-#| msgid "Read..."
 msgid "Ready!"
-msgstr ""
+msgstr "准备好了！"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:696
 #: src/octoprint/static/js/app/viewmodels/files.js:1054
@@ -2084,9 +2091,8 @@ msgid "Select a logger..."
 msgstr "选择一条记录..."
 
 #: src/octoprint/plugins/pluginmanager/__init__.py:229
-#| msgid "Allows to enable, disable and uninstall installed plugins."
 msgid "Allows to list installed plugins."
-msgstr ""
+msgstr "允许列出已安装的插件。"
 
 #: src/octoprint/plugins/pluginmanager/__init__.py:236
 msgid "Allows to enable, disable and uninstall installed plugins."
@@ -2102,23 +2108,20 @@ msgid "Plugin Manager"
 msgstr "插件管理器"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:237
-#| msgid "Command"
 msgid "and"
-msgstr ""
+msgstr "和"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:249
 #, python-format
-#| msgid ""
-#| "This does not look like a valid plugin. Valid plugins should be either "
-#| "zip files or tarballs installable via <code>pip</code> that have the "
-#| "extension \".zip\", \".tar.gz\", \".tgz\" or \".tar\", or single file "
-#| "python plugins with the extension \".py\""
 msgid ""
 "This does not look like a valid plugin. Valid plugins should be either "
 "archives installable via <code>pip</code> that have the extension "
 "%(archiveExtensions)s, or single file python plugins with the extension "
 "%(pythonExtensions)s."
 msgstr ""
+"这看起来不像是一个有效的插件。有效的插件应该是可以通过 <code>pip</code> "
+"安装的具有扩展名 %(archiveExtensions)s 的档案，或者是具有扩展名 "
+"%(pythonExtensions)s 的单文件 python 插件。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:309
 msgid "There are no plugin notices. Great!"
@@ -2197,73 +2200,63 @@ msgstr "关闭插件"
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:909
 #, python-format
 msgid "Can't resolve plugin with key %(key)s, skipping..."
-msgstr ""
+msgstr "无法解析键值为 %(key)s 的插件，跳过中。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:920
 #, python-format
 msgid "Plugin %(plugin)s doesn't support bulk operations, skipping..."
-msgstr ""
+msgstr "插件 %(plugin)s 不支持批量操作，跳过中。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:933
 #, python-format
 msgid "Plugin %(plugin)s is already %(status)s (or pending), skipping..."
-msgstr ""
+msgstr "插件 %(plugin)s 已经处于 %(status)s（或待定），跳过中。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:989
-#| msgid "Enable Plugin"
 msgid "Enabling plugins"
-msgstr ""
+msgstr "启用插件"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:990
 #, python-format
-#| msgid "Deleting %(count)d log files..."
 msgid "Enabling %(count)i plugins"
-msgstr ""
+msgstr "启用 %(count)i 个插件"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:991
 #, python-format
-#| msgid "Installing plugin \"%(plugin)s\"..."
 msgid "Enabled plugin %(plugin)s..."
-msgstr ""
+msgstr "已启用插件 %(plugin)s 。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:992
 #, python-format
-#| msgid "Deletion of %(filename)s failed, continuing..."
 msgid "Enabling plugin %(plugin)s failed, continuing..."
-msgstr ""
+msgstr "启用插件 %(plugin)s 失败，继续进行。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:993
-#| msgid "Enabled"
 msgid "enabled"
-msgstr ""
+msgstr "已启用"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1018
-#| msgid "Disable plugin"
 msgid "Disabling plugins"
-msgstr ""
+msgstr "禁用插件"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1019
 #, python-format
-#| msgid "Deleting %(count)d log files..."
 msgid "Disabling %(count)i plugins"
-msgstr ""
+msgstr "禁用 %(count)i 个插件"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1020
 #, python-format
-#| msgid "Installing plugin \"%(plugin)s\"..."
 msgid "Disabled plugin %(plugin)s..."
-msgstr ""
+msgstr "已禁用插件 %(plugin)s 。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1021
 #, python-format
-#| msgid "Deletion of %(filename)s failed, continuing..."
 msgid "Disabling plugin %(plugin)s failed, continuing..."
-msgstr ""
+msgstr "禁用插件 %(plugin)s 失败，继续进行。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1022
-#| msgid "Disabled"
 msgid "disabled"
-msgstr ""
+msgstr "已禁用"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1112
 #, python-format
@@ -2659,19 +2652,16 @@ msgid "Search..."
 msgstr "搜索..."
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:113
-#| msgid "Select all"
 msgid "Select all visible"
-msgstr ""
+msgstr "勾选所有可见的"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:116
-#| msgid "Delete selected"
 msgid "Disable selected"
-msgstr ""
+msgstr "禁用勾选的"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:117
-#| msgid "Delete selected"
 msgid "Enable selected"
-msgstr ""
+msgstr "启用勾选的"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:121
 msgid "Show both bundled and third-party plugins"
@@ -2707,7 +2697,7 @@ msgstr "仅显示禁用的插件"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:146
 msgid "Bundled and incompatible plugins do not support bulk operations"
-msgstr ""
+msgstr "捆绑和不兼容的插件不支持批量操作"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:149
 msgid "Bundled with OctoPrint"
@@ -2764,7 +2754,7 @@ msgstr "卸载插件"
 msgid ""
 "Please note that bundled and incompatible plugins do not support bulk "
 "operations."
-msgstr ""
+msgstr "请注意，捆绑和不兼容的插件不支持批量操作。"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:173
 msgid "Refresh"
@@ -3108,18 +3098,16 @@ msgid "Update available"
 msgstr "更新可用"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:418
-#| msgid "Update"
 msgid "Up-to-date"
-msgstr ""
+msgstr "最新"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:420
-#| msgid "Sort by modification date"
 msgid "notifications are muted"
-msgstr ""
+msgstr "通知已静音"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:421
 msgid "notifications are enabled"
-msgstr ""
+msgstr "通知已启用"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:450
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:759
@@ -3201,23 +3189,20 @@ msgid "Cannot check for update, need online connection"
 msgstr "无法检查更新,需要互联网连接"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:676
-#| msgid "Unknown error while checking for update, please check the logs"
 msgid "Network error while checking for update, please check the logs"
-msgstr ""
+msgstr "检查更新时出现网络错误，请检查日志"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:681
-#| msgid "Unknown error while checking for update, please check the logs"
 msgid "API error while checking for update, please check the logs"
-msgstr ""
+msgstr "检查更新时 API 错误，请检查日志"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:686
 msgid "Rate limit exceeded while checking for update, please try again later"
 msgstr "检查更新时超出了速率限制，请稍后重试"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:691
-#| msgid "Unknown error while checking for update, please check the logs"
 msgid "Check internal error while checking for update, please check the logs"
-msgstr ""
+msgstr "检查更新时发现内部错误，请检查日志"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:696
 msgid "Unknown error while checking for update, please check the logs"
@@ -3231,12 +3216,11 @@ msgstr "正在更新,请等待."
 msgid ""
 "The install of the following plugin update(s) has been queued for after "
 "current print is finished or cancelled."
-msgstr ""
+msgstr "以下插件更新的安装，已排在了当前打印完成或取消之后。"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:786
-#| msgid "Update failed!"
 msgid "Updates Queued"
-msgstr ""
+msgstr "更新已排队"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:806
 msgid ""
@@ -3274,16 +3258,14 @@ msgstr ""
 "<strong>升级之前</strong> 需要知道的重要信息."
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:896
-#| msgid "Upload date of the file currently selected or printing"
 msgid "Updates will be queued if currently printing,"
-msgstr ""
+msgstr "如果当前正在打印，更新将排队，"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:898
-#| msgid "This action may disrupt any ongoing print jobs."
 msgid ""
 "however this action may disrupt any ongoing print if OctoPrint is not "
 "currently controlling it."
-msgstr ""
+msgstr "但是，如果 OctoPrint 目前没有控制正在进行的打印，这个动作可能会打乱它。"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:904
 #: src/octoprint/static/js/app/helpers.js:818
@@ -3375,28 +3357,25 @@ msgstr ""
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1277
 msgid "Queued Updates Paused"
-msgstr ""
+msgstr "排队更新已暂停"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1290
-#| msgid "Continue"
 msgid "Continue Updates"
-msgstr ""
+msgstr "继续更新"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1304
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1363
-#| msgid "Cancel print"
 msgid "Cancel Updates"
-msgstr ""
+msgstr "取消更新"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1334
 #, python-format
 msgid "Updating in %(sec)i secs..."
-msgstr ""
+msgstr "将在 %(sec)i 秒内完成更新。。。"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1340
-#| msgid "Software Update"
 msgid "Starting Queued Updates"
-msgstr ""
+msgstr "开始排队更新"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:1
 msgid ""
@@ -3577,41 +3556,36 @@ msgstr "升级日志"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:80
 msgid "Cancel all queued updates"
-msgstr ""
+msgstr "取消所有排队的更新"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:80
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:111
-#| msgid "Cancel"
 msgid "Cancel Queued"
-msgstr ""
+msgstr "取消排队"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:83
-#| msgid "Update available"
 msgid "Update all enabled"
-msgstr ""
+msgstr "更新所有启用的"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:83
 msgid "Update all"
 msgstr "更新全部"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:86
-#| msgid "Update available"
 msgid "Update all muted & enabled"
-msgstr ""
+msgstr "更新所有静音的和启用的"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:86
-#| msgid "Update available"
 msgid "Update all available"
-msgstr ""
+msgstr "更新所有可用的"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:90
 msgid "Check for updates"
 msgstr "检查更新"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:93
-#| msgid "Check for updates"
 msgid "Force check for updates"
-msgstr ""
+msgstr "强制检查更新"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:107
 msgid "Not compatible"
@@ -3659,6 +3633,14 @@ msgid ""
 "                    enabled or muted.\n"
 "                "
 msgstr ""
+"\n"
+"                    %(enabled_icon)s = 更新通知启用的，%(muted_icon)s =\n"
+"                    更新通知静音的，点击以切换。“更新全部”将会更新\n"
+"                    有可用更新且已经启用通知的所有项目，\n"
+"                    “更新所有可用的”将会更新\n"
+"                    所有有可用更新的项目，\n"
+"                    无论其更新通知是否启用。\n"
+"                "
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:157
 msgid ""
@@ -3765,33 +3747,27 @@ msgstr "如果您选择基于提交的版本跟踪，则需要设置此跟踪。
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/githubToken.jinja2:2
 msgid "GitHub Access Token"
-msgstr ""
+msgstr "GitHub 访问令牌"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/githubToken.jinja2:4
 msgid "Enter a new token..."
-msgstr ""
+msgstr "输入一个新令牌。。。"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/githubToken.jinja2:5
 #, python-format
-#| msgid ""
-#| "Use this if you are running into <a href=\"%%(url)s\" target=\"_blank\" "
-#| "rel=\"noopener noreferer\">this problem</a>."
 msgid ""
 "Set this if you keep running into rate limiting issues. <a href=\"%(url)s\" "
 "target=\"_blank\" rel=\"noopener noreferer\">See here for how to obtain a "
 "token</a>."
 msgstr ""
+"如果您一直遇到速率限制问题，请设置此选项。 <a href=\"%(url)s\" target="
+"\"_blank\" rel=\"noopener noreferer\">获取令牌的方法见这里</a>。"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/pipEnableCheck.jinja2:4
 msgid "Enable <code>pip</code> update checks"
 msgstr "启用<code>pip</code>更新检查"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/pipEnableCheck.jinja2:5
-#| msgid ""
-#| "If you check this, OctoPrint will also notify you of updates of the "
-#| "<code>pip</code> tool used by OctoPrint to install plugins and updates "
-#| "and allow you to update it through OctoPrint. <code>pip</code> is outside "
-#| "of the control of the OctoPrint maintainer, so enable at your own risk."
 msgid ""
 "\n"
 "                If you check this, OctoPrint will also notify you of updates "
@@ -3805,6 +3781,13 @@ msgid ""
 "                own risk! Things might break!</strong>\n"
 "            "
 msgstr ""
+"\n"
+"                如果您选中此项，OctoPrint 还将通知您\n"
+"                用于管理插件和更新的 <code>pip</code> 工具的更新\n"
+"                并允许您通过 OctoPrint 对其进行更新。\n"
+"                <strong><code>pip</code> 不受OctoPrint 维护者的控制，\n"
+"                启用更新请自负风险！可能会导致异常！</strong>\n"
+"            "
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/pipTarget.jinja2:2
 msgid "OctoPrint <code>pip</code> target"
@@ -4306,9 +4289,8 @@ msgid "There was an error while trying to start a print job. Error: %(error)s"
 msgstr "尝试开始打印工作时出错。错误信息：%(error)s"
 
 #: src/octoprint/static/js/app/dataupdater.js:388
-#| msgid "Could not delete profile"
 msgid "Could not autodetect your printer"
-msgstr ""
+msgstr "无法自动检测到您的打印机"
 
 #: src/octoprint/static/js/app/dataupdater.js:390
 #, python-format
@@ -4317,6 +4299,9 @@ msgid ""
 "is physically connected and supported? Refer to <a href=\"%(url)s\" target="
 "\"_blank\" rel=\"noopener noreferer\">the FAQ</a> for help in debugging this."
 msgstr ""
+"找不到有效的连接参数。您确定您的打印机已物理连接并受支持吗？请参阅<a href=\""
+"%(url)s\" target=\"_blank\" rel=\"noopener noreferer\""
+">常见问题解答</a>以获取调试帮助。"
 
 #: src/octoprint/static/js/app/dataupdater.js:398
 msgid "Unknown error"
@@ -4603,9 +4588,8 @@ msgid "Disconnect"
 msgstr "断开"
 
 #: src/octoprint/static/js/app/viewmodels/connection.js:55
-#| msgid "Additional serial ports"
 msgid "No serial port found"
-msgstr ""
+msgstr "找不到串口"
 
 #: src/octoprint/static/js/app/viewmodels/connection.js:193
 msgid ""
@@ -4800,13 +4784,13 @@ msgstr "刷新列表中..."
 msgid ""
 "Could not upload the file to the printer's SD. Make sure the SD is "
 "initialized and the printer is not busy with a print already."
-msgstr ""
+msgstr "无法将文件上传到打印机的 SD 卡。确保 SD 卡已初始化并且打印机没有忙于打印。"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1734
 msgid ""
 "Could not upload the file, overwrite not possible. Make sure it is not "
 "already printing and that you have allowed overwriting."
-msgstr ""
+msgstr "无法上传文件，无法覆盖。确保其未在打印并且您已允许覆盖文件。"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1744
 #, python-format
@@ -4818,7 +4802,7 @@ msgstr "无法上传该文件. 请确认文件是有以下扩展名的有效文�
 #: src/octoprint/static/js/app/viewmodels/files.js:1754
 msgid ""
 "Could not upload the file. Please check octoprint.log for possible reasons."
-msgstr ""
+msgstr "无法上传文件。请检查 octoprint.log 了解可能的原因。"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1785
 msgid "Saving ..."
@@ -5320,9 +5304,8 @@ msgid "Resume"
 msgstr "继续"
 
 #: src/octoprint/static/js/app/viewmodels/temperature.js:233
-#| msgid "Done!"
 msgid "Done"
-msgstr ""
+msgstr "已完成"
 
 #: src/octoprint/static/js/app/viewmodels/temperature.js:416
 #, python-format
@@ -5623,9 +5606,8 @@ msgid "Reconnect..."
 msgstr "重新连接..."
 
 #: src/octoprint/templates/login.jinja2:72
-#| msgid "An account with the following permissions is required:"
 msgid "The following account is required:"
-msgstr ""
+msgstr "需要以下账户："
 
 #: src/octoprint/templates/login.jinja2:74
 msgid "An account with the following permissions is required:"
@@ -5987,20 +5969,20 @@ msgid "System Information"
 msgstr "系统信息"
 
 #: src/octoprint/templates/dialogs/about/systeminfo.jinja2:3
-#| msgid ""
-#| "Please always share a Systeminfo Bundle when requesting support on the "
-#| "forums or\n"
-#| "    when opening a new bug report:"
 msgid ""
 "Sharing a Systeminfo Bundle when requesting support on the forums or\n"
 "    when opening a new bug report is <strong>mandatory!</strong>"
 msgstr ""
+"在论坛上请求支持或提交新的错误报告时\n"
+"    分享系统信息包是<strong>强制要求！</strong>"
 
 #: src/octoprint/templates/dialogs/about/systeminfo.jinja2:6
 msgid ""
 "Download the bundle and share as provided. Do not rename, unpack,\n"
 "    repack or otherwise modify, provide <em>exactly</em> as downloaded."
 msgstr ""
+"下载捆绑包并按照提供的方式共享。不要重命名，解压，\n"
+"    重新打包或以其他方式修改，<em>完全</em>按照下载下来的内容分享。"
 
 #: src/octoprint/templates/dialogs/about/systeminfo.jinja2:11
 msgid ""
@@ -6233,7 +6215,7 @@ msgstr "Beta"
 
 #: src/octoprint/templates/dialogs/settings/features.jinja2:20
 msgid "Remember selected folder in file list"
-msgstr ""
+msgstr "记住文件列表中选择的文件夹"
 
 #: src/octoprint/templates/dialogs/settings/features.jinja2:27
 msgid "Confirm before starting a print"
@@ -6604,13 +6586,13 @@ msgstr "如果连接打印机失败 <code>(22, 'Invalid argument')</code>请使�
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:101
 msgid "Ignore empty ports"
-msgstr ""
+msgstr "忽略空端口"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:102
 msgid ""
 "By checking this you'll disable OctoPrint warning you if no serial ports to "
 "connect to were found."
-msgstr ""
+msgstr "勾选这个选项后，如果没有找到可供连接的串行端口，OctoPrint 不会发出警告。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:110
 msgid "Serial logging"
@@ -6919,7 +6901,7 @@ msgstr "打印时"
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:359
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:362
 msgid "Send line numbers & checksums for non-GCODE commands"
-msgstr ""
+msgstr "为非 GCODE 指令发送行号和校验和"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:363
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:371
@@ -6928,14 +6910,16 @@ msgid ""
 "g. <code>Tx</code> or similar) but requires them to be treated identical to "
 "GCODE."
 msgstr ""
+"如果您的打印机支持 GCODE 格式以外的指令（例如 <code>Tx</code> 或类似命令），"
+"但要求将其视为 GCODE 处理，请选中此项。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:367
 msgid "Wait for 'ok' for non-GCODE commands"
-msgstr ""
+msgstr "为非 GCODE 指令等待 “ok”"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:370
 msgid "Wait for acknowledging <code>ok</code> for non-GCODE commands"
-msgstr ""
+msgstr "等待非 GCODE 指令的 <code>ok</code> 确认"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:382
 msgid "Support temperature autoreporting by firmware, if detected"
@@ -7059,15 +7043,14 @@ msgstr ""
 "为<code>M0</code>，<code>M1</code>和<code>M25</code>。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:479
-#| msgid "Dialog command"
 msgid "SD Cancel Command"
-msgstr ""
+msgstr "SD 取消指令"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:482
 msgid ""
 "The command to send to printer when cancelling a SD card print. Defaults to "
 "<code>M25</code>."
-msgstr ""
+msgstr "取消 SD 卡打印时发送到打印机的命令。默认为 <code>M25</code>。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:486
 msgid "Emergency commands"
@@ -7150,13 +7133,12 @@ msgid "Only modify if told to do so"
 msgstr "仅在被告知的情况下进行修改"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:527
-#| msgid "Pausing commands"
 msgid "Action commands"
-msgstr ""
+msgstr "动作指令"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:530
 msgid "Enable the <code>shutdown</code> action command"
-msgstr ""
+msgstr "启用 <code>shutdown</code> 动作指令"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:531
 msgid ""
@@ -7165,6 +7147,10 @@ msgid ""
 "command on the serial connection. This could get abused, so only enable this "
 "if you trust your firmware and your GCODE files!"
 msgstr ""
+"如果启用并配置了系统关闭指令，"
+"您的打印机固件将能够通过串行连接上的操作命令关闭您的 OctoPrint "
+"服务器。这可能会被滥用，所以只有在信任您的固件和您的 GCODE "
+"文件的情况下再启用这个功能！"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:538
 msgid "Error handling"
@@ -7596,6 +7582,10 @@ msgid ""
 "    Try %(refresh)srefreshing%(endrefresh)s and if that doesn't help please "
 "see %(link)sthe FAQ%(endlink)s.\n"
 msgstr ""
+"\n"
+"    没有找到串行端口，您确定您的打印机是已经物理连接上并受支持的吗？\n"
+"    尝试 %(refresh)s刷新%(endrefresh)s，如果未见效，请参阅 "
+"%(link)sFAQ%(endlink)s。\n"
 
 #: src/octoprint/templates/sidebar/connection.jinja2:12
 msgid "Save connection settings"
@@ -8057,7 +8047,7 @@ msgstr "偏置"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:55
 msgid "Default extrusion length"
-msgstr ""
+msgstr "默认挤出长度"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:64
 msgid ""
@@ -8442,6 +8432,9 @@ msgid ""
 "change, monitor the changelog of future versions closely for heads-ups "
 "regarding the WebRTC support in OctoPrint."
 msgstr ""
+"<strong>请注意！</strong> WebRTC "
+"支持仍处于测试阶段，可能会发生变化，请密切关注未来版本的更改日志，以获取有关 "
+"OctoPrint 中 WebRTC 支持的提醒。"
 
 #: src/octoprint/templates/snippets/settings/webcam/webcamStreamWebrtcIceServers.jinja2:1
 msgid "ICE server (STUN and/or TURN) to use for WebRTC"
@@ -8840,18 +8833,16 @@ msgid "Sort by date"
 msgstr "根据日期排列"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:140
-#| msgid "Previous"
 msgid "Preview"
-msgstr ""
+msgstr "预览"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:158
 msgid "Recorded:"
-msgstr ""
+msgstr "录制于："
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:159
-#| msgid "Size"
 msgid "Size:"
-msgstr ""
+msgstr "尺寸："
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:181
 msgid ""
