@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2022-05-16 14:29+0200\n"
-"PO-Revision-Date: 2022-08-29 10:24+0000\n"
+"PO-Revision-Date: 2022-08-29 10:39+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -81,8 +81,7 @@ msgstr "管理员允许执行全部功能"
 msgid ""
 "Allows to gather basic status information, e.g. job progress, printer state, "
 "temperatures, ... Mandatory for the default UI to work"
-msgstr ""
-"允许收集基本状态信息，例如 作业进度，打印机状态，温度等。强制默认UI起作用"
+msgstr "允许收集基本状态信息，例如作业进度，打印机状态，温度等。强制默认 UI 工作"
 
 #: src/octoprint/access/permissions.py:294
 msgid "Allows to connect to and disconnect from a printer"
@@ -182,7 +181,7 @@ msgstr ""
 #: src/octoprint/access/permissions.py:437
 msgid ""
 "Allows to read non sensitive settings. Mandatory for the default UI to work."
-msgstr "允许读取非敏感设置。必须使用默认用户界面。"
+msgstr "允许读取非敏感设置。必须使用默认 UI。"
 
 #: src/octoprint/access/permissions.py:446
 msgid "Allows to manage settings and also to read sensitive settings"
@@ -3318,7 +3317,7 @@ msgstr "更新成功完成后,请立即重新启动服务器."
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1173
 msgid "Update successful, restart required!"
-msgstr "更新成功后,需要重新启动！"
+msgstr "更新成功，需要重新启动！"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1189
 msgid ""
@@ -4530,7 +4529,7 @@ msgstr "结束"
 
 #: src/octoprint/static/js/app/main.js:1151
 msgid "Loading OctoPrint's UI, please wait..."
-msgstr "载入OctoPrint的用户界面，请稍候..."
+msgstr "正在载入 OctoPrint 的 UI，请稍候。。。"
 
 #: src/octoprint/static/js/app/viewmodels/access.js:102
 msgid "This user may not have dangerous permissions."
@@ -5689,13 +5688,12 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"                            OctoPrint目前只允许通过网页UI创建最大不超过\n"
-"                            %(plugin_backup_max_upload_size_str)s的备份。大于"
-"此值的备份只能通过命令行还原，\n"
-"                            或者通过在上传前从压缩包中删除较大的内容（如“时间"
-"点”）来调整大小\n"
-"                            超过此大小限制的备份将标记\n"
-"                            %(marker)s 在上面。\n"
+"                            OctoPrint 目前只允许通过网页 UI 创建最大不超过\n"
+"                            %(plugin_backup_max_upload_size_str)s的备份。\n"
+"                            大于此值的备份只能通过命令行还原，\n"
+"                            "
+"或者通过在上传前从压缩包中删除较大的内容（如延时摄影）来调整大小\n"
+"                            超过此大小限制的备份将标记 %(marker)s 在上面。\n"
 "                        "
 
 #: src/octoprint/templates/recovery.jinja2:153
@@ -7321,7 +7319,7 @@ msgstr "时间范围"
 
 #: src/octoprint/templates/dialogs/settings/temperatures.jinja2:10
 msgid "Needs a restart of OctoPrint to become active."
-msgstr "需要重新启动octoprint让设置生效."
+msgstr "需要重新启动 OctoPrint 以使设置生效."
 
 #: src/octoprint/templates/dialogs/settings/temperatures.jinja2:13
 msgid "Fine adjustments"
@@ -7570,9 +7568,9 @@ msgid ""
 msgstr ""
 "\n"
 "                    现在有一个新版本的服务器处于活跃状态，\n"
-"                    需要重新加载用户界面。\n"
-"                    这不会中断您可能正在进行的任何打印作业。\n"
-"                    请立即单击下面的按钮以重载 Web 界面。\n"
+"                    需要重新加载 UI。这不会中断\n"
+"                    您可能正在进行的任何打印作业。\n"
+"                    请立即单击下面的按钮以重载 Web UI。\n"
 "                "
 
 #: src/octoprint/templates/sidebar/connection.jinja2:1
@@ -8290,14 +8288,14 @@ msgid ""
 msgstr ""
 "\n"
 "            您可以在这里调整完整的 FFMPEG 命令行\n"
-"            以生成时间点录制文件，例如根据需要来\n"
+"            以生成延时摄影文件，例如根据需要来\n"
 "            添加其他命令行参数。支持的占位符为：\n"
 "            <code>{ffmpeg}</code> （ffmpeg 的配置路径），<code>{fps}</code> "
 "(配置帧数)，\n"
 "            <code>{input}</code>（输入文件），<code>{videocodec}</code>（配置"
 "使用的视频编码器），\n"
-"            <code>{threads}</code>（配置使用的线程数），<code>{bitrate}</"
-"code>（配置的比特率），\n"
+"            <code>{threads}</code>（配置使用的线程数），<code>{bitrate}</code"
+">（配置的比特率），\n"
 "            <code>{containerformat}</code>（配置的容器格式），<code>{filters}"
 "</code>（用于翻转/旋转和水印的滤镜链），\n"
 "            <code>{output}</code>（输出文件）。\n"
