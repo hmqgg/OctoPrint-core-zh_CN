@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2022-05-16 14:29+0200\n"
-"PO-Revision-Date: 2022-08-29 18:14+0000\n"
+"PO-Revision-Date: 2022-08-29 18:21+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -4417,7 +4417,7 @@ msgstr "YYYY-MM-DD HH:mm"
 
 #: src/octoprint/static/js/app/helpers.js:648
 msgid "YYYY-MM-DD HH:mm:ss"
-msgstr "年-月-日 时：分：秒"
+msgstr "YYYY-MM-DD HH:mm:ss"
 
 #: src/octoprint/static/js/app/helpers.js:673
 #: src/octoprint/static/js/app/helpers.js:679
