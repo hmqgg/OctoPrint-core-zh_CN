@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2022-05-16 14:29+0200\n"
-"PO-Revision-Date: 2022-08-29 15:51+0000\n"
+"PO-Revision-Date: 2022-08-29 17:34+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -1413,7 +1413,7 @@ msgid ""
 msgstr ""
 "<p>\n"
 "    <strong>Stream URL</strong> 是 OctoPrint 用于将实际的网络摄像头流\n"
-"    （即 MJPEG 流）嵌入到 Web UI 中的 URL。\n"
+"    （即 MJPEG 流）嵌入到网页 UI 中的 URL。\n"
 "    此地址需要<strong>从您的浏览器</strong>可访问。\n"
 "</p><p>\n"
 "    其可能是\n"
@@ -1965,7 +1965,7 @@ msgstr "允许下载和删除日志文件以及列出和设置日志级别。"
 msgid ""
 "Without this plugin you will no longer be able to retrieve OctoPrint's logs "
 "or modify the current logging levels through the web interface."
-msgstr "缺少此插件，将无法检索 OctoPrint 的日志或通过 Web UI 修改当前日志记录级别。"
+msgstr "缺少此插件，将无法检索 OctoPrint 的日志或通过网页 UI 修改当前日志记录级别。"
 
 #: src/octoprint/plugins/logging/static/js/logging.js:144
 #, python-format
@@ -2379,22 +2379,22 @@ msgstr "%(count)d之前的动作"
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1508
 #, python-format
 msgid "Install <em>%(plugin)s</em>: %(result)s"
-msgstr "安装<em>%(plugin)s</em>:%(result)s"
+msgstr "安装<em>%(plugin)s</em>：%(result)s"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1512
 #, python-format
 msgid "Uninstall <em>%(plugin)s</em>: %(result)s"
-msgstr "卸载<em>%(plugin)s</em>:%(result)s"
+msgstr "卸载<em>%(plugin)s</em>：%(result)s"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1516
 #, python-format
 msgid "Enable <em>%(plugin)s</em>: %(result)s"
-msgstr "启用<em>%(plugin)s</em>:%(result)s"
+msgstr "启用<em>%(plugin)s</em>：%(result)s"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1520
 #, python-format
 msgid "Disable <em>%(plugin)s</em>: %(result)s"
-msgstr "禁用<em>%(plugin)s</em>:%(result)s"
+msgstr "禁用<em>%(plugin)s</em>：%(result)s"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1524
 #, python-format
@@ -2521,7 +2521,7 @@ msgstr "有关\"%(name)s\"插件的通知"
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1836
 #, python-format
 msgid "Affected versions: %(versions)s"
-msgstr "受影响的版本: %(versions)s"
+msgstr "受影响的版本：%(versions)s"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1841
 msgid "Affected versions: all"
@@ -3085,7 +3085,7 @@ msgstr "本地检出"
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:373
 #, python-format
 msgid "%(name)s: %(version)s"
-msgstr "%(name)s: %(version)s"
+msgstr "%(name)s：%(version)s"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:381
 msgid "unknown"
@@ -3597,11 +3597,11 @@ msgstr "发布渠道："
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:115
 msgid "Installed:"
-msgstr "已安装:"
+msgstr "已安装："
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:116
 msgid "Available:"
-msgstr "可用:"
+msgstr "可用："
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:117
 msgid "Release Notes:"
@@ -4417,7 +4417,7 @@ msgstr "YYYY-MM-DD HH:mm"
 
 #: src/octoprint/static/js/app/helpers.js:648
 msgid "YYYY-MM-DD HH:mm:ss"
-msgstr "年-月-日 时:分:秒"
+msgstr "年-月-日 时：分：秒"
 
 #: src/octoprint/static/js/app/helpers.js:673
 #: src/octoprint/static/js/app/helpers.js:679
@@ -4703,15 +4703,15 @@ msgid ""
 "Object's bounding box: (%(object.minX).2f, %(object.minY).2f, %(object."
 "minZ).2f) &times; (%(object.maxX).2f, %(object.maxY).2f, %(object.maxZ).2f)"
 msgstr ""
-"对象的边框: (%(object.minX).2f, %(object.minY).2f, %(object.minZ).2f) "
-"&times; (%(object.maxX).2f, %(object.maxY).2f, %(object.maxZ).2f)"
+"对象的边框：(%(object.minX).2f, %(object.minY).2f, %(object.minZ).2f) &times;"
+" (%(object.maxX).2f, %(object.maxY).2f, %(object.maxZ).2f)"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1230
 msgid ""
 "Print volume: (%(profile.minX).2f, %(profile.minY).2f, %(profile.minZ).2f) "
 "&times; (%(profile.maxX).2f, %(profile.maxY).2f, %(profile.maxZ).2f)"
 msgstr ""
-"打印体积: (%(profile.minX).2f, %(profile.minY).2f, %(profile.minZ).2f) "
+"打印体积：(%(profile.minX).2f, %(profile.minY).2f, %(profile.minZ).2f) "
 "&times; (%(profile.maxX).2f, %(profile.maxY).2f, %(profile.maxZ).2f)"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1242
@@ -4734,7 +4734,7 @@ msgstr "成功从 %(stl)s 切片成 %(gcode)s ，耗时 %(time).2f 秒"
 #: src/octoprint/static/js/app/viewmodels/files.js:1484
 #, python-format
 msgid "Could not slice %(stl)s to %(gcode)s: %(reason)s"
-msgstr "无法从 %(stl)s 切片成 %(gcode)s : %(reason)s"
+msgstr "无法从 %(stl)s 切片成 %(gcode)s：%(reason)s"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1492
 msgid "Slicing failed"
@@ -4789,7 +4789,7 @@ msgstr "无法上传文件，无法覆盖。确保其未在打印并且您已允
 msgid ""
 "Could not upload the file. Make sure that it is a readable, valid file with "
 "one of these extensions: %(extensions)s"
-msgstr "无法上传该文件。请确认文件是有以下扩展名的有效文件: %(extensions)s"
+msgstr "无法上传该文件。请确认文件是有以下扩展名的有效文件：%(extensions)s"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1754
 msgid ""
@@ -7552,7 +7552,7 @@ msgstr ""
 "                    现在有一个新版本的服务器处于活跃状态，\n"
 "                    需要重新加载 UI。这不会中断\n"
 "                    您可能正在进行的任何打印作业。\n"
-"                    请立即单击下面的按钮以重载 Web UI。\n"
+"                    请立即单击下面的按钮以重载网页 UI。\n"
 "                "
 
 #: src/octoprint/templates/sidebar/connection.jinja2:1
@@ -8060,7 +8060,7 @@ msgstr "删除配置文件"
 
 #: src/octoprint/templates/snippets/settings/server/serverAllowFraming.jinja2:4
 msgid "Allow embedding the web interface into a frame or iframe"
-msgstr "允许将 Web UI 嵌入框架或 iframe"
+msgstr "允许将网页 UI 嵌入框架或 iframe"
 
 #: src/octoprint/templates/snippets/settings/server/serverCommandServerRestart.jinja2:1
 msgid "Command to restart the OctoPrint server"
@@ -8458,9 +8458,9 @@ msgid ""
 "\"Webcam\" > \"Stream URL\". If you don't have a webcam you can also just "
 "disable webcam support there."
 msgstr ""
-"可能配置不正确或需要身份验证。您可以在“设置”>“网络摄像头和延时摄影”、“网络摄"
-"像头”、“URL流”下更改流的URL。如果您没有网络摄像头，也可以在那里禁用网络摄像头"
-"支持。"
+"可能配置不正确或需要身份验证。您可以在“设置 > 网络摄像头和延时摄影 > "
+"网络摄像头 > URL 流”下更改流的 "
+"URL。如果您没有网络摄像头，也可以在那里禁用网络摄像头支持。"
 
 #: src/octoprint/templates/tabs/control.jinja2:34
 msgid "Currently configured stream URL"
