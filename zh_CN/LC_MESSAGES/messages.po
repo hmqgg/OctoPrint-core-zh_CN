@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2022-05-16 14:29+0200\n"
-"PO-Revision-Date: 2022-08-29 11:23+0000\n"
+"PO-Revision-Date: 2022-08-29 15:18+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -81,8 +81,8 @@ msgstr "管理员允许执行全部功能"
 msgid ""
 "Allows to gather basic status information, e.g. job progress, printer state, "
 "temperatures, ... Mandatory for the default UI to work"
-msgstr ""
-"允许收集基本状态信息，例如作业进度，打印机状态，温度等。强制默认 UI 工作"
+msgstr "允许收集基本状态信息，例如作业进度，打印机状态，温度等对于默认的 UI "
+"来说是必须的"
 
 #: src/octoprint/access/permissions.py:294
 msgid "Allows to connect to and disconnect from a printer"
@@ -6407,8 +6407,7 @@ msgstr "更换工具之前"
 msgid ""
 "Anything you put here will be executed <em>before</em> any tool change "
 "commands <code>Tn</code>."
-msgstr ""
-"您放置在此处的任何内容都将在任何换刀命令<code>Tn</code>的<em>之前</em>执行。"
+msgstr "您放置在此处的任何内容都将<em>早于</em>任何换刀命令 <code>Tn</code> 执行。"
 
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:49
 msgid "After tool change"
@@ -6418,8 +6417,7 @@ msgstr "更换工具之后"
 msgid ""
 "Anything you put here will be executed <em>after</em> any tool change "
 "commands <code>Tn</code>."
-msgstr ""
-"您在此处放置的任何内容都将在任何换刀命令<code>Tn</code>的<em>之后</em>执行。"
+msgstr "您放置在此处的任何内容都将<em>晚于</em>任何换刀命令 <code>Tn</code> 执行。"
 
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:56
 msgid "After serial connection to printer is established"
@@ -8464,7 +8462,7 @@ msgstr ""
 
 #: src/octoprint/templates/tabs/control.jinja2:28
 msgid "Webcam stream loading..."
-msgstr "网络摄像加载中..."
+msgstr "网络摄像头加载中..."
 
 #: src/octoprint/templates/tabs/control.jinja2:31
 msgid "Webcam stream not loaded"
@@ -8747,7 +8745,7 @@ msgstr "延时摄影帧率"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:48
 msgid "fps"
-msgstr "fps"
+msgstr "帧率"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:54
 msgid "Timelapse post roll"
