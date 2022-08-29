@@ -1,5 +1,17 @@
 # OctoPrint-core-zh_CN
-OctoPrint 中文（简体）翻译项目。
+<p>
+  <a href="https://weblate.dickytwister.org/engage/octoprint-core-zh_cn/zh_Hans/">
+    <img src="https://weblate.dickytwister.org/widgets/octoprint-core-zh_cn/zh_Hans/svg-badge.svg" alt="翻译状态" />
+  </a>
+  <a href="https://github.com/hmqgg/OctoPrint-core-zh_CN/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/hmqgg/OctoPrint-core-zh_CN">
+  </a>
+  <a href="https://github.com/hmqgg/OctoPrint-core-zh_CN/releases">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/hmqgg/OctoPrint-core-zh_CN/total">
+  </a>
+</p>
+
+OctoPrint 中文（简体）语言包。
 
 ## 安装
 1. 在本仓库的 [Release 页](https://github.com/hmqgg/OctoPrint-core-zh_CN/releases/) 下载最新的 [zh_CN.zip](https://github.com/hmqgg/OctoPrint-core-zh_CN/releases/latest/download/zh_CN.zip)。
