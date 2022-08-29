@@ -61,11 +61,11 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2022-05-16 14:29+0200\n"
-"PO-Revision-Date: 2022-08-29 17:34+0000\n"
+"PO-Revision-Date: 2022-08-29 18:14+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
-"Language: zh_CN\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -450,7 +450,7 @@ msgstr "允许授予应用访问权限"
 #: src/octoprint/plugins/appkeys/__init__.py:142
 #: src/octoprint/plugins/appkeys/__init__.py:143
 msgid "Application Keys"
-msgstr "应用的密钥"
+msgstr "应用密钥"
 
 #: src/octoprint/plugins/appkeys/__init__.py:253
 #: src/octoprint/plugins/appkeys/static/js/appkeys.js:115
@@ -1650,7 +1650,7 @@ msgstr "请不要忘记在主设置中保存。"
 #: src/octoprint/plugins/gcodeviewer/__init__.py:71
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:1
 msgid "GCode Viewer"
-msgstr "GCode 浏览"
+msgstr "GCode 查看器"
 
 #: src/octoprint/plugins/gcodeviewer/__init__.py:74
 msgid ""
@@ -1736,11 +1736,11 @@ msgstr "估计打印时间"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:3
 msgid "Maximum size for which the GCode Viewer autoloads the file for preview"
-msgstr "GCode Viewer自动加载文件进行预览的最大大小"
+msgstr "GCode 查看器自动加载文件进行预览的最大大小"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:4
 msgid "GCode Viewer file size threshold"
-msgstr "GCode Viewer文件大小阈值"
+msgstr "GCode 查看器文件大小阈值"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:9
 msgid "on desktop"
@@ -1774,9 +1774,9 @@ msgid ""
 "used to skip \"purge/nozzle wipe\" GCode in the viewer. Note the search is "
 "case sensitive. Example: <code>; layer 1</code>"
 msgstr ""
-"如果使用，GCode查看器将搜索以该字符串开头的行。如果找到，将跳过该点之前的所有"
-"GCode代码。此功能可以用作跳过查看器中的“喷嘴清洁”GCode。注意：搜索区分大小"
-"写。例：<code>;layer 1</code>"
+"如果使用，GCode 查看器将搜索以该字符串开头的行。如果找到，"
+"将跳过该点之前的所有 GCode 代码。此功能可以用作跳过查看器中的“喷嘴清洁” "
+"GCode。注意：搜索区分大小写。例：<code>;layer 1</code>"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:11
 msgid "Previous layer"
@@ -1902,13 +1902,13 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"            请注意，此选项卡中的时间和使用价值是通过在您的浏览器显示的"
-"<strong>估计</strong> \n"
-"          浏览器和可能与显示在服务器中的服务器 <strong>估计</strong> 的值不"
-"同。\n"
-"           由于不同的实现，边栏中的“状态”和“文件”面板。还注意到，这些\n"
-"            <strong>估计</strong> 值可能不准确，因为他们还可以在目前信息\n"
-"显示文件的考虑。\n"
+"            请注意，此选项卡中的时间和使用值由浏览器中的 GCODE "
+"查看器<strong>估计</strong>，\n"
+"            可能与服务器在“状态”和“文件”面板中显示的<strong>估计</strong>值，"
+"\n"
+"            由于实现上的细微差异而略有不同。\n"
+"            另请注意，这些<strong>估计</strong> 值可能不准确，\n"
+"            因为它们还考虑了 GCODE 文件中存在的信息。\n"
 "        "
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:126
@@ -4057,7 +4057,7 @@ msgstr "终端过滤器"
 #: src/octoprint/server/views.py:1018
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:1
 msgid "GCODE Scripts"
-msgstr "GCODE脚本"
+msgstr "GCODE 脚本"
 
 #: src/octoprint/server/views.py:1025 src/octoprint/server/views.py:1027
 #: src/octoprint/templates/dialogs/settings/features.jinja2:1
@@ -6240,7 +6240,7 @@ msgstr "Marlin 2+"
 msgid ""
 "This is used by the GCODE analysis in the backend and the viewer in the "
 "frontend to interpret your sliced files correctly."
-msgstr "使用后台的GCODE分析器和前台的查看器来正确读取您已切片好的文件。"
+msgstr "使用后台的 GCODE 分析和前台的查看器来正确读取您已切片好的文件。"
 
 #: src/octoprint/templates/dialogs/settings/features.jinja2:68
 msgid "Commands to not completely auto uppercase in the terminal tab"
