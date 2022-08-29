@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2022-05-16 14:29+0200\n"
-"PO-Revision-Date: 2022-08-29 10:53+0000\n"
+"PO-Revision-Date: 2022-08-29 11:10+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -350,7 +350,7 @@ msgstr "公告"
 msgid ""
 "Without this plugin you might miss important announcements regarding "
 "security or other critical issues concerning OctoPrint."
-msgstr "缺少此插件,可能会错过有关安全的重要通知或其他有关 OctoPrint 的关键问题。"
+msgstr "缺少此插件，可能会错过有关安全的重要通知或其他有关 OctoPrint 的关键问题。"
 
 #: src/octoprint/plugins/announcements/static/js/announcements.js:60
 msgid "Cannot be toggled"
@@ -809,7 +809,7 @@ msgstr "%(filename)s 已删除。。。"
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:530
 #, python-format
 msgid "Deletion of %(filename)s failed, continuing..."
-msgstr "删除 %(filename)s 文件失败,正在继续。。。"
+msgstr "删除 %(filename)s 文件失败，正在继续。。。"
 
 #: src/octoprint/plugins/backup/static/js/backup.js:354
 #: src/octoprint/plugins/logging/static/js/logging.js:367
@@ -2441,9 +2441,8 @@ msgstr "服务器正在后台重启"
 msgid ""
 "Trying to restart the server produced an error, please check octoprint.log "
 "for details. You'll have to restart manually."
-msgstr ""
-"试图重新启动服务器产生了一个错误,请检查octoprint.log来查看详细信息.您必须手动"
-"重新启动."
+msgstr "试图重新启动服务器产生了一个错误，请检查octoprint.log来查看详细信息."
+"您必须手动重新启动."
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1615
 msgid "A refresh is needed for the changes to take effect."
@@ -2914,9 +2913,8 @@ msgstr "在禁用插件之前进行确认"
 msgid ""
 "You should normally <strong>not</strong> have to change <strong>any</strong> "
 "of the following settings, they are purely provided for convenience here."
-msgstr ""
-"正常情况下您<strong>不应该</strong>改变这里的<strong>任何</strong>设置, 它们"
-"纯粹是为了方便起见.."
+msgstr "正常情况下您<strong>不应该</strong>改变这里的<strong>任何</strong>设置， "
+"它们纯粹是为了方便起见.."
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:388
 msgid "Plugin repository configuration"
@@ -3070,7 +3068,7 @@ msgstr "OctoPrint"
 msgid ""
 "Without this plugin OctoPrint will no longer be able to update itself or any "
 "of your installed plugins which might put your system at risk."
-msgstr "缺少此插件将导致无法更新OctoPrint及任何已安装的插件,可能导致系统风险."
+msgstr "缺少此插件将导致无法更新OctoPrint及任何已安装的插件，可能导致系统风险."
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:292
 msgid "Release"
@@ -3120,7 +3118,7 @@ msgstr "正在更新..."
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:799
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1079
 msgid "Updating, please wait."
-msgstr "更新中,请等待."
+msgstr "更新中，请等待."
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:467
 msgid "There are updates available for the following components:"
@@ -3152,7 +3150,7 @@ msgstr "标有<i class=\"fa fa-check\"></i>的组件可以直接更新."
 msgid ""
 "To have updates applied, get in touch with an administrator of this "
 "OctoPrint instance."
-msgstr "要应用更新,请与此OctoPrint实例的管理员联系."
+msgstr "要应用更新，请与此OctoPrint实例的管理员联系."
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:541
 msgid "Update Available"
@@ -3182,11 +3180,11 @@ msgstr "无法更新"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:670
 msgid "Unknown update check, configuration ok?"
-msgstr "未知更新检查,检查配置是否正确？"
+msgstr "未知更新检查，检查配置是否正确？"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:673
 msgid "Cannot check for update, need online connection"
-msgstr "无法检查更新,需要互联网连接"
+msgstr "无法检查更新，需要互联网连接"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:676
 msgid "Network error while checking for update, please check the logs"
@@ -3206,11 +3204,11 @@ msgstr "检查更新时发现内部错误，请检查日志"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:696
 msgid "Unknown error while checking for update, please check the logs"
-msgstr "检查更新时出现未知错误,请检查日志"
+msgstr "检查更新时出现未知错误，请检查日志"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:760
 msgid "Now updating, please wait."
-msgstr "正在更新,请等待."
+msgstr "正在更新，请等待."
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:777
 msgid ""
@@ -3254,8 +3252,8 @@ msgid ""
 "OctoPrint since they might contain important information you need to know "
 "<strong>before</strong> upgrading."
 msgstr ""
-"确保阅读任何链接的发行说明,特别是OctoPrint的发行说明,因为它们可能包含您需要在"
-"<strong>升级之前</strong> 需要知道的重要信息."
+"确保阅读任何链接的发行说明，特别是OctoPrint的发行说明，因为它们可能包含您需要"
+"在<strong>升级之前</strong> 需要知道的重要信息."
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:896
 msgid "Updates will be queued if currently printing,"
@@ -3289,11 +3287,11 @@ msgstr "现在更新 %(name)s 至 %(version)s"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1121
 msgid "Update successful, restarting!"
-msgstr "更新成功,正在重新启动！"
+msgstr "更新成功，正在重新启动！"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1122
 msgid "The update finished successfully and the server will now be restarted."
-msgstr "更新成功完成,服务器现在将重新启动."
+msgstr "更新成功完成，服务器现在将重新启动."
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1141
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1198
@@ -3310,11 +3308,11 @@ msgstr ""
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1164
 msgid "The update finished successfully, please restart OctoPrint now."
-msgstr "升级成功完成,请立即重新启动OctoPrint."
+msgstr "升级成功完成，请立即重新启动 OctoPrint。"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1168
 msgid "The update finished successfully, please reboot the server now."
-msgstr "更新成功完成后,请立即重新启动服务器."
+msgstr "更新成功完成，请立即重新启动服务器。"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1173
 msgid "Update successful, restart required!"
@@ -3324,9 +3322,8 @@ msgstr "更新成功，需要重新启动！"
 msgid ""
 "Restarting OctoPrint failed, please restart it manually. You might also want "
 "to consult octoprint.log on what went wrong here."
-msgstr ""
-"重新启动OctoPrint失败,请手动重新启动. 您可能需要查看日志文件,了解这里出现了什"
-"么问题."
+msgstr "重新启动OctoPrint失败，请手动重新启动. "
+"您可能需要查看日志文件，了解这里出现了什么问题."
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1193
 msgid ""
@@ -4184,17 +4181,16 @@ msgid ""
 "minutes</strong>, however you are welcome to try a manual reconnect anytime "
 "using the button below."
 msgstr ""
-"服务器似乎离线,至少我没有得到任何回应. 我会尝试在 <strong>接下来的几分钟内自"
-"动重新连接</strong>,但是您可以使用下面的按钮尝试手动重新连接."
+"服务器似乎离线，至少我没有得到任何回应. 我会尝试在 <strong>接下来的几分钟内自"
+"动重新连接</strong>，但是您可以使用下面的按钮尝试手动重新连接."
 
 #: src/octoprint/static/js/app/dataupdater.js:132
 msgid ""
 "The server appears to be offline, at least I'm not getting any response from "
 "it. I <strong>could not reconnect automatically</strong>, but you may try a "
 "manual reconnect using the button below."
-msgstr ""
-"服务器似乎离线,至少我没有得到任何回应. 我<strong>无法自动重新连接</strong>,但"
-"您可以使用下面的按钮尝试手动重新连接."
+msgstr "服务器似乎离线，至少我没有得到任何回应. "
+"我<strong>无法自动重新连接</strong>，但您可以使用下面的按钮尝试手动重新连接."
 
 #: src/octoprint/static/js/app/dataupdater.js:217
 msgid "Unknown"
@@ -4691,7 +4687,7 @@ msgstr "上次打印时间"
 msgid ""
 "Object in %(name)s exceeds the print volume of the currently selected "
 "printer profile, be careful when printing this."
-msgstr "物体%(name)s超过了当前选择的打印机配置文件的打印体积,打印时请小心."
+msgstr "物体%(name)s超过了当前选择的打印机配置文件的打印体积，打印时请小心."
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1203
 msgid "Object exceeds print volume in width.<br>"
@@ -4758,7 +4754,7 @@ msgstr "影像串流完成"
 #: src/octoprint/static/js/app/viewmodels/files.js:1523
 #, python-format
 msgid "Streamed %(local)s to %(remote)s on SD, took %(time).2f seconds"
-msgstr "传送 %(local)s 至 SD卡上的 %(remote)s, 耗时 %(time).2f 秒"
+msgstr "传送 %(local)s 至 SD卡上的 %(remote)s， 耗时 %(time).2f 秒"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1545
 msgid "Streaming failed"
@@ -4907,7 +4903,7 @@ msgstr "标识符必须设置"
 
 #: src/octoprint/static/js/app/viewmodels/printerprofiles.js:155
 msgid "Invalid characters, only a-z, A-Z, 0-9, -, ., _, ( and ) are allowed"
-msgstr "无效的字符,仅a-z, A-Z, 0-9, -, ., _, ( and ) 可用"
+msgstr "无效的字符，仅 a-z, A-Z, 0-9, -, ., _ （并列）可用"
 
 #: src/octoprint/static/js/app/viewmodels/printerprofiles.js:159
 msgid "A profile with such an identifier already exists"
@@ -4967,7 +4963,7 @@ msgstr "中心"
 msgid ""
 "There was unexpected error while saving the printer profile, please consult "
 "the logs."
-msgstr "保存打印机配置文件时出现意外错误,请查阅日志."
+msgstr "保存打印机配置文件时出现意外错误，请查阅日志."
 
 #: src/octoprint/static/js/app/viewmodels/printerprofiles.js:577
 msgid "Could not add profile"
@@ -4981,7 +4977,7 @@ msgstr "无法删除默认配置文件或当前活动的配置文件."
 msgid ""
 "There was unexpected error while removing the printer profile, please "
 "consult the logs."
-msgstr "删除打印机配置文件时出现意外错误,请查阅日志."
+msgstr "删除打印机配置文件时出现意外错误，请查阅日志."
 
 #: src/octoprint/static/js/app/viewmodels/printerprofiles.js:610
 msgid "Could not delete profile"
@@ -4996,7 +4992,7 @@ msgstr "您将删除打印机配置文件 “%(name)s”。"
 msgid ""
 "There was unexpected error while updating the printer profile, please "
 "consult the logs."
-msgstr "更新打印机配置文件时出现意外错误,请查阅日志."
+msgstr "更新打印机配置文件时出现意外错误，请查阅日志."
 
 #: src/octoprint/static/js/app/viewmodels/printerprofiles.js:649
 msgid "Could not update profile"
@@ -5035,32 +5031,32 @@ msgstr "仍在稳定中……"
 msgid ""
 "Based on a linear approximation (very low accuracy, especially at the "
 "beginning of the print)"
-msgstr "基于线性近似(非常低的精度,特别是在打印开始时)"
+msgstr "基于线性近似（非常低的精度，特别是在打印开始时）"
 
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:168
 msgid "Based on the estimate from analysis of file (medium accuracy)"
-msgstr "基于文件分析的估计(中等精度)"
+msgstr "基于文件分析的估计（中等精度）"
 
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:173
 msgid ""
 "Based on a mix of estimate from analysis and calculation (medium accuracy)"
-msgstr "基于分析和计算估算(中等精度)"
+msgstr "基于分析和计算估算（中等精度）"
 
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:178
 msgid ""
 "Based on the average total of past prints of this model with the same "
 "printer profile (usually good accuracy)"
-msgstr "根据具有相同打印机配置文件型号的以往打印件的平均总数(通常精度很好)"
+msgstr "根据具有相同打印机配置文件型号的以往打印件的平均总数（通常精度很好）"
 
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:183
 msgid ""
 "Based on a mix of average total from past prints and calculation (usually "
 "good accuracy)"
-msgstr "基于以往打印和计算的平均总和(通常精度很好)"
+msgstr "基于以往打印和计算的平均总和（通常精度很好）"
 
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:188
 msgid "Based on the calculated estimate (best accuracy)"
-msgstr "基于计算的估计(最佳精度)"
+msgstr "基于计算的估计（最佳精度）"
 
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:224
 msgid "Continue"
@@ -5075,7 +5071,7 @@ msgstr "暂停"
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:235
 #: src/octoprint/templates/tabs/timelapse.jinja2:16
 msgid "On Z Change"
-msgstr "当Z变更"
+msgstr "当 Z 变更"
 
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:238
 #: src/octoprint/templates/tabs/timelapse.jinja2:15
@@ -5097,9 +5093,9 @@ msgid ""
 "artefacts and failures.</p><p>Please see <a href='%(url)s' "
 "target='_blank'>this FAQ entry</a> on tips on how to solve this.</p>"
 msgstr ""
-"<p>%(ratio)d%%的传输线路已触发重新发送请求。与打印机的通信不可靠，这会导致打"
-"印伪影和故障。</p><p>请参阅<a href='%(url)s' target='_blank'>此常见问题解答条"
-"目</a>有关解决此问题的技巧。</p>"
+"<p>%(ratio)d%% 的传输线路已触发重新发送请求。与打印机的通信不可靠，这会导致打"
+"印伪影和故障。</p><p>请参阅<a href='%(url)s' "
+"target='_blank'>此常见问题解答条目</a>有关解决此问题的技巧。</p>"
 
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:415
 msgid "Critical resend ratio!"
@@ -5137,7 +5133,7 @@ msgstr "从浏览器自动检测"
 
 #: src/octoprint/static/js/app/viewmodels/settings.js:462
 msgid "If you see your webcam stream below, the entered stream URL is ok."
-msgstr "如果您看到下面的网络摄像头流,输入的流网址就可以了."
+msgstr "如果您看到下面的网络摄像头流，输入的流网址就可以了."
 
 #: src/octoprint/static/js/app/viewmodels/settings.js:511
 msgid "Stream test"
@@ -5145,7 +5141,7 @@ msgstr "视频流测试"
 
 #: src/octoprint/static/js/app/viewmodels/settings.js:533
 msgid "Could not retrieve snapshot URL, please double check the URL"
-msgstr "无法检索快照URL,请仔细检查URL"
+msgstr "无法检索快照URL，请仔细检查URL"
 
 #: src/octoprint/static/js/app/viewmodels/settings.js:536
 msgid "Snapshot test failed"
@@ -5165,7 +5161,7 @@ msgstr ""
 msgid ""
 "If you see your webcam snapshot picture below, the entered snapshot URL is "
 "ok."
-msgstr "如果您看到下面的网络摄像机快照图片,输入的快照URL就可以了."
+msgstr "如果您看到下面的网络摄像机快照图片，输入的快照URL就可以了."
 
 #: src/octoprint/static/js/app/viewmodels/settings.js:590
 msgid "Snapshot test"
@@ -5250,7 +5246,7 @@ msgstr "打印时不能在同一台设备上切片"
 
 #: src/octoprint/static/js/app/viewmodels/slicing.js:201
 msgid "Cannot slice, not all parameters specified"
-msgstr "不能切片,不是所有参数都已指定"
+msgstr "不能切片，不是所有参数都已指定"
 
 #: src/octoprint/static/js/app/viewmodels/slicing.js:204
 msgid "Start the slicing process"
@@ -5281,9 +5277,8 @@ msgstr "更改%(name)s的偏移量"
 msgid ""
 "Use the form below to specify a new offset to apply to all temperature "
 "commands sent from printed files for \"%(name)s\""
-msgstr ""
-"使用下面的表格指定一个新的偏移量,以应用于从 \"%(name)s\"的打印文件发送的所有"
-"温度命令"
+msgstr "使用下面的表格指定一个新的偏移量，以应用于从 \"%(name)"
+"s\"的打印文件发送的所有温度命令"
 
 #: src/octoprint/static/js/app/viewmodels/temperature.js:98
 #: src/octoprint/static/js/app/viewmodels/temperature.js:172
@@ -5391,8 +5386,7 @@ msgstr "正在渲染%(target)s ...（%(progress)d%%）"
 msgid ""
 "Failed to remove timelapse %(name)s.</p><p>Please consult octoprint.log for "
 "details.</p>"
-msgstr ""
-"无法删除延时摄影 %(name)s.</ p> <p>有关详细信息,请参阅octoprint.log</ p>"
+msgstr "无法删除延时摄影 %(name)s.</ p> <p>有关详细信息，请参阅octoprint.log</ p>"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:356
 msgid "Could not remove timelapse"
@@ -5442,7 +5436,7 @@ msgstr "捕获延时摄影post roll"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:631
 msgid "Now capturing timelapse post roll, this will take only a moment..."
-msgstr "现在捕获延时摄影post roll,这只需要一点时间..."
+msgstr "现在捕获延时摄影后卷，这只需要一点时间。。。"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:641
 #, python-format
@@ -5454,8 +5448,7 @@ msgstr "%(minutes)d 分"
 msgid ""
 "Now capturing timelapse post roll, this will take approximately %(duration)s "
 "(so until %(time)s)..."
-msgstr ""
-"现在捕获timelapse post roll,这将需要大约%(duration)s(所以直到 until "
+msgstr "现在捕获timelapse post roll，这将需要大约%(duration)s(所以直到 until "
 "%(time)s)..."
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:651
@@ -5468,7 +5461,7 @@ msgstr "%(seconds)d 秒"
 msgid ""
 "Now capturing timelapse post roll, this will take approximately "
 "%(duration)s..."
-msgstr "现在捕获延时摄影 post roll,这将需要大约%(duration)s..."
+msgstr "现在捕获延时摄影 post roll，这将需要大约%(duration)s..."
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:695
 msgid ""
@@ -5503,8 +5496,8 @@ msgstr "无法渲染延时摄影"
 msgid ""
 "Rendering of timelapse %(movie_prefix)s is not possible since no frames were "
 "captured. Is the snapshot URL configured correctly?"
-msgstr ""
-"无法渲染延时摄影%(movie_prefix)s,因为没有抓取到帧. Snapshot URL配置是否正确？"
+msgstr "无法渲染延时摄影%(movie_prefix)s，因为没有抓取到帧. Snapshot "
+"URL配置是否正确？"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:750
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:767
@@ -5516,14 +5509,14 @@ msgstr "渲染延时摄影失败"
 msgid ""
 "Rendering of timelapse %(movie_prefix)s failed with return code "
 "%(returncode)s"
-msgstr "渲染延时摄影%(movie_prefix)s失败,返回码为%(returncode)s"
+msgstr "渲染延时摄影%(movie_prefix)s失败，返回码为%(returncode)s"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:771
 #, python-format
 msgid ""
 "Rendering of timelapse %(movie_prefix)s failed due to an unknown error, "
 "please consult the log file"
-msgstr "由于未知错误,延时摄影%(movie_prefix)s的渲染失败,请查阅日志文件"
+msgstr "由于未知错误，延时摄影%(movie_prefix)s的渲染失败，请查阅日志文件"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:793
 msgid "Timelapse ready"
@@ -5821,7 +5814,7 @@ msgstr "仅加载不冲突的改变"
 msgid ""
 "Slicing is currently disabled since no slicer has been configured yet. "
 "Please configure a slicer under \"Settings\"."
-msgstr "切片目前已被禁用,因为尚未配置切片器. 请在“设置”下配置切片器."
+msgstr "切片目前已被禁用，因为尚未配置切片器. 请在“设置”下配置切片器."
 
 #: src/octoprint/templates/dialogs/slicing.jinja2:11
 msgid ""
@@ -5846,7 +5839,7 @@ msgstr "本地运行"
 
 #: src/octoprint/templates/dialogs/slicing.jinja2:23
 msgid "For performance reasons locally run slicers are disabled while printing"
-msgstr "由于性能原因,本地运行的切片机在打印时被禁用"
+msgstr "由于性能原因，本地运行的切片机在打印时被禁用"
 
 #: src/octoprint/templates/dialogs/slicing.jinja2:27
 msgid "Slicing Profile"
@@ -5957,7 +5950,7 @@ msgstr "上一步"
 msgid ""
 "Unless otherwise noted, you may just skip any wizard page by clicking \"Next"
 "\" or \"Finish\"."
-msgstr "除非另有说明,否则您可以通过单击“下一步”或“完成”来跳过任何向导页面."
+msgstr "除非另有说明，否则您可以通过单击“下一步”或“完成”来跳过任何向导页面."
 
 #: src/octoprint/templates/dialogs/about/about.jinja2:3
 msgid "The snappy web interface for your 3D printer"
@@ -6069,13 +6062,13 @@ msgstr "不适用"
 msgid ""
 "Please note that changes to the API key are applied immediately, without "
 "having to \"Save\" first."
-msgstr "请注意,API Key的更改将立即应用,而不必先保存."
+msgstr "请注意，API 密钥的更改将立即应用，不必先保存。"
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:3
 msgid ""
 "Name of this OctoPrint instance, will be shown in the navigation bar and "
 "broadcast on the network"
-msgstr "此OctoPrint实例的名称将显示在导航栏中,并在网络上广播"
+msgstr "此 OctoPrint 实例的名称将显示在导航栏中，并在网络上广播"
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:4
 msgid "Title"
@@ -6151,15 +6144,14 @@ msgstr "管理语言包…"
 msgid ""
 "There is currently no central repository for language packs like there is "
 "for plugins - any help to change that is appreciated!"
-msgstr "目前没有像插件一样用于语言包的中央存储库, 欢迎任何来改变这种状况的人！"
+msgstr "目前没有像插件一样用于语言包的中央存储库， 欢迎任何来改变这种状况的人！"
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:87
 #, python-format
 msgid ""
 "Until a repository is available, please see <a href=\"%(url)s\" target="
 "\"_blank\" >the wiki</a> for language packs provided by the community."
-msgstr ""
-"在存储库可用之前,请参阅社区提供的语言包的<a href=\"%(url)s\" target=\"_blank"
+msgstr "在存储库可用之前，请参阅社区提供的语言包的<a href=\"%(url)s\" target=\"_blank"
 "\" >维基</a>."
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:90
@@ -6191,14 +6183,15 @@ msgid ""
 "be either zip files or tarballs and have the extension \".zip\", \".tar.gz"
 "\", \".tgz\" or \".tar\""
 msgstr ""
-"这看起来并不像一个有效的语言包.有效的语言包应该是zip文件或压缩包,并具有扩展"
-"名“.zip”, “.tar.gz”,“.tgz”或者“.tar”"
+"这看起来并不像一个有效的语言包."
+"有效的语言包应该是zip文件或压缩包，并具有扩展名“.zip”， “.tar.gz”，“."
+"tgz”或者“.tar”"
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:136
 msgid ""
 "Please note that you will have to reload the page in order for any newly "
 "added language packs to become available."
-msgstr "请注意,您必须重新加载页面才能使新增的语言包变得可用."
+msgstr "请注意，您必须重新加载页面才能使新增的语言包变得可用."
 
 #: src/octoprint/templates/dialogs/settings/features.jinja2:6
 msgid "Enable Temperature Graph"
@@ -6206,7 +6199,7 @@ msgstr "启用温度视图"
 
 #: src/octoprint/templates/dialogs/settings/features.jinja2:13
 msgid "Enable model size detection and warn if model exceeds print bed"
-msgstr "启用模型尺寸检测,如果模型超过可打印大小,则警告"
+msgstr "启用模型尺寸检测，如果模型超过可打印大小，则警告"
 
 #: src/octoprint/templates/dialogs/settings/features.jinja2:13
 msgid "Beta"
@@ -6346,7 +6339,7 @@ msgstr "磁盘空间阀值"
 msgid ""
 "If the free disk space falls below these thresholds, OctoPrint will warn the "
 "user."
-msgstr "如果可用磁盘空间低于这些阈值,OctoPrint将警告用户."
+msgstr "如果可用磁盘空间低于这些阈值，OctoPrint将警告用户."
 
 #: src/octoprint/templates/dialogs/settings/folders.jinja2:79
 msgid "Critical"
@@ -6466,7 +6459,7 @@ msgstr "行为"
 msgid ""
 "Serial port to connect to, setting this to AUTO will make OctoPrint try to "
 "automatically find the right setting"
-msgstr "要连接的串行端口,将其设置为AUTO将使OctoPrint尝试自动找到正确的设置"
+msgstr "要连接的串行端口，将其设置为AUTO将使OctoPrint尝试自动找到正确的设置"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:18
 #: src/octoprint/templates/sidebar/connection.jinja2:5
@@ -6477,7 +6470,7 @@ msgstr "串行端口"
 msgid ""
 "Serial baud rate to connect with, setting this to AUTO will make OctoPrint "
 "try to automatically find the right setting"
-msgstr "连接的串行波特率,将其设置为AUTO将使OctoPrint尝试自动找到正确的设置"
+msgstr "连接的串行波特率，将其设置为AUTO将使OctoPrint尝试自动找到正确的设置"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:24
 #: src/octoprint/templates/sidebar/connection.jinja2:7
@@ -6491,7 +6484,7 @@ msgstr "使OctoPrint尝试在启动期间自动连接到打印机"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:32
 msgid "Auto-connect to printer on server start"
-msgstr "服务器启动时,自动连接到打印机"
+msgstr "服务器启动时，自动连接到打印机"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:37
 msgid "Additional serial ports"
@@ -6520,7 +6513,7 @@ msgstr "其他波特率"
 msgid ""
 "Use this to define additional serial port baud rates to list for connecting "
 "with, e.g. <code>123456</code>. Comma separated."
-msgstr "设置其他串口波特率,如<code>123456</code>,使用逗号(,)分隔."
+msgstr "设置其他串口波特率，如<code>123456</code>，使用半角逗号（,）分隔。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:51
 msgid "Blacklisted serial ports"
@@ -6581,7 +6574,7 @@ msgstr "如果检测到潜在需要"
 msgid ""
 "Use this if connecting to your printer fails with <code>(22, 'Invalid "
 "argument')</code>."
-msgstr "如果连接打印机失败 <code>(22, 'Invalid argument')</code>请使用此选项。"
+msgstr "如果连接打印机失败 <code>(22， 'Invalid argument')</code>请使用此选项。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:101
 msgid "Ignore empty ports"
@@ -6636,8 +6629,7 @@ msgstr "打印机空闲且已设定目标温度"
 msgid ""
 "Temperature report interval to request from autoreport capable firmwares. A "
 "value of 0 disables autoreporting by the firmware and forces polling."
-msgstr ""
-"温度报告间隔要求固件有自动报告功能,值为0将禁用固件的自动报告并强制进行轮询."
+msgstr "温度报告间隔要求固件有自动报告功能，值为0将禁用固件的自动报告并强制进行轮询."
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:142
 msgid "Temperature interval (autoreport)"
@@ -6724,7 +6716,7 @@ msgstr "连接超时"
 msgid ""
 "Time after which to consider the auto detection handshake attempt to have "
 "failed if no successful connection is detected"
-msgstr "如果检测到没有成功的连接,则需要考虑自动检测失败的时间"
+msgstr "如果检测到没有成功的连接，则需要考虑自动检测失败的时间"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:211
 msgid "Autodetection timeout"
@@ -6798,9 +6790,8 @@ msgid ""
 "Maximum consecutive communication timeouts while a long running command is "
 "active. More than this and the printer will be considered to be gone. Set to "
 "0 to disable."
-msgstr ""
-"长时间运行的命令有效时,最大连续通信超时. 大于此数值打印机将被视为断开. 设置为"
-"0以禁用."
+msgstr "长时间运行的命令有效时，最大连续通信超时. 大于此数值打印机将被视为断开. "
+"设置为0以禁用."
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:264
 msgid "Max. consecutive timeouts during long running commands"
@@ -7011,9 +7002,9 @@ msgid ""
 "code> since most firmware will block until a button on the controller has "
 "been pressed if it receives either of those two commands."
 msgstr ""
-"使用此选项指定不应发送到打印机的命令。只是G或M代码，用逗号分隔。默认值为"
-"<code>M0</code>和<code>M1</code> 如果它接收到这两个命令之一,控制器上的按钮被"
-"按下之前，大多数固件将停止。"
+"使用此选项指定不应发送到打印机的命令。只是G或M代码，用逗号分隔。默认值为<code"
+">M0</code>和<code>M1</code> "
+"如果它接收到这两个命令之一，控制器上的按钮被按下之前，大多数固件将停止。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:465
 msgid "Ignored commands"
@@ -7080,15 +7071,14 @@ msgid ""
 "Use this to specify a different command than the default <code>M110</code> "
 "to send to the printer on initial connection to trigger a communication "
 "handshake."
-msgstr ""
-"使用此命令指定与默认的<code>M110</code>不同的命令,以便在初始连接时发送到打印"
+msgstr "使用此命令指定与默认的<code>M110</code>不同的命令，以便在初始连接时发送到打印"
 "机以触发通信握手."
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:502
 msgid ""
 "Commands that are know to run long and hence should suppress communication "
 "timeouts from being triggered."
-msgstr "知道命令运行的时间长,因此应该抑制通信超时被触发."
+msgstr "知道命令运行的时间长，因此应该抑制通信超时被触发."
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:503
 msgid "Long running commands"
@@ -7099,9 +7089,8 @@ msgid ""
 "Use this to specify the commands known to take a long time to complete "
 "without output from your printer and hence might cause timeout issues. Just "
 "the G or M code, comma separated."
-msgstr ""
-"使用此命令指定已知需要很长时间才能完成的命令,而无需打印机输出,因此可能会导致"
-"超时问题. 只要G或M代码,逗号分隔."
+msgstr "使用此命令指定已知需要很长时间才能完成的命令，而无需打印机输出，"
+"因此可能会导致超时问题. 只要G或M代码，逗号分隔."
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:509
 msgid ""
@@ -7116,9 +7105,8 @@ msgstr "命令总是需要校验和"
 msgid ""
 "Use this to specify which commands <strong>always</strong> need to be sent "
 "with a checksum. Comma separated list."
-msgstr ""
-"用于指定<strong>总是</strong> 需要在发送时同时发送校验和的命令,以英文半角逗号"
-"为分隔."
+msgstr "用于指定<strong>总是</strong> "
+"需要在发送时同时发送校验和的命令，以英文半角逗号为分隔."
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:516
 msgid "ok buffer size"
@@ -7220,7 +7208,7 @@ msgid ""
 "will stay unpopulated! However, cancelling speed might improve slightly."
 msgstr ""
 "如果禁用此功能，您取消G代码脚本中的<code>cancel_position</code>占位符和打印恢"
-"复数据中的相应数据将为空！ 不过,取消速度可能有所改善."
+"复数据中的相应数据将为空！ 不过，取消速度可能有所改善."
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:581
 msgid "Attempt to abort any blocking heatups on cancel via <code>M108</code>."
@@ -7342,8 +7330,7 @@ msgstr "发送延迟"
 msgid ""
 "OctoPrint will use this delay to limit the number of sent temperature "
 "commands should you perform multiple fine adjustments in a short time."
-msgstr ""
-"如果您在短时间内执行多次精细调整,OctoPrint将使用此延迟来限制发送温度命令的数"
+msgstr "如果您在短时间内执行多次精细调整，OctoPrint将使用此延迟来限制发送温度命令的数"
 "量."
 
 #: src/octoprint/templates/dialogs/settings/temperatures.jinja2:32
@@ -7367,16 +7354,16 @@ msgid ""
 "disable the stream for you. Please see <a href=\"%(url)s\" target=\"_blank"
 "\">this FAQ entry</a> for more explanation."
 msgstr ""
-"请注意，因为OctoPrint只嵌入了一个网络摄像头视频流&访问快照网址。它实际上并不"
-"运行自己的网络摄像头服务或直接与您的摄像头交互。因此，它不能添加访问限制，也"
-"不能为您启用/禁用视频流。请到这里<a href=\"%(url)s\" target=\"_blank\">this "
-"FAQ entry</a> 查看更多例子."
+"请注意，因为 OctoPrint 只嵌入了一个网络摄像头视频流和快照 URL。它实际上并不运"
+"行自己的网络摄像头服务或直接与您的摄像头交互。因此，它不能设置访问限制，也不"
+"能为您启用/禁用视频流。请参阅 <a href=\"%(url)s\" target=\"_blank\">FAQ</a> "
+"查看更多例子。"
 
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:5
 msgid ""
 "If you do not wish to change your password, just leave the following fields "
 "empty."
-msgstr "如果您不希望更改您的密码,请将下列字段为空."
+msgstr "如果您不希望更改您的密码，请将下列字段为空."
 
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:8
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:141
@@ -7398,7 +7385,7 @@ msgstr "当前 API Key"
 msgid ""
 "Please note that changes to the API key are applied immediately, without "
 "having to \"Confirm\" first."
-msgstr "请注意，API Key的更改将立即应用,而无需首先“确认”。"
+msgstr "请注意，API 密钥的更改将立即应用，而无需首先“确认”。"
 
 #: src/octoprint/templates/dialogs/usersettings/interface.jinja2:3
 msgid "Language"
@@ -7491,7 +7478,7 @@ msgid ""
 "    With all that being said, <strong>Happy and Safe Printing</strong>!\n"
 msgstr ""
 "\n"
-"    尽管如此,<strong>快乐和安全的印刷</strong>！\n"
+"    说了这么多，<strong>祝您打印安全又愉快</strong>！\n"
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_start.jinja2:1
 msgid "Hello!"
@@ -7770,8 +7757,7 @@ msgstr "打印时间"
 msgid ""
 "Estimated time until the print job is done. This is only an estimate and "
 "accuracy depends heavily on various factors!"
-msgstr ""
-"预计当打印完成时的时间. 这只是一个估计值,精确度受到很多不同因素的影响！"
+msgstr "预计当打印完成时的时间. 这只是一个估计值，精确度受到很多不同因素的影响！"
 
 #: src/octoprint/templates/sidebar/state.jinja2:19
 msgid "Print Time Left"
@@ -8026,22 +8012,22 @@ msgstr "共享喷嘴"
 msgid ""
 "Check this if your printer has a single nozzle and heater shared among its "
 "extruders instead of one nozzle and heater per extruder"
-msgstr ""
-"如果您的打印机在其挤出机中共享一个喷嘴和加热器,而不是每个挤出机一个喷嘴和加热"
-"器,请勾选此项"
+msgstr "如果您的打印机在其挤出机中共享一个喷嘴和加热器，而不是每个挤出机一个喷嘴和加"
+"热器，请勾选此项"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:31
 msgid ""
 "Please specify the nozzle offsets of the extruders relative to the first "
 "nozzle T0 <strong>if you haven't already done so in your firmware</strong>. "
 "Otherwise leave them at (0,0)."
-msgstr "请指定喷嘴偏移的挤出机相对第一喷嘴T0<strong>如果您还没有在您的固件中这样做</s"
-"trong>。否则，离开他们在（0,0）。"
+msgstr "请指定挤出机相对于第一个喷嘴 T0 "
+"的喷嘴偏移量，<strong>如果您还没有在您的固件中设置此项</strong>。否则，留为 "
+"(0,0)。"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:37
 #: src/octoprint/templates/tabs/temperature.jinja2:41
 msgid "Offset"
-msgstr "偏置"
+msgstr "偏移"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:55
 msgid "Default extrusion length"
@@ -8385,11 +8371,11 @@ msgstr "快照URL"
 
 #: src/octoprint/templates/snippets/settings/webcam/webcamSnapshotUrl.jinja2:8
 msgid "Fully qualified URL, needs to be reachable by OctoPrint's server"
-msgstr "完整的URL, 可从OctoPrint服务器访问"
+msgstr "完整的URL， 可从OctoPrint服务器访问"
 
 #: src/octoprint/templates/snippets/settings/webcam/webcamStreamRatio.jinja2:1
 msgid "Aspect ratio of the webcam stream, either 16:9 or 4:3"
-msgstr "网络摄像头流的长宽比,16：9或4：3"
+msgstr "网络摄像头流的长宽比，16：9或4：3"
 
 #: src/octoprint/templates/snippets/settings/webcam/webcamStreamRatio.jinja2:2
 msgid "Stream aspect ratio"
@@ -8399,12 +8385,12 @@ msgstr "流长宽比"
 msgid ""
 "If the stream has a different aspect ratio than configured here it will be "
 "letterboxed."
-msgstr "如果流具有与此处配置的不同的宽高比,则它将被letterboxd."
+msgstr "如果视频流具有与此处配置的不同的宽高比，将会被添加黑边。"
 
 #: src/octoprint/templates/snippets/settings/webcam/webcamStreamTimeout.jinja2:1
 msgid ""
 "Timeout after which to unload the stream if the control tab is not visible"
-msgstr "如果控制选项卡不可见,则多久后卸载该流"
+msgstr "如果控制选项卡不可见，则多久后卸载该流"
 
 #: src/octoprint/templates/snippets/settings/webcam/webcamStreamTimeout.jinja2:2
 msgid "Stream timeout"
@@ -8422,7 +8408,7 @@ msgstr "流URL"
 msgid ""
 "Needs to be reachable from the browser displaying the OctoPrint UI, used to "
 "embed the webcam stream into the page."
-msgstr "需要从显示OctoPrint UI的浏览器中访问,用于将网络摄像头流嵌入到页面中."
+msgstr "需要从显示OctoPrint UI的浏览器中访问，用于将网络摄像头流嵌入到页面中."
 
 #: src/octoprint/templates/snippets/settings/webcam/webcamStreamUrl.jinja2:10
 msgid ""
@@ -8467,8 +8453,8 @@ msgstr "网络摄像头未装载"
 msgid ""
 "It might not be configured correctly or require authentication. To have this "
 "fixed, get in touch with an administrator of this OctoPrint instance."
-msgstr ""
-"它可能未正确配置或需要身份验证. 要修复此问题,请与此OctoPrint实例的管理员联系."
+msgstr "它可能未正确配置或需要身份验证. "
+"要修复此问题，请与此OctoPrint实例的管理员联系."
 
 #: src/octoprint/templates/tabs/control.jinja2:33
 msgid ""
@@ -8525,7 +8511,7 @@ msgstr "步长"
 msgid ""
 "Hint: If you move your mouse over the picture, you enter keyboard control "
 "mode."
-msgstr "提示：如果您将鼠标移到图片上,您输入键盘控制模式."
+msgstr "提示：如果您将鼠标移到图片上，您输入键盘控制模式."
 
 #: src/octoprint/templates/tabs/control.jinja2:107
 msgid "Feed rate modifier:"
@@ -8655,7 +8641,7 @@ msgstr "清除所有"
 msgid ""
 "For performance reasons only a limited amount of terminal functionality is "
 "enabled right now."
-msgstr "出于性能考虑,目前只开放部分终端功能."
+msgstr "出于性能考虑，目前只开放部分终端功能."
 
 #: src/octoprint/templates/tabs/terminal.jinja2:38
 msgid "Fake Acknowledgement"
@@ -8694,7 +8680,7 @@ msgstr "终端的一些功能将被禁用，如果OctoPrint检测您的浏览器
 msgid ""
 "Take note that timelapse configuration is disabled while your printer is "
 "printing."
-msgstr "请注意,打印机正在打印时,将禁用延时摄影配置."
+msgstr "请注意，打印机正在打印时，将禁用延时摄影配置."
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:7
 msgid "Timelapse Configuration"
