@@ -4,7 +4,7 @@ on:
     types: [published]
 env:
   ZIP_FILENAME: "zh_CN"
-  PACKAGE_CONTENT: "zh_CN/"
+  PACKAGE_CONTENT: "zh/"
 
 jobs:
   build:
