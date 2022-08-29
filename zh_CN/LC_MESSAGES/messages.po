@@ -60,7 +60,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2021-10-11 10:35+0200\n"
-"PO-Revision-Date: 2022-08-29 09:08+0000\n"
+"PO-Revision-Date: 2022-08-29 09:13+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -94,7 +94,7 @@ msgstr "允许观看网络摄像头流"
 msgid ""
 "Allows to run system commands, e.g. restart OctoPrint, shutdown or reboot "
 "the system, and to retrieve system and usage information"
-msgstr "允许运行系统命令，例如 重启 OctoPrint，关闭或重启系统，检索系统和使用信息"
+msgstr "允许运行系统命令，例如重启 OctoPrint，关闭或重启系统，检索系统和使用信息"
 
 #: src/octoprint/access/permissions.py:326
 msgid ""
@@ -107,19 +107,21 @@ msgid ""
 "Allows users to upload new files, create new folders and copy existing ones."
 " If the File Delete permission is also set, File Upload also allows moving "
 "files and folders."
-msgstr "允许用户上载新文件，创建新文件夹并复制现有文件。 如果还设置了“文件删除”权限，则“文件上载”还允许移动文件和文件夹。"
+msgstr "允许用户上载新文件，创建新文件夹并复制现有文件。如果还设置了“文件删除”权限，"
+"则“文件上载”还允许移动文件和文件夹。"
 
 #: src/octoprint/access/permissions.py:345
 msgid ""
 "Allows users to download files. The GCODE viewer is affected by this as "
 "well."
-msgstr "允许用户下载文件。GCODE查看器也受此影响。"
+msgstr "允许用户下载文件。GCODE 查看器也受此影响。"
 
 #: src/octoprint/access/permissions.py:354
 msgid ""
 "Allows users to delete files and folders. If the File Upload permission is "
 "also set, File Delete also allows moving files and folders."
-msgstr "允许用户删除文件和文件夹。 如果还设置了“文件上载”权限，则“文件删除”还允许移动文件和文件夹。"
+msgstr "允许用户删除文件和文件夹。如果还设置了“文件上载”权限，则“文件删除”还允许移动"
+"文件和文件夹。"
 
 #: src/octoprint/access/permissions.py:363
 msgid "Allows to select a file for printing"
@@ -133,7 +135,7 @@ msgstr "允许开始，暂停和取消打印作业"
 msgid ""
 "Allows access to the GCODE viewer if the \"File Download\"permission is also"
 " set."
-msgstr "如果还设置了“文件下载”权限，则允许访问GCODE查看器。"
+msgstr "如果还设置了“文件下载”权限，则允许访问 GCODE 查看器。"
 
 #: src/octoprint/access/permissions.py:387
 msgid ""
@@ -173,7 +175,7 @@ msgstr "允许更改延时摄影设置并删除或渲染未渲染的延时摄影
 #: src/octoprint/access/permissions.py:445
 msgid ""
 "Allows to read non sensitive settings. Mandatory for the default UI to work."
-msgstr "允许读取非敏感设置。 必须使用默认用户界面。"
+msgstr "允许读取非敏感设置。必须使用默认用户界面。"
 
 #: src/octoprint/access/permissions.py:454
 msgid "Allows to manage settings and also to read sensitive settings"
