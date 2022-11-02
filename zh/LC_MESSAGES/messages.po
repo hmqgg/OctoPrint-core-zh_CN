@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2022-09-19 16:23+0200\n"
-"PO-Revision-Date: 2022-08-29 18:21+0000\n"
+"PO-Revision-Date: 2022-11-03 18:40+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -70,7 +70,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: src/octoprint/access/permissions.py:275
@@ -5601,7 +5601,7 @@ msgstr "用户名或密码错误。提示：用户名或密码区分大小写！
 
 #: src/octoprint/templates/login.jinja2:69
 msgid "You have made too many failed login attempts. Please try again later."
-msgstr ""
+msgstr "你已进行太多次失败的登录尝试。请稍后再试。"
 
 #: src/octoprint/templates/login.jinja2:70
 #: src/octoprint/templates/recovery.jinja2:70
@@ -6346,6 +6346,11 @@ msgid ""
 "details.\n"
 "    "
 msgstr ""
+"\n"
+"        请注意：并非 OctoPrint 使用到的所有文件夹都能通过 UI "
+"配置，只有最常移动到其他位置的文件夹。如果你需要配置其他文件夹， \n"
+"        请手动编辑配置。查阅文档以了解详情。\n"
+"    "
 
 #: src/octoprint/templates/dialogs/settings/folders.jinja2:53
 msgid "Disk space thresholds"
@@ -7393,7 +7398,7 @@ msgstr "如果您不希望更改您的密码，请将下列字段为空。"
 
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:8
 msgid "Current Password"
-msgstr ""
+msgstr "当前密码"
 
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:15
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:141
@@ -7413,6 +7418,10 @@ msgid ""
 "strong> after changing your password and asked to login again.\n"
 "        "
 msgstr ""
+"\n"
+"            请注意你将在更改你的密码后 <strong>立即登出</strong> "
+"并被要求再次登录。\n"
+"        "
 
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:34
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:156
