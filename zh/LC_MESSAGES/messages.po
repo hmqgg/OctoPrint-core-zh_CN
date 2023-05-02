@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2023-04-13 13:14+0200\n"
-"PO-Revision-Date: 2023-05-02 18:14+0000\n"
+"PO-Revision-Date: 2023-05-02 18:17+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -8082,7 +8082,7 @@ msgstr "附加数据"
 
 #: src/octoprint/templates/sidebar/files.jinja2:19
 msgid "On SD Card"
-msgstr ""
+msgstr "在 SD 卡上"
 
 #: src/octoprint/templates/sidebar/files.jinja2:21
 #: src/octoprint/templates/sidebar/files.jinja2:36
@@ -8098,7 +8098,7 @@ msgstr "已上传"
 
 #: src/octoprint/templates/sidebar/files.jinja2:27
 msgid "Move or Rename"
-msgstr ""
+msgstr "移动或重命名"
 
 #: src/octoprint/templates/sidebar/files.jinja2:29
 msgid "Load"
@@ -8736,7 +8736,7 @@ msgstr "MJPEG 流"
 #: src/octoprint/templates/snippets/settings/webcam/defaultWebcam.jinja2:19
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:24
 msgid "Not supported"
-msgstr ""
+msgstr "不支持"
 
 #: src/octoprint/templates/snippets/settings/webcam/defaultWebcam.jinja2:25
 msgid ""
@@ -8832,7 +8832,7 @@ msgstr "快照流"
 
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:20
 msgid "Supported"
-msgstr ""
+msgstr "支持"
 
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:30
 msgid ""
@@ -8916,32 +8916,32 @@ msgstr "提示：如果您将鼠标移到图片上，您输入键盘控制模式
 
 #: src/octoprint/templates/tabs/control.jinja2:64
 msgid "Move front"
-msgstr ""
+msgstr "前移"
 
 #: src/octoprint/templates/tabs/control.jinja2:67
 msgid "Move left"
-msgstr ""
+msgstr "左移"
 
 #: src/octoprint/templates/tabs/control.jinja2:68
 #: src/octoprint/templates/tabs/control.jinja2:82
 msgid "Home"
-msgstr ""
+msgstr "归零"
 
 #: src/octoprint/templates/tabs/control.jinja2:69
 msgid "Move right"
-msgstr ""
+msgstr "右移"
 
 #: src/octoprint/templates/tabs/control.jinja2:72
 msgid "Move back"
-msgstr ""
+msgstr "后移"
 
 #: src/octoprint/templates/tabs/control.jinja2:79
 msgid "Move up"
-msgstr ""
+msgstr "上移"
 
 #: src/octoprint/templates/tabs/control.jinja2:85
 msgid "Move down"
-msgstr ""
+msgstr "下移"
 
 #: src/octoprint/templates/tabs/control.jinja2:100
 msgid "Feed rate modifier:"
@@ -9211,7 +9211,8 @@ msgstr "延时摄影未完全配置"
 msgid ""
 "A working snapshot setup and/or the path to FFMPEG are missing. To have this "
 "fixed, get in touch with an administrator of this OctoPrint instance."
-msgstr ""
+msgstr "缺少有效的快照设置和/或 FFMPEG 路径。要修复此问题，请联系此 OctoPrint "
+"实例的管理员。"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:96
 msgid ""
@@ -9220,18 +9221,21 @@ msgid ""
 "of your chosen webcam plugin. If you don't have a webcam or don't want to "
 "enable timelapse support you can also just disable it there."
 msgstr ""
+"缺少有效的快照设置和/或 FFMPEG 路径。你可以在“设置”>“网络摄像头 & 延时摄影”下"
+"以及你选择的网络摄像头插件的设置中进行更改。如果你没有网络摄像头或不想启用延"
+"时摄影支持，你也可以在那里禁用。"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:100
 msgid "Currently configured snapshot (from default webcam)"
-msgstr ""
+msgstr "当前配置的快照（来自默认网络摄像头）"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:103
 msgid "Snapshots supported by default webcam"
-msgstr ""
+msgstr "默认网络摄像头支持的快照"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:107
 msgid "Currently configured default webcam cannot take snapshots"
-msgstr ""
+msgstr "当前配置的默认网络摄像头无法拍摄快照"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:109
 msgid "Currently configured path to FFMPEG"
