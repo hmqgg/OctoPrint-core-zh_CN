@@ -55,13 +55,13 @@
 # 小巍 陈 <chenxiaowei107@163.com>, 2020
 # 瑞 杨钱 <1304688335@qq.com>, 2020
 # Mitch Hwang <mitchx7@outlook.com>, 2022
-# hmqgg <mitchx7@outlook.com>, 2022.
+# hmqgg <mitchx7@outlook.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2023-04-13 13:14+0200\n"
-"PO-Revision-Date: 2022-11-03 18:40+0000\n"
+"PO-Revision-Date: 2023-05-02 17:45+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -169,15 +169,15 @@ msgstr "允许下载延时摄影视频"
 
 #: src/octoprint/access/permissions.py:417
 msgid "Allows to delete timelapse videos"
-msgstr ""
+msgstr "允许删除延时视频"
 
 #: src/octoprint/access/permissions.py:423
 msgid "Allows to list, delete and render unrendered timelapses"
-msgstr ""
+msgstr "允许列出、删除、渲染尚未渲染的延时摄影"
 
 #: src/octoprint/access/permissions.py:429
 msgid "Allows to change the timelapse settings."
-msgstr ""
+msgstr "允许修改延时摄影设置。"
 
 #: src/octoprint/access/permissions.py:436
 msgid ""
@@ -389,11 +389,11 @@ msgstr "阅读..."
 
 #: src/octoprint/plugins/announcements/templates/announcements.jinja2:12
 msgid "Unread"
-msgstr ""
+msgstr "未读"
 
 #: src/octoprint/plugins/announcements/templates/announcements.jinja2:39
 msgid "No unread announcements!"
-msgstr ""
+msgstr "没有未读的公告！"
 
 #: src/octoprint/plugins/announcements/templates/announcements.jinja2:52
 msgid "Mark as last read"
@@ -401,7 +401,7 @@ msgstr "标记为最后一次读取"
 
 #: src/octoprint/plugins/announcements/templates/announcements.jinja2:64
 msgid "Mark all read"
-msgstr ""
+msgstr "全部标记为已读"
 
 #: src/octoprint/plugins/announcements/templates/announcements.jinja2:66
 #: src/octoprint/plugins/appkeys/templates/appkeys.jinja2:36
@@ -1028,14 +1028,15 @@ msgstr "上传和还原"
 
 #: src/octoprint/plugins/classicwebcam/__init__.py:240
 msgid "Classic Webcam"
-msgstr ""
+msgstr "经典网络摄像头"
 
 #: src/octoprint/plugins/classicwebcam/__init__.py:243
 msgid ""
 "This plugin provides the standard webcam in OctoPrint. If you do not have "
 "any other plugin providing a webcam set up, the webcam section in the "
 "control tab will no longer be visible."
-msgstr ""
+msgstr "该插件在 OctoPrint 提供标准网络摄像头。如果你没有设置其他提供网络摄像头的插件"
+"，控制选项卡的网络摄像头区块将不再可见。"
 
 #: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:77
 msgid "If you see your webcam stream below, the entered stream URL is ok."
@@ -1075,11 +1076,11 @@ msgstr "快照测试"
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_settings.jinja2:2
 msgid "Stream"
-msgstr ""
+msgstr "流"
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_settings.jinja2:18
 msgid "Snapshots & Timelapse"
-msgstr ""
+msgstr "快照 & 延时摄影"
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_webcam.jinja2:30
 msgid "Webcam stream loading..."
@@ -1221,7 +1222,7 @@ msgstr "旋转摄像头90度逆时针"
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotUrl.jinja2:1
 #: src/octoprint/templates/snippets/settings/webcam/webcamSnapshotUrl.jinja2:1
 msgid "URL to use for retrieving webcam snapshot images for timelapse creation"
-msgstr "取回网络摄像机快照图像来创建延时摄影的 URL"
+msgstr "从 URL 获取网络摄像头快照的图像以创建延时摄影"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotUrl.jinja2:2
 #: src/octoprint/templates/snippets/settings/webcam/webcamSnapshotUrl.jinja2:2
@@ -1906,7 +1907,7 @@ msgstr "估计打印总时间"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:715
 msgid "Layers with extrusion"
-msgstr "挤压层"
+msgstr "挤出层数"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:748
 msgid "Layer number"
@@ -2060,7 +2061,7 @@ msgstr "显示回缩"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:57
 msgid "Show approx. print head position"
-msgstr "显示大致打印机头位置"
+msgstr "显示大致打印头位置"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:63
 msgid "Also show previous layer"
@@ -5047,7 +5048,7 @@ msgstr ""
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1061
 msgid "Model contains no extrusion.<br>"
-msgstr "模型不包含挤压<br>"
+msgstr "模型不包含挤出。<br>"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1123
 msgid "Last printed"
@@ -8721,11 +8722,11 @@ msgstr "延时摄影比特率"
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegCommandline.jinja2:1
 msgid "FFMPEG command line to use"
-msgstr "FFMPEG命令行使用"
+msgstr "FFMPEG 使用的命令行"
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegCommandline.jinja2:2
 msgid "FFMPEG command line"
-msgstr "FFMPEG命令行"
+msgstr "FFMPEG 命令行"
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegCommandline.jinja2:5
 msgid ""
@@ -8766,7 +8767,7 @@ msgstr "到FFmpeg执行文件的完整路径"
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegPath.jinja2:2
 msgid "Path to FFMPEG"
-msgstr "FFMPEG路径"
+msgstr "FFMPEG 路径"
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegThreads.jinja2:1
 msgid "Number of FFMPEG encoding threads"
@@ -8774,7 +8775,7 @@ msgstr "FFMPEG 编码线程数"
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegThreads.jinja2:2
 msgid "FFMPEG threads"
-msgstr "ffmpeg的线程"
+msgstr "FFMPEG 线程数"
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegVideoCodec.jinja2:1
 msgid "Video codec used for encoding"
@@ -8787,7 +8788,7 @@ msgstr "用于编码的视频编解码器"
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:1
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:2
 msgid "Snapshot Webcam"
-msgstr ""
+msgstr "快照网络摄像头"
 
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:13
 msgid "Snapshot stream"
@@ -9198,7 +9199,7 @@ msgstr ""
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:109
 msgid "Currently configured path to FFMPEG"
-msgstr "当前配置的ffmpeg路径"
+msgstr "当前配置的 FFMPEG 路径"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:114
 msgid "Timelapse Render Progress"
