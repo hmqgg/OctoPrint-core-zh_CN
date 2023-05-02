@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2023-04-13 13:14+0200\n"
-"PO-Revision-Date: 2023-05-02 18:17+0000\n"
+"PO-Revision-Date: 2023-05-02 18:23+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -205,7 +205,7 @@ msgstr "打印机通知"
 msgid ""
 "Without this plugin your printer will no longer be able to trigger "
 "notifications in OctoPrint"
-msgstr "缺少此插件，您的打印机将不能在 OctoPrint 中推送通知"
+msgstr "缺少此插件，你的打印机将不能在 OctoPrint 中推送通知"
 
 #: src/octoprint/plugins/action_command_notification/static/js/action_command_notification.js:79
 msgid "Printer Notification"
@@ -255,7 +255,7 @@ msgstr "打印机对话框"
 msgid ""
 "Without this plugin your printer will no longer be able to trigger "
 "confirmation or selection prompts in OctoPrint"
-msgstr "没有此插件，您的打印机将不再能够在 OctoPrint 中触发确认或选择提示"
+msgstr "没有此插件，你的打印机将不再能够在 OctoPrint 中触发确认或选择提示"
 
 #: src/octoprint/plugins/action_command_prompt/static/js/action_command_prompt.js:47
 #: src/octoprint/plugins/action_command_prompt/templates/action_command_prompt_navbar.jinja2:1
@@ -370,7 +370,7 @@ msgstr "启用通道"
 #: src/octoprint/plugins/announcements/static/js/announcements.js:398
 msgid ""
 "You can edit your announcement subscriptions under Settings > Announcements."
-msgstr "您可以在设置 > 公告下编辑您的公告订阅。"
+msgstr "你可以在设置 > 公告下编辑你的公告订阅。"
 
 #: src/octoprint/plugins/announcements/static/js/announcements.js:411
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2129
@@ -484,7 +484,7 @@ msgstr "缺少此插件，第三方客户端将无法自动获得 API 密钥，�
 #: src/octoprint/plugins/appkeys/static/js/appkeys.js:290
 #, python-format
 msgid "You are about to revoke the application key \"%(key)s\"."
-msgstr "您将要撤销应用程序密钥 “%(key)s”。"
+msgstr "你将要撤销应用程序密钥 “%(key)s”。"
 
 #: src/octoprint/plugins/appkeys/static/js/appkeys.js:123
 msgid "Do you want to allow access to this application with your user account?"
@@ -512,7 +512,7 @@ msgstr "生成新密钥！"
 #: src/octoprint/plugins/appkeys/static/js/appkeys.js:306
 #, python-format
 msgid "You are about to revoke %(count)d application keys."
-msgstr "您将撤销 %(count)d 个应用程序密钥。"
+msgstr "你将撤销 %(count)d 个应用程序密钥。"
 
 #: src/octoprint/plugins/appkeys/static/js/appkeys.js:356
 msgid "Revoking application keys"
@@ -577,7 +577,7 @@ msgstr "二维码"
 #: src/octoprint/plugins/appkeys/templates/appkeys_authdialog.jinja2:48
 #, python-format
 msgid "Hello %(user)s!"
-msgstr "您好 %(user)s！"
+msgstr "你好 %(user)s！"
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_authdialog.jinja2:50
 msgid ""
@@ -587,7 +587,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"                您想允许用您的用户账户访问此应用程序吗？\n"
+"                你想允许用你的用户账户访问此应用程序吗？\n"
 "            "
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_authdialog.jinja2:59
@@ -598,7 +598,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"                已处理访问请求。您现在可以关闭此选项卡。\n"
+"                已处理访问请求。你现在可以关闭此选项卡。\n"
 "            "
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_authdialog.jinja2:65
@@ -609,7 +609,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"                处理访问请求时出现问题。您现在可以关闭此选项卡。\n"
+"                处理访问请求时出现问题。你现在可以关闭此选项卡。\n"
 "            "
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_authdialog.jinja2:71
@@ -619,7 +619,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"                服务器已离线。您现在可以关闭此选项卡。\n"
+"                服务器已离线。你现在可以关闭此选项卡。\n"
 "            "
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_settings.jinja2:1
@@ -720,36 +720,36 @@ msgstr "从备份恢复？"
 msgid ""
 "Without this plugin you will no longer be able to backup & restore your "
 "OctoPrint settings and data."
-msgstr "缺少此插件，您将无法备份和恢复您的 OctoPrint 设置和数据。"
+msgstr "缺少此插件，你将无法备份和恢复你的 OctoPrint 设置和数据。"
 
 #: src/octoprint/plugins/backup/static/js/backup.js:94
 #, python-format
 msgid "You are about to delete backup file \"%(name)s\"."
-msgstr "您将删除备份文件“%(name)s”。"
+msgstr "你将删除备份文件“%(name)s”。"
 
 #: src/octoprint/plugins/backup/static/js/backup.js:119
 #, python-format
 msgid ""
 "You are about to restore the backup file \"%(name)s\". This cannot be undone."
-msgstr "您将还原备份文件“%(name)s”。本操作无法撤销。"
+msgstr "你将还原备份文件“%(name)s”。本操作无法撤销。"
 
 #: src/octoprint/plugins/backup/static/js/backup.js:149
 #, python-format
 msgid ""
 "You are about to upload and restore the backup file \"%(name)s\". This "
 "cannot be undone."
-msgstr "您将上传并还原备份文件“%(name)s”。本操作无法撤销。"
+msgstr "你将上传并还原备份文件“%(name)s”。本操作无法撤销。"
 
 #: src/octoprint/plugins/backup/static/js/backup.js:165
 msgid ""
 "You are about to delete the record of plugins unknown during the last "
 "restore."
-msgstr "您将要删除上次还原过程中未知插件的记录。"
+msgstr "你将要删除上次还原过程中未知插件的记录。"
 
 #: src/octoprint/plugins/backup/static/js/backup.js:198
 #, python-format
 msgid "You are about to delete %(count)d backups."
-msgstr "您将删除 %(count)d 个备份。"
+msgstr "你将删除 %(count)d 个备份。"
 
 #: src/octoprint/plugins/backup/static/js/backup.js:221
 msgid "Backup created successfully"
@@ -801,7 +801,7 @@ msgstr ""
 msgid ""
 "There are %(count)d plugins you'll need to install manually since they "
 "aren't registered on the repository:"
-msgstr "您需要手动安装 %(count)d 个插件，因为它们没有在资源库中注册："
+msgstr "你需要手动安装 %(count)d 个插件，因为它们没有在资源库中注册："
 
 #: src/octoprint/plugins/backup/static/js/backup.js:330
 msgid "Deleting backups"
@@ -866,8 +866,7 @@ msgstr "没有备份。需要在下面建立一个？"
 msgid ""
 "These are the backups of your settings and files that already exist on this "
 "OctoPrint instance. You may delete, download or restore them."
-msgstr ""
-"这些是 OctoPrint 上已存在的设置和文件的备份。您可以删除、下载或还原它们。"
+msgstr "这些是 OctoPrint 上已存在的设置和文件的备份。你可以删除、下载或还原它们。"
 
 #: src/octoprint/plugins/backup/templates/backup_settings.jinja2:31
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:23
@@ -993,9 +992,9 @@ msgid ""
 "href=\"%(url)s\" target=\"_blank\" rel=\"noopener noreferrer\">restore your "
 "backups manually for now</a>."
 msgstr ""
-"请注意，运行此 OctoPrint 服务器的操作系统不支持自动还原备份。现在您必须<a "
-"href=\"%(url)s\" target=\"_blank\" rel=\"noopener noreferrer\">手动恢复备份</"
-"a>。"
+"请注意，运行此 OctoPrint 服务器的操作系统不支持自动还原备份。现在你必须<a "
+"href=\"%(url)s\" target=\"_blank\" rel=\"noopener noreferrer\""
+">手动恢复备份</a>。"
 
 #: src/octoprint/plugins/backup/templates/backup_wizard.jinja2:1
 msgid "Restore from a backup?"
@@ -1009,7 +1008,7 @@ msgid ""
 "</p>"
 msgstr ""
 "<p>\n"
-"您可以现在选择一个备份来恢复 OctoPrint 配置\n"
+"你可以现在选择一个备份来恢复 OctoPrint 配置\n"
 "</p>"
 
 #: src/octoprint/plugins/backup/templates/snippets/backup_plugin_upload_form.jinja2:3
@@ -1068,7 +1067,7 @@ msgstr ""
 msgid ""
 "If you see your webcam snapshot picture below, the entered snapshot URL is "
 "ok."
-msgstr "如果您看到下面的网络摄像机快照图片，输入的快照 URL 就可以了。"
+msgstr "如果你看到下面的网络摄像机快照图片，输入的快照 URL 就可以了。"
 
 #: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:204
 msgid "Snapshot test"
@@ -1123,7 +1122,7 @@ msgid ""
 "</p>"
 msgstr ""
 "<p>\n"
-"     如果您有网络摄像头，则可以在此处进行配置。\n"
+"     如果你有网络摄像头，则可以在此处进行配置。\n"
 "</p>"
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_wizard.jinja2:7
@@ -1161,7 +1160,7 @@ msgstr ""
 "<p>\n"
 "    <strong>串流 URL</strong> 是 OctoPrint 用于将实际的网络摄像头流\n"
 "    （即 MJPEG 流）嵌入到网页 UI 中的 URL。\n"
-"    此地址需要<strong>从您的浏览器</strong>可访问。\n"
+"    此地址需要<strong>从你的浏览器</strong>可访问。\n"
 "</p><p>\n"
 "    其可能是\n"
 "    <ul>\n"
@@ -1205,8 +1204,7 @@ msgstr "警告"
 msgid ""
 "This may cause unpredictable caching behaviour. Only disable if your webcam "
 "server is incompatible and does not work in OctoPrint's UI"
-msgstr ""
-"这可能会导致不可预测的缓存行为。仅当在您的网络摄像头服务器不兼容，并且不能在 "
+msgstr "这可能会导致不可预测的缓存行为。仅当在你的网络摄像头服务器不兼容，并且不能在 "
 "OctoPrint 的 UI 中工作时才可禁用"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamOrientation.jinja2:4
@@ -1354,8 +1352,7 @@ msgstr "请设置访问控制"
 msgid ""
 "You haven't yet set up access control. You need to setup a username and "
 "password and click \"Create Account\" before continuing."
-msgstr ""
-"您尚未设置访问控制。您需要设置一个用户名和密码并点击“创建账户”，然后继续。"
+msgstr "你尚未设置访问控制。你需要设置一个用户名和密码并点击“创建账户”，然后继续。"
 
 #: src/octoprint/plugins/corewizard/static/js/corewizard.js:175
 msgid "Please set up the online connectivity check"
@@ -1366,7 +1363,7 @@ msgid ""
 "You haven't yet decided on whether to enable or disable the online "
 "connectivity check. You need to either enable or disable it before "
 "continuing."
-msgstr "您还没有决定是否启用或禁用网络连通性检查，您需要启用或禁用它才能继续。"
+msgstr "你还没有决定是否启用或禁用网络连通性检查，你需要启用或禁用它才能继续。"
 
 #: src/octoprint/plugins/corewizard/static/js/corewizard.js:262
 msgid "Please set up the plugin blacklist processing"
@@ -1376,7 +1373,7 @@ msgstr "请设置黑名单处理插件"
 msgid ""
 "You haven't yet decided on whether to enable or disable the plugin blacklist "
 "processing. You need to either enable or disable it before continuing."
-msgstr "您还没有决定是否启用网络连通性检查，您需要启用或停用它才能继续。"
+msgstr "你还没有决定是否启用网络连通性检查，你需要启用或停用它才能继续。"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:3
 msgid ""
@@ -1390,7 +1387,7 @@ msgid ""
 "</p>"
 msgstr ""
 "<p>\n"
-"    看来您尚未配置访问控制，这现在是必需的。\n"
+"    看来你尚未配置访问控制，这现在是必需的。\n"
 "    请为初始管理员账户<strong>设置用户名和密码</strong>，\n"
 "    这将拥有对打印机和 OctoPrint 的\n"
 "    完全访问权限：\n"
@@ -1457,8 +1454,8 @@ msgid ""
 "minutes. You may change the value here.\n"
 msgstr ""
 "\n"
-"    OctoPrint 预设为每 15 分钟执行一次网络连通性检查。您可以改变网络连通性检"
-"查的间隔时间。\n"
+"    OctoPrint 预设为每 15 "
+"分钟执行一次网络连通性检查。你可以改变网络连通性检查的间隔时间。\n"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_onlinecheck_wizard.jinja2:18
 msgid ""
@@ -1472,7 +1469,7 @@ msgstr ""
 "\n"
 "    OctoPrint 预先配置为使用 Google 的 DNS 服务器 <code>8.8.8.8</code>，端口 "
 "53 进行网络连通性检查\n"
-"    （如果网络连通性检查已启用）。如果您对使用它有疑虑，请定义您信任的\n"
+"    （如果网络连通性检查已启用）。如果你对使用它有疑虑，请定义你信任的\n"
 "    并且具有高可用性的其他服务器的 IP 和端口。\n"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_onlinecheck_wizard.jinja2:30
@@ -1487,9 +1484,9 @@ msgid ""
 "    side with the general connectivity check, leave the field empty.\n"
 msgstr ""
 "\n"
-"    如果您还想检查名称解析是否有效（强烈建议），请定义主机名\n"
-"    检查名称解析。如果您不知道在此处设置什么，则使用默认值\n"
-"    （OctoPrint 的域）应该可以工作。如果您不想在进行常规连接检查时\n"
+"    如果你还想检查名称解析是否有效（强烈建议），请定义主机名\n"
+"    检查名称解析。如果你不知道在此处设置什么，则使用默认值\n"
+"    （OctoPrint 的域）应该可以工作。如果你不想在进行常规连接检查时\n"
 "    执行定期的解析检查，请将该字段留空。\n"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_onlinecheck_wizard.jinja2:44
@@ -1500,7 +1497,7 @@ msgid ""
 "    any time through Settings > Server right from within OctoPrint.\n"
 msgstr ""
 "\n"
-"    最后，请确定是否启用或禁用网络连通性检查。您可以随时通过\n"
+"    最后，请确定是否启用或禁用网络连通性检查。你可以随时通过\n"
 "    “设置>服务器”从 OctoPrint 中更改配置。\n"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_onlinecheck_wizard.jinja2:51
@@ -1550,7 +1547,7 @@ msgstr ""
 "\n"
 "    为了防止某些版本的第三方插件的已知严重问题，\n"
 "    OctoPrint 支持使用中心化的插件版本黑名单，以便在它们干扰正常操作之前\n"
-"    自动停用此类插件版本，从而使您能够将其移除或更新为较新的版本。\n"
+"    自动停用此类插件版本，从而使你能够将其移除或更新为较新的版本。\n"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_pluginblacklist_wizard.jinja2:9
 #: src/octoprint/templates/snippets/settings/server/serverPluginBlacklistDescription.jinja2:7
@@ -1565,8 +1562,8 @@ msgstr ""
 "\n"
 "    默认情况下，OctoPrint 将使用在 <code>plugins.octoprint.org/blacklist."
 "json</code> 托管的黑名单，\n"
-"    您也可以看看更多可读的格式<a href=\"%(url)s\" target=\"_blank\">点击这里"
-"</a>。\n"
+"    你也可以看看更多可读的格式<a href=\"%(url)s\" target=\"_blank\""
+">点击这里</a>。\n"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_pluginblacklist_wizard.jinja2:14
 msgid ""
@@ -1578,7 +1575,7 @@ msgid ""
 msgstr ""
 "\n"
 "    请决定是否允许从下一次服务器启动开始获取和使用这种中心化黑名单。\n"
-"    您也可以在任何时间通过 OctoPrint 内的设置>服务器改变此设置。\n"
+"    你也可以在任何时间通过 OctoPrint 内的设置>服务器改变此设置。\n"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_pluginblacklist_wizard.jinja2:21
 msgid "Disable Plugin Blacklist Processing"
@@ -1621,8 +1618,8 @@ msgid ""
 "to OctoPrint, you can also configure additional printer profiles under "
 "Settings > Printer Profiles"
 msgstr ""
-"请确保以下设置与您的打印机匹配。如果计划将多台打印机连接到 OctoPrint，\n"
-"您还可以在“设置>打印机配置文件”下配置其他打印机配置文件"
+"请确保以下设置与你的打印机匹配。如果计划将多台打印机连接到 OctoPrint，\n"
+"你还可以在“设置>打印机配置文件”下配置其他打印机配置文件"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_printerprofile_wizard.jinja2:7
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:7
@@ -1658,7 +1655,7 @@ msgid ""
 msgstr ""
 "<p>\n"
 "    OctoPrint 支持调用外部命令以重新启动或重新启动和/或关闭正在运行的系统。\n"
-"    您可以在这里配置。\n"
+"    你可以在这里配置。\n"
 "</p>"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_servercommands_wizard.jinja2:8
@@ -1673,8 +1670,7 @@ msgstr "系统相关命令"
 msgid ""
 "Without this plugin your OctoPrint instance will no longer be discoverable "
 "on the network via Bonjour and uPnP."
-msgstr ""
-"缺少此插件，您的 OctoPrint 实例将无法通过 Bonjour 和 uPnP 在网络上被发现。"
+msgstr "缺少此插件，你的 OctoPrint 实例将无法通过 Bonjour 和 uPnP 在网络上被发现。"
 
 #: src/octoprint/plugins/errortracking/__init__.py:84
 #: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:1
@@ -1693,8 +1689,8 @@ msgid ""
 "can find more information on error reporting under Settings > Error "
 "Tracking</small></p>"
 msgstr ""
-"<p>看起来您在跟踪一个 OctoPrint 候选发布频道。如果启用错误报告，以便更容易地"
-"查找候选发布版本中发生的任何类型的错误，那就太好了。谢谢您！</p><p><small>您"
+"<p>看起来你在跟踪一个 OctoPrint 候选发布频道。如果启用错误报告，以便更容易地"
+"查找候选发布版本中发生的任何类型的错误，那就太好了。谢谢你！</p><p><small>你"
 "可以在“设置>错误跟踪”下找到有关错误报告的更多信息。</small></p>"
 
 #: src/octoprint/plugins/errortracking/static/js/errortracking.js:53
@@ -1734,17 +1730,18 @@ msgstr ""
 "\n"
 "<p>\n"
 "    错误跟踪会将服务器和浏览器界面中记录的任何异常发送到 OctoPrint 的\n"
-"    <a href=\"https://sentry.io/\" target=\"_blank\" rel=\"noopener noreferer"
-"\">Sentry 实例</a>。\n"
+"    <a href=\"https://sentry.io/\" target=\"_blank\" rel=\"noopener "
+"noreferer\">Sentry 实例</a>。\n"
 "</p>\n"
 "<p>\n"
-"    通过启用它，您可以帮助收集关于错误或其他问题原因的详细信息。\n"
+"    通过启用它，你可以帮助收集关于错误或其他问题原因的详细信息。\n"
 "    这对于候选发布版本尤其有价值，这也是此插件在检测到\n"
-"    您订阅了候选发布频道时也会提示您启用错误跟踪的原因。\n"
+"    你订阅了候选发布频道时也会提示你启用错误跟踪的原因。\n"
 "</p>\n"
 "<p>\n"
-"    如果您正在运行一个候选版本，或者在调试您报告的问题时收到提示，请启用此功"
-"能。\n"
+"    "
+"如果你正在运行一个候选版本，或者在调试你报告的问题时收到提示，请启用此功能。"
+"\n"
 "</p>\n"
 
 #: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:22
@@ -1858,8 +1855,8 @@ msgid ""
 "cannot stall, block or otherwise influence internal execution with event "
 "handlers."
 msgstr ""
-"请注意，您在此处定义的任何事件处理程序都将<em>异步</em>处理到 OctoPrint 自己"
-"的事件处理。您不能使用事件处理程序停止、阻止或以其他方式影响内部执行。"
+"请注意，你在此处定义的任何事件处理程序都将<em>异步</em>处理到 OctoPrint "
+"自己的事件处理。你不能使用事件处理程序停止、阻止或以其他方式影响内部执行。"
 
 #: src/octoprint/plugins/eventmanager/templates/eventmanager_settings.jinja2:72
 msgid "Do not forget to save in main settings."
@@ -2179,15 +2176,15 @@ msgid ""
 "    </p>"
 msgstr ""
 "<p>\n"
-"        您选择了 <strong data-bind=\"text: selectedFile.name\"></strong> 具有"
-"大小的打印\n"
-"        <strong data-bind=\"text: formatSize(selectedFile.size())\"></"
-"strong>。取决于您的机器\n"
+"        你选择了 <strong data-bind=\"text: selectedFile.name\"></strong> "
+"具有大小的打印\n"
+"        <strong data-bind=\"text: formatSize(selectedFile.size())\""
+"></strong>。取决于你的机器\n"
 "        可能太大的渲染，会导致浏览器变得无响应或崩溃。\n"
 "    </p>\n"
 "\n"
 "    <p>\n"
-"        您确定要查看此文件吗？\n"
+"        你确定要查看此文件吗？\n"
 "    </p>"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:139
@@ -2209,7 +2206,7 @@ msgid ""
 "        </p>"
 msgstr ""
 "<p>\n"
-"            您可能希望打开内存中压缩，以将此页面的内存使用保持在合理范围内。"
+"            你可能希望打开内存中压缩，以将此页面的内存使用保持在合理范围内。"
 "\n"
 "            "
 "你可以在插件设置中修改压缩设置，或者你可以在此处仅对该文件启用强制压缩。\n"
@@ -2238,17 +2235,15 @@ msgid ""
 "You currently have <code>%(logfile)s</code> enabled. Please remember to turn "
 "it off again once your are done debugging whatever issue prompted you to "
 "turn it on."
-msgstr ""
-"您当前已启用<code>%(logfile)s</code>。请记住，一旦调试完成，无论什么原因提示"
-"您将其打开，请再次将其关闭。"
+msgstr "你当前已启用<code>%(logfile)s</code>。请记住，一旦调试完成，无论什么原因提示"
+"你将其打开，请再次将其关闭。"
 
 #: src/octoprint/plugins/logging/static/js/logging.js:145
 msgid ""
 "It can negatively impact print performance and also take up a lot of storage "
 "space depending on how long you keep it enabled and thus should only be used "
 "for debugging."
-msgstr ""
-"它可能会对打印性能产生负面影响，并且还会占用大量存储空间，具体取决于您启用它"
+msgstr "它可能会对打印性能产生负面影响，并且还会占用大量存储空间，具体取决于你启用它"
 "的时间，因此只能用于调试。"
 
 #: src/octoprint/plugins/logging/static/js/logging.js:155
@@ -2258,12 +2253,12 @@ msgstr "日志存储："
 #: src/octoprint/plugins/logging/static/js/logging.js:222
 #, python-format
 msgid "You are about to delete log file \"%(name)s\"."
-msgstr "您将要删除日志文件\"%(name)s\"。"
+msgstr "你将要删除日志文件\"%(name)s\"。"
 
 #: src/octoprint/plugins/logging/static/js/logging.js:269
 #, python-format
 msgid "You are about to delete %(count)d log files."
-msgstr "您将要删除 %(count)d 个日志文件。"
+msgstr "你将要删除 %(count)d 个日志文件。"
 
 #: src/octoprint/plugins/logging/static/js/logging.js:340
 msgid "Deleting log files"
@@ -2397,13 +2392,13 @@ msgstr "没有插件通知。好极了！"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:309
 msgid "There is a plugin notice for one of your installed plugins."
-msgstr "您已经安装的插件有1条通知。"
+msgstr "你已经安装的插件有1条通知。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:314
 #, python-format
 msgid ""
 "There are %(count)d plugin notices for one or more of your installed plugins."
-msgstr "您已经安装的一个或多个插件有%(count)d条通知。"
+msgstr "你已经安装的一个或多个插件有%(count)d条通知。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:487
 msgid "Installing plugins..."
@@ -2505,7 +2500,7 @@ msgstr "不推荐这样做"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:971
 msgid "Do you still want to disable it?"
-msgstr "您是否仍然要禁用它?"
+msgstr "你是否仍然要禁用它?"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:972
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:986
@@ -2519,7 +2514,7 @@ msgstr "仍然禁用"
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:983
 #, python-format
 msgid "You are about to disable \"%(name)s\""
-msgstr "您即将禁用“%(name)s”"
+msgstr "你即将禁用“%(name)s”"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:987
 msgid "Disable plugin"
@@ -2626,7 +2621,7 @@ msgstr "正在卸载插件 “%(name)s”"
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1383
 #, python-format
 msgid "You are about to uninstall the plugin \"%(name)s\""
-msgstr "您将要卸载插件“%(name)s”"
+msgstr "你将要卸载插件“%(name)s”"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1386
 msgid "Keep installed"
@@ -2654,7 +2649,7 @@ msgstr "清理插件“%(name)s”的数据"
 msgid ""
 "You are about to cleanup the plugin data of \"%(name)s\". This operation "
 "cannot be reversed."
-msgstr "您将要清理“%(name)s”的插件数据。此操作不能撤消。"
+msgstr "你将要清理“%(name)s”的插件数据。此操作不能撤消。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1444
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1479
@@ -2673,7 +2668,7 @@ msgstr "清除所有剩余的插件数据..."
 msgid ""
 "You are about to cleanup left over plugin settings and data of plugins no "
 "longer installed. This operation cannot be reversed."
-msgstr "您将要清理剩余的插件设置和不再安装的插件数据。此操作不能撤消。"
+msgstr "你将要清理剩余的插件设置和不再安装的插件数据。此操作不能撤消。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1480
 msgid "Cleanup all data"
@@ -2702,7 +2697,7 @@ msgstr "错误！"
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1958
 #, python-format
 msgid "You can find more info on this issue in the FAQ at %(url)s"
-msgstr "您可以从FAQ中获取关于此故障的具体信息%(url)s"
+msgstr "你可以从FAQ中获取关于此故障的具体信息%(url)s"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1738
 msgid "Plugin management log"
@@ -2783,9 +2778,8 @@ msgstr "服务器正在后台重启"
 msgid ""
 "Trying to restart the server produced an error, please check octoprint.log "
 "for details. You'll have to restart manually."
-msgstr ""
-"试图重新启动服务器时产生了一个错误，请检查 octoprint.log 来查看详细信息。您需"
-"要手动重新启动。"
+msgstr "试图重新启动服务器时产生了一个错误，请检查 octoprint.log "
+"来查看详细信息。你需要手动重新启动。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1871
 msgid "A refresh is needed for the changes to take effect."
@@ -2957,7 +2951,7 @@ msgid ""
 "    to install new plugins from the plugin repository or archive URLs.\n"
 msgstr ""
 "\n"
-"    看来您的 OctoPrint 目前没有连接到互联网，\n"
+"    看来你的 OctoPrint 目前没有连接到互联网，\n"
 "    所以无法从插件库或存档 URL 安装新的插件。\n"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:39
@@ -3239,11 +3233,11 @@ msgstr "很遗憾此库目前无法使用"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:315
 msgid "Is your OctoPrint installation connected to the internet?"
-msgstr "您的 OctoPrint 是否连接到互联网？"
+msgstr "你的 OctoPrint 是否连接到互联网？"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:322
 msgid "It looks like there are no plugins that match your search criteria"
-msgstr "没有搜索到符合您条件的插件"
+msgstr "没有搜索到符合你条件的插件"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:327
 msgid "... from URL"
@@ -3286,8 +3280,7 @@ msgstr "在禁用插件之前进行确认"
 msgid ""
 "You should normally <strong>not</strong> have to change <strong>any</strong> "
 "of the following settings, they are purely provided for convenience here."
-msgstr ""
-"正常情况下您<strong>不应该</strong>改变这里的<strong>任何</strong>设置，它们"
+msgstr "正常情况下你<strong>不应该</strong>改变这里的<strong>任何</strong>设置，它们"
 "纯粹是为了方便起见。。"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:398
@@ -3525,7 +3518,7 @@ msgstr "更新可用"
 msgid ""
 "You can make this message display again via \"Settings\" > \"Software Update"
 "\" > \"Check for update now\""
-msgstr "您可以通过“设置” > “软件更新” > “检查更新”使信息重新显示"
+msgstr "你可以通过“设置” > “软件更新” > “检查更新”使信息重新显示"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:595
 msgid "Update now"
@@ -3603,9 +3596,8 @@ msgstr "节流时无法更新"
 msgid ""
 "Your system is currently throttled. OctoPrint refuses to run updates while "
 "in this state due to possible stability issues."
-msgstr ""
-"您的系统当前受到限制。由于可能的稳定性问题，OctoPrint 在这种状态下拒绝运行更"
-"新。"
+msgstr "你的系统当前受到限制。由于可能的稳定性问题，OctoPrint "
+"在这种状态下拒绝运行更新。"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:888
 msgid "This will update the following components and restart the server:"
@@ -3617,7 +3609,7 @@ msgid ""
 "OctoPrint since they might contain important information you need to know "
 "<strong>before</strong> upgrading."
 msgstr ""
-"确保阅读任何链接的发行说明，特别是 OctoPrint 的发行说明，因为它们可能包含您需"
+"确保阅读任何链接的发行说明，特别是 OctoPrint 的发行说明，因为它们可能包含你需"
 "要在<strong>升级之前</strong>需要知道的重要信息。"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:919
@@ -3638,7 +3630,7 @@ msgstr "是否确定要继续？"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:930
 msgid "Are you sure you want to update now?"
-msgstr "您确定要现在更新吗？"
+msgstr "你确定要现在更新吗？"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:932
 #: src/octoprint/static/js/app/helpers.js:817
@@ -3667,9 +3659,8 @@ msgstr "重新启动失败"
 msgid ""
 "The server apparently did not restart by itself, you'll have to do it "
 "manually. Please consult octoprint.log on what went wrong."
-msgstr ""
-"服务器显然没有自行重启，您必须手动完成。请参阅 octoprint.log 日志文件来查看哪"
-"里出了问题。"
+msgstr "服务器显然没有自行重启，你必须手动完成。请参阅 octoprint.log "
+"日志文件来查看哪里出了问题。"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1183
 msgid "The update finished successfully, please restart OctoPrint now."
@@ -3687,17 +3678,15 @@ msgstr "更新成功，需要重新启动！"
 msgid ""
 "Restarting OctoPrint failed, please restart it manually. You might also want "
 "to consult octoprint.log on what went wrong here."
-msgstr ""
-"重新启动 OctoPrint 失败，请手动重新启动。您可能需要查看日志文件，了解这里出现"
-"了什么问题。"
+msgstr "重新启动 OctoPrint "
+"失败，请手动重新启动。你可能需要查看日志文件，了解这里出现了什么问题。"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1212
 msgid ""
 "Rebooting the server failed, please reboot it manually. You might also want "
 "to consult octoprint.log on what went wrong here."
-msgstr ""
-"重启服务器失败，请手动重启。您可能还想查阅 octoprint.log，了解此处出现什么问"
-"题。"
+msgstr "重启服务器失败，请手动重启。你可能还想查阅 octoprint."
+"log，了解此处出现什么问题。"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1233
 msgid "Update successful!"
@@ -3779,11 +3768,11 @@ msgid ""
 msgstr ""
 "\n"
 "    <p>\n"
-"        <strong>您正在运行非发行版的 OctoPrint，\n"
+"        <strong>你正在运行非发行版的 OctoPrint，\n"
 "        但正在跟踪 OctoPrint 发行版本。</strong>\n"
 "    </p><p>\n"
-"        您可能希望 OctoPrint 代替它来跟踪匹配的开发版本。\n"
-"        如果您将本地 OctoPrint 检出文件夹切换到另一个分支，\n"
+"        你可能希望 OctoPrint 代替它来跟踪匹配的开发版本。\n"
+"        如果你将本地 OctoPrint 检出文件夹切换到另一个分支，\n"
 "        <strong>只需切换到“提交”跟踪</strong>将要\n"
 "        仿照原来的哪一个。否则请参阅\n"
 "        <a href=\"https://docs.octoprint.org/en/master/bundledplugins/"
@@ -4059,11 +4048,11 @@ msgid ""
 "</p>"
 msgstr ""
 "<p>\n"
-"    默认情况下，OctoPrint 将通过 <code>pip</code> 进行自身更新，以发布的版本"
-"或已提交的提交到 GitHub。\n"
-"    OctoPrint 还可以通过 <code>git</code> 将自身更新为需要手动检出的任意开发"
-"分支。\n"
-"    如果您想这样做，它需要知道其检出文件夹。您可以在此处进行配置。\n"
+"    默认情况下，OctoPrint 将通过 <code>pip</code> 进行自身更新，"
+"以发布的版本或已提交的提交到 GitHub。\n"
+"    OctoPrint 还可以通过 <code>git</code> "
+"将自身更新为需要手动检出的任意开发分支。\n"
+"    如果你想这样做，它需要知道其检出文件夹。你可以在此处进行配置。\n"
 "</p>"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_wizard_settings.jinja2:15
@@ -4078,9 +4067,9 @@ msgid ""
 "</p>"
 msgstr ""
 "<p>\n"
-"    如果您运行的是 OctoPrint 的发行版，请留在“发行”跟踪。\n"
-"    如果您运行的是其他手动检出的分支时，您应该设置为“本地检出”跟踪。\n"
-"    对于更特殊的情况，您可能想要选择 “Github 提交” 跟踪——您通常通常不需要。\n"
+"    如果你运行的是 OctoPrint 的发行版，请留在“发行”跟踪。\n"
+"    如果你运行的是其他手动检出的分支时，你应该设置为“本地检出”跟踪。\n"
+"    对于更特殊的情况，你可能想要选择 “Github 提交” 跟踪——你通常通常不需要。\n"
 "</p>"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_wizard_update.jinja2:3
@@ -4094,10 +4083,10 @@ msgid ""
 "</p>"
 msgstr ""
 "<p>\n"
-"    您将要开始设置 OctoPrint 的流程 <span data-bind=\"text: octoprintData."
+"    你将要开始设置 OctoPrint 的流程 <span data-bind=\"text: octoprintData."
 "current\"></span>\n"
-"    但<span data-bind=\"text: octoprintData.available\"></span>可用。我们强烈"
-"建议\n"
+"    但<span data-bind=\"text: octoprintData.available\"></span>可用。"
+"我们强烈建议\n"
 "    在继续设置之前将软件升级到最新版本。\n"
 "</p>"
 
@@ -4107,7 +4096,7 @@ msgstr "OctoPrint 检出文件夹"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/checkoutFolder.jinja2:5
 msgid "This needs to be set if you select commit based version tracking."
-msgstr "如果您选择基于提交的版本跟踪，则需要设置此跟踪。"
+msgstr "如果你选择基于提交的版本跟踪，则需要设置此跟踪。"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/githubToken.jinja2:2
 msgid "GitHub Access Token"
@@ -4128,7 +4117,7 @@ msgid ""
 "target=\"_blank\" rel=\"noopener noreferer\">See here for how to obtain a "
 "token</a>."
 msgstr ""
-"如果您一直遇到速率限制问题，请设置此选项。<a href=\"%(url)s\" target=\"_blank"
+"如果你一直遇到速率限制问题，请设置此选项。<a href=\"%(url)s\" target=\"_blank"
 "\" rel=\"noopener noreferer\">获取令牌的方法见这里</a>。"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/githubToken.jinja2:14
@@ -4156,9 +4145,9 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"                如果您选中此项，OctoPrint 还将通知您\n"
+"                如果你选中此项，OctoPrint 还将通知你\n"
 "                用于管理插件和更新的 <code>pip</code> 工具的更新\n"
-"                并允许您通过 OctoPrint 对其进行更新。\n"
+"                并允许你通过 OctoPrint 对其进行更新。\n"
 "                <strong><code>pip</code> 不受 OctoPrint 维护者的控制，\n"
 "                启用更新请自负风险！可能会导致异常！</strong>\n"
 "            "
@@ -4169,7 +4158,7 @@ msgstr "OctoPrint <code>pip</code> 目标"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/pipTarget.jinja2:5
 msgid "You should normally not have to change this."
-msgstr "通常，您不必更改此设置。"
+msgstr "通常，你不必更改此设置。"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/releaseChannel.jinja2:2
 msgid "OctoPrint Release Channel"
@@ -4183,9 +4172,9 @@ msgid ""
 "release candidates\"</a> before switching to a release channel other than "
 "\"Stable\""
 msgstr ""
-"在将发布渠道切换到“稳定”之外的频道之前，请确保您已经阅读了<a href=\"%(url)s"
-"\" target=\"_blank\" rel=\"noreferrer noopener\">“如何使用不同发布渠道来帮助"
-"测试候选发布版本”</a>"
+"在将发布渠道切换到“稳定”之外的频道之前，请确保你已经阅读了<a href=\"%(url)s\""
+" target=\"_blank\" rel=\"noreferrer noopener\""
+">“如何使用不同发布渠道来帮助测试候选发布版本”</a>"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/trackedBranch.jinja2:2
 msgid "Tracked branch"
@@ -4209,7 +4198,7 @@ msgstr "请设置匿名跟踪"
 msgid ""
 "You haven't yet decided on whether to enable or disable anonymous usage "
 "tracking. You need to either enable or disable it before continuing."
-msgstr "您还没有决定是否启用匿名跟踪。在继续之前，您需要启用或禁用它。"
+msgstr "你还没有决定是否启用匿名跟踪。在继续之前，你需要启用或禁用它。"
 
 #: src/octoprint/plugins/tracking/static/js/usage.js:95
 #, python-format
@@ -4293,8 +4282,7 @@ msgstr "配置匿名跟踪"
 msgid ""
 "<strong>Note:</strong> You can always change your decision and also access "
 "more granular controls via Settings > Anonymous Usage Tracking."
-msgstr ""
-"<strong>注意：</strong>您可以随时更改您的决定，也可以通过设置>匿名跟踪访问更"
+msgstr "<strong>注意：</strong>你可以随时更改你的决定，也可以通过设置>匿名跟踪访问更"
 "多的粒度控制。"
 
 #: src/octoprint/plugins/tracking/templates/tracking_wizard.jinja2:14
@@ -4348,7 +4336,7 @@ msgstr ""
 "    是否成功完成打印任务和各种其他指标。\n"
 "</p>\n"
 "<p>\n"
-"    通过启用它，您可以帮助识别新版本的问题并尽早发布候选版本，\n"
+"    通过启用它，你可以帮助识别新版本的问题并尽早发布候选版本，\n"
 "    并使 OctoPrint 在未来开发更适应现实应用。\n"
 "</p>\n"
 
@@ -4498,7 +4486,7 @@ msgid ""
 "general setup that might also apply to prints run directly from your "
 "printer's internal storage)."
 msgstr ""
-"<strong>您即将关闭系统。</strong></p><p>此操作可能破坏正在进行的打印作业（取"
+"<strong>你即将关闭系统。</strong></p><p>此操作可能破坏正在进行的打印作业（取"
 "决于打印机的控制器和一般设置，这可能也适用于直接从打印机的内部存储中运行的打"
 "印）。"
 
@@ -4513,9 +4501,9 @@ msgid ""
 "general setup that might also apply to prints run directly from your "
 "printer's internal storage)."
 msgstr ""
-"<strong>您即将重新启动系统。</strong></p><p>操作可能破坏正在进行的打印作业"
-"（取决于打印机的控制器和一般设置，这可能也适用于直接从打印机的内部存储器中运"
-"行的打印）。"
+"<strong>你即将重新启动系统。</strong></p><p>操作可能破坏正在进行的打印作业（"
+"取决于打印机的控制器和一般设置，这可能也适用于直接从打印机的内部存储器中运行"
+"的打印）。"
 
 #: src/octoprint/server/api/system.py:251
 #: src/octoprint/templates/snippets/settings/server/serverCommandServerRestart.jinja2:2
@@ -4529,7 +4517,7 @@ msgid ""
 "controller and general setup that might also apply to prints run directly "
 "from your printer's internal storage)."
 msgstr ""
-"<strong>您即将重启 OctoPrint 服务器。</strong></p><p>此操作可能破坏正在进行的"
+"<strong>你即将重启 OctoPrint 服务器。</strong></p><p>此操作可能破坏正在进行的"
 "打印（取决于打印机的控制器和一般设置，这可能也适用于直接从打印机的内部存储运"
 "行的打印）。"
 
@@ -4544,7 +4532,7 @@ msgid ""
 "your printer's controller and general setup that might also apply to prints "
 "run directly from your printer's internal storage)."
 msgstr ""
-"<strong>您将要重新启动 OctoPrint 服务器到安全模式。</strong></p><p>此操作可能"
+"<strong>你将要重新启动 OctoPrint 服务器到安全模式。</strong></p><p>此操作可能"
 "破坏正在进行的打印（取决于打印机的控制器和一般设置，这可能也适用于直接从打印"
 "机的内部存储中运行的打印）。"
 
@@ -4563,16 +4551,15 @@ msgid ""
 "using the button below."
 msgstr ""
 "服务器似乎离线，至少我没有得到任何回应。我会尝试在 <strong>接下来的几分钟内自"
-"动重新连接</strong>，但是您可以使用下面的按钮尝试手动重新连接。"
+"动重新连接</strong>，但是你可以使用下面的按钮尝试手动重新连接。"
 
 #: src/octoprint/static/js/app/dataupdater.js:131
 msgid ""
 "The server appears to be offline, at least I'm not getting any response from "
 "it. I <strong>could not reconnect automatically</strong>, but you may try a "
 "manual reconnect using the button below."
-msgstr ""
-"服务器似乎离线，至少我没有得到任何回应。我<strong>无法自动重新连接</strong>，"
-"但您可以使用下面的按钮尝试手动重新连接。"
+msgstr "服务器似乎离线，至少我没有得到任何回应。我<strong>无法自动重新连接</strong>，"
+"但你可以使用下面的按钮尝试手动重新连接。"
 
 #: src/octoprint/static/js/app/dataupdater.js:208
 msgid "Unknown"
@@ -4621,18 +4608,16 @@ msgstr "打印机报告错误"
 msgid ""
 "Your printer's firmware reported an error. Due to that the ongoing print job "
 "will be cancelled. Reported error: %(firmwareError)s"
-msgstr ""
-"您的打印机固件返回了一个错误。由于此错误，打印任务将被取消。错误详情："
-"%(firmwareError)s"
+msgstr "你的打印机固件返回了一个错误。由于此错误，打印任务将被取消。错误详情：%(firmw"
+"areError)s"
 
 #: src/octoprint/static/js/app/dataupdater.js:335
 #, python-format
 msgid ""
 "Your printer's firmware reported an error. Due to that OctoPrint will "
 "disconnect. Reported error: %(error)s"
-msgstr ""
-"您的打印机固件返回了一个错误，由于此错误，OctoPrint 将断开连接。错误详情："
-"%(error)s"
+msgstr "你的打印机固件返回了一个错误，由于此错误，OctoPrint "
+"将断开连接。错误详情：%(error)s"
 
 #: src/octoprint/static/js/app/dataupdater.js:345
 msgid "Communication error"
@@ -4668,7 +4653,7 @@ msgstr "尝试开始打印工作时出错。错误信息：%(error)s"
 
 #: src/octoprint/static/js/app/dataupdater.js:375
 msgid "Could not autodetect your printer"
-msgstr "无法自动检测到您的打印机"
+msgstr "无法自动检测到你的打印机"
 
 #: src/octoprint/static/js/app/dataupdater.js:377
 #, python-format
@@ -4677,9 +4662,9 @@ msgid ""
 "is physically connected and supported? Refer to <a href=\"%(url)s\" target="
 "\"_blank\" rel=\"noopener noreferer\">the FAQ</a> for help in debugging this."
 msgstr ""
-"找不到有效的连接参数。您确定您的打印机已物理连接并受支持吗？请参阅<a href="
-"\"%(url)s\" target=\"_blank\" rel=\"noopener noreferer\">常见问题解答</a>以获"
-"取调试帮助。"
+"找不到有效的连接参数。你确定你的打印机已物理连接并受支持吗？请参阅<a href=\""
+"%(url)s\" target=\"_blank\" rel=\"noopener noreferer\""
+">常见问题解答</a>以获取调试帮助。"
 
 #: src/octoprint/static/js/app/dataupdater.js:385
 msgid "Unknown error"
@@ -4701,8 +4686,8 @@ msgid ""
 "investigate why your printer reset itself, since this will interrupt prints "
 "and also file transfers to your printer's SD."
 msgstr ""
-"似乎打印机在连接依然活动时被重置了。如果这是人为操作，您可以安全的忽视本条消"
-"息。否自您应该找到打印机自行重置的原因，因为这将导致打印中断，以及影响将文件"
+"似乎打印机在连接依然活动时被重置了。如果这是人为操作，你可以安全的忽视本条消"
+"息。否自你应该找到打印机自行重置的原因，因为这将导致打印中断，以及影响将文件"
 "传送至SD卡的过程。"
 
 #: src/octoprint/static/js/app/dataupdater.js:414
@@ -4714,7 +4699,7 @@ msgid ""
 "printer's SD."
 msgstr ""
 "似乎打印机在连接活动时被重置了，因此当前正在进行的任务被迫中止。如果这是人为"
-"操作，您可以安全的忽视本条消息。否则您应该找到打印机自行重置的原因，因为这将"
+"操作，你可以安全的忽视本条消息。否则你应该找到打印机自行重置的原因，因为这将"
 "导致打印中断，以及影响将文件传送至SD卡的过程。"
 
 #: src/octoprint/static/js/app/dataupdater.js:424
@@ -4816,7 +4801,7 @@ msgstr "关闭"
 #: src/octoprint/static/js/app/viewmodels/access.js:680
 #: src/octoprint/static/js/app/viewmodels/connection.js:188
 msgid "Are you sure?"
-msgstr "您确定吗？"
+msgstr "你确定吗？"
 
 #: src/octoprint/static/js/app/helpers.js:1060
 msgid "Progress"
@@ -4929,12 +4914,12 @@ msgstr "不可行"
 
 #: src/octoprint/static/js/app/viewmodels/access.js:339
 msgid "You may not delete your own account."
-msgstr "您不能删除自己的账户。"
+msgstr "你不能删除自己的账户。"
 
 #: src/octoprint/static/js/app/viewmodels/access.js:350
 #, python-format
 msgid "You are about to delete the user \"%(name)s\"."
-msgstr "您将要删除用户“%(name)s”。"
+msgstr "你将要删除用户“%(name)s”。"
 
 #: src/octoprint/static/js/app/viewmodels/access.js:483
 msgid "This group may not have dangerous permissions or subgroups."
@@ -4953,7 +4938,7 @@ msgstr "编辑组“%(name)s”"
 #: src/octoprint/static/js/app/viewmodels/access.js:682
 #, python-format
 msgid "You are about to delete the group \"%(name)s\"."
-msgstr "您将要删除组“%(name)s”。"
+msgstr "你将要删除组“%(name)s”。"
 
 #: src/octoprint/static/js/app/viewmodels/connection.js:48
 #: src/octoprint/templates/sidebar/connection.jinja2:17
@@ -4977,13 +4962,13 @@ msgid ""
 "card attached directly to the printer, any attempt to restart OctoPrint or "
 "reconnect to the printer could interrupt the print.<p>"
 msgstr ""
-"<p><strong>您将会在一个打印进程正在进行的时候断开与打印机的连接。</strong></"
-"p><p>这将会导致打印无法完成。请注意如果您正在从 SD 卡进行脱机打印，试图重启 "
+"<p><strong>你将会在一个打印进程正在进行的时候断开与打印机的连接。</strong></p"
+"><p>这将会导致打印无法完成。请注意如果你正在从 SD 卡进行脱机打印，试图重启 "
 "OctoPrint 或者重新连接打印机也有可能中断打印。<p>"
 
 #: src/octoprint/static/js/app/viewmodels/connection.js:197
 msgid "Are you sure you want to disconnect from the printer?"
-msgstr "您确定想断开与打印机的连接吗？"
+msgstr "你确定想断开与打印机的连接吗？"
 
 #: src/octoprint/static/js/app/viewmodels/connection.js:200
 msgid "Stay Connected"
@@ -5037,7 +5022,7 @@ msgstr "只显示%(type)s文件"
 msgid ""
 "You are about to delete the folder \"%(folder)s\" which still contains files "
 "and/or sub folders."
-msgstr "您要删除此包含文件和或子文件夹的文件夹“%(folder)s”。"
+msgstr "你要删除此包含文件和或子文件夹的文件夹“%(folder)s”。"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:734
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:461
@@ -5048,7 +5033,7 @@ msgstr "这将开始新的打印作业。请检查打印台是否干净。"
 #: src/octoprint/static/js/app/viewmodels/files.js:737
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:464
 msgid "Do you want to start the print job now?"
-msgstr "您要立即开始打印作业吗？"
+msgstr "你要立即开始打印作业吗？"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:738
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:465
@@ -5236,7 +5221,7 @@ msgstr ""
 msgid ""
 "Could not upload the file, overwrite not possible. Make sure it is not "
 "already printing and that you have allowed overwriting."
-msgstr "无法上传文件，无法覆盖。确保其未在打印并且您已允许覆盖文件。"
+msgstr "无法上传文件，无法覆盖。确保其未在打印并且你已允许覆盖文件。"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1869
 #, python-format
@@ -5300,11 +5285,11 @@ msgid ""
 "message is mistaken since you are in an isolated LAN, feel free to ignore it."
 "</small></p>"
 msgstr ""
-"<p>您似乎通过互联网连接到 OctoPrint。</p> <p>除非您已经采取了适当的网络安全预"
-"防措施，否则强烈建议不要这样做。您的打印机是实际上不应该给任何人通过互联网来"
+"<p>你似乎通过互联网连接到 OctoPrint。</p> <p>除非你已经采取了适当的网络安全预"
+"防措施，否则强烈建议不要这样做。你的打印机是实际上不应该给任何人通过互联网来"
 "连接的一台设备。</p><p><strong>请参阅<a href=\"%(url)s\" target=\"_blank\" "
-"rel=\"noreferrer noopener\">此博客文章</a>了解如何从远程安全访问您的 "
-"OctoPrint 实例。</strong></p><p><small>如果您知道自己在做什么，或者您确定此消"
+"rel=\"noreferrer noopener\">此博客文章</a>了解如何从远程安全访问你的 "
+"OctoPrint 实例。</strong></p><p><small>如果你知道自己在做什么，或者你确定此消"
 "息是因你在独立的局域网中而错误出现，可以忽略此消息。</small></p>"
 
 #: src/octoprint/static/js/app/viewmodels/loginstate.js:138
@@ -5318,7 +5303,7 @@ msgstr "登录成功"
 #: src/octoprint/static/js/app/viewmodels/loginstate.js:234
 #, python-format
 msgid "You are now logged in as \"%(username)s\""
-msgstr "您现在以 “%(username)s”的身份登录"
+msgstr "你现在以 “%(username)s”的身份登录"
 
 #: src/octoprint/static/js/app/viewmodels/loginstate.js:262
 msgid "Login failed"
@@ -5334,7 +5319,7 @@ msgstr "注销成功"
 
 #: src/octoprint/static/js/app/viewmodels/loginstate.js:288
 msgid "You are now logged out"
-msgstr "您现在已经注销"
+msgstr "你现在已经注销"
 
 #: src/octoprint/static/js/app/viewmodels/navigation.js:16
 msgid ""
@@ -5436,7 +5421,7 @@ msgstr "无法删除配置文件"
 #: src/octoprint/static/js/app/viewmodels/printerprofiles.js:668
 #, python-format
 msgid "You are about to delete the printer profile \"%(name)s\"."
-msgstr "您将删除打印机配置文件 “%(name)s”。"
+msgstr "你将删除打印机配置文件 “%(name)s”。"
 
 #: src/octoprint/static/js/app/viewmodels/printerprofiles.js:692
 msgid ""
@@ -5557,7 +5542,7 @@ msgstr "这将从头开始重新启动打印作业。"
 
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:491
 msgid "This will cancel your print."
-msgstr "这将取消您的打印。"
+msgstr "这将取消你的打印。"
 
 #: src/octoprint/static/js/app/viewmodels/printerstate.js:492
 msgid "No, continue the print"
@@ -5784,7 +5769,7 @@ msgstr "报告了无效的工具"
 msgid ""
 "Your printer reported tool T%(tool)d as invalid, reverting back to T"
 "%(fallback)d"
-msgstr "您的打印机报告工具T%(tool)d无效，还原为T%(fallback)d"
+msgstr "你的打印机报告工具T%(tool)d无效，还原为T%(fallback)d"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:69
 #, python-format
@@ -6063,7 +6048,7 @@ msgstr "备份"
 
 #: src/octoprint/templates/recovery.jinja2:71
 msgid "You lack admin permissions."
-msgstr "您缺少管理员权限。"
+msgstr "你缺少管理员权限。"
 
 #: src/octoprint/templates/dialogs/about/systeminfo.jinja2:9
 #: src/octoprint/templates/recovery.jinja2:82
@@ -6080,7 +6065,7 @@ msgstr "断开打印机"
 
 #: src/octoprint/templates/recovery.jinja2:93
 msgid "Online restore is not supported on your system."
-msgstr "您的系统不支持在线还原。"
+msgstr "你的系统不支持在线还原。"
 
 #: src/octoprint/templates/recovery.jinja2:144
 #, python-format
@@ -6161,7 +6146,7 @@ msgstr "文件已经存在"
 msgid ""
 "If you want to rename the file, you may do so below. A collision free "
 "suggestion has already been made."
-msgstr "如果您打算重命名文件，您可以在下面进行，已经给您提出了重命名建议。"
+msgstr "如果你打算重命名文件，你可以在下面进行，已经给你提出了重命名建议。"
 
 #: src/octoprint/templates/dialogs/files.jinja2:66
 msgid "Rename to"
@@ -6205,8 +6190,8 @@ msgid ""
 msgstr ""
 "\n"
 "            服务器上的设置已更新。\n"
-"            您可以重载所有设置，覆盖您在本地所做的任何更改，\n"
-"            或者仅重载您尚未在本地更改的设置。\n"
+"            你可以重载所有设置，覆盖你在本地所做的任何更改，\n"
+"            或者仅重载你尚未在本地更改的设置。\n"
 "        "
 
 #: src/octoprint/templates/dialogs/settings.jinja2:68
@@ -6367,7 +6352,7 @@ msgstr "上一步"
 msgid ""
 "Unless otherwise noted, you may just skip any wizard page by clicking \"Next"
 "\" or \"Finish\"."
-msgstr "除非另有说明，否则您可以通过单击“下一步”或“完成”来跳过任何向导页面。"
+msgstr "除非另有说明，否则你可以通过单击“下一步”或“完成”来跳过任何向导页面。"
 
 #: src/octoprint/templates/dialogs/about/about.jinja2:3
 msgid "The snappy web interface for your 3D printer"
@@ -6399,7 +6384,7 @@ msgid ""
 "org\" target=\"_blank\" rel=\"noopener noreferrer\">bundleviewer.octoprint."
 "org</a>"
 msgstr ""
-"您可以在 <a href=\"https://bundleviewer.octoprint.org\" target=\"_blank\" "
+"你可以在 <a href=\"https://bundleviewer.octoprint.org\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">bundleviewer.octoprint.org</a> 中查看系统信息包"
 
 #: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:4
@@ -6453,10 +6438,10 @@ msgstr ""
 "OctoPrint 实例的权限。\n"
 "                <strong>此功能将在 OctoPrint 2.0 中被移除</strong>。\n"
 "                不要用全局密钥，而应该为第三方客户端创建单独的应用密钥。\n"
-"                这样您的第三方客户端就可以获得与密钥使用的用户账户匹配的权"
-"限。\n"
-"                您还可以撤消对一个应用的访问，而无需更改所有其他应用的密"
-"钥。\n"
+"                "
+"这样你的第三方客户端就可以获得与密钥使用的用户账户匹配的权限。\n"
+"                你还可以撤消对一个应用的访问，而无需更改所有其他应用的密钥。"
+"\n"
 "                还建议创建一个没有管理员权限的用户账户，\n"
 "                尽可能地使用此账户来管理第三方客户端。\n"
 "            "
@@ -6490,7 +6475,7 @@ msgstr "标题"
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:9
 msgid ""
 "Personalize the color of the navigation bar - maybe to match your printer?"
-msgstr "个性化导航栏的颜色 -也许可以搭配您的打印机？"
+msgstr "个性化导航栏的颜色 -也许可以搭配你的打印机？"
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:10
 msgid "Color"
@@ -6601,7 +6586,7 @@ msgstr "这看起来不像是有效的语言包。有效的语言包应该是压
 msgid ""
 "Please note that you will have to reload the page in order for any newly "
 "added language packs to become available."
-msgstr "请注意，您必须重新加载页面才能使新增的语言包变得可用。"
+msgstr "请注意，你必须重新加载页面才能使新增的语言包变得可用。"
 
 #: src/octoprint/templates/dialogs/settings/features.jinja2:6
 msgid "Enable Temperature Graph"
@@ -6655,7 +6640,7 @@ msgstr "Marlin 2+"
 msgid ""
 "This is used by the GCODE analysis in the backend and the viewer in the "
 "frontend to interpret your sliced files correctly."
-msgstr "使用后台的 GCODE 分析和前台的查看器来正确读取您已切片好的文件。"
+msgstr "使用后台的 GCODE 分析和前台的查看器来正确读取你已切片好的文件。"
 
 #: src/octoprint/templates/dialogs/settings/features.jinja2:68
 msgid "Commands to not completely auto uppercase in the terminal tab"
@@ -6702,7 +6687,7 @@ msgstr "监视文件夹"
 msgid ""
 "Actively poll the watched folder. Check this if files in your watched folder "
 "aren't automatically added otherwise."
-msgstr "主动轮询监视文件夹 。如果您监视文件夹中的文件未自动添加，请选中此项。"
+msgstr "主动轮询监视文件夹 。如果你监视文件夹中的文件未自动添加，请选中此项。"
 
 #: src/octoprint/templates/dialogs/settings/folders.jinja2:41
 msgid ""
@@ -6716,7 +6701,7 @@ msgid ""
 msgstr ""
 "\n"
 "            已配置的两个以上的文件夹共享了同一位置。\n"
-"            不支持如此设置。您需要解决此问题，在此之前\n"
+"            不支持如此设置。你需要解决此问题，在此之前\n"
 "            对文件夹配置的任何更改都不会在保存设置时保留。\n"
 "        "
 
@@ -6759,7 +6744,7 @@ msgstr "打印作业开始前"
 msgid ""
 "Anything you put here will be executed <em>before</em> any lines in your "
 "files."
-msgstr "您在此处放置的所有内容都会在文件中的任何行<em>之前</em>执行。"
+msgstr "你在此处放置的所有内容都会在文件中的任何行<em>之前</em>执行。"
 
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:11
 msgid "After print job completes"
@@ -6771,7 +6756,7 @@ msgstr "打印作业完成后"
 msgid ""
 "Anything you put here will be executed <em>after</em> any lines in your "
 "files."
-msgstr "您在此处放置的所有内容都会在文件中的任何行<em>之后</em>执行。"
+msgstr "你在此处放置的所有内容都会在文件中的任何行<em>之后</em>执行。"
 
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:18
 msgid "After print job is cancelled"
@@ -6783,7 +6768,7 @@ msgid ""
 "If you ever need to you can find the default cancel script that OctoPrint "
 "ships with <a href=\"%(url)s\" target=\"_blank\">here</a>."
 msgstr ""
-"如果需要，您可以在<a href=\"%(url)s\" target=\"_blank\">此处</a>找到 "
+"如果需要，你可以在<a href=\"%(url)s\" target=\"_blank\">此处</a>找到 "
 "OctoPrint 随附的默认取消脚本。"
 
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:28
@@ -6802,8 +6787,7 @@ msgstr "更换工具之前"
 msgid ""
 "Anything you put here will be executed <em>before</em> any tool change "
 "commands <code>Tn</code>."
-msgstr ""
-"您放置在此处的任何内容都将<em>早于</em>任何换刀命令 <code>Tn</code> 执行。"
+msgstr "你放置在此处的任何内容都将<em>早于</em>任何换刀命令 <code>Tn</code> 执行。"
 
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:49
 msgid "After tool change"
@@ -6813,8 +6797,7 @@ msgstr "更换工具之后"
 msgid ""
 "Anything you put here will be executed <em>after</em> any tool change "
 "commands <code>Tn</code>."
-msgstr ""
-"您放置在此处的任何内容都将<em>晚于</em>任何换刀命令 <code>Tn</code> 执行。"
+msgstr "你放置在此处的任何内容都将<em>晚于</em>任何换刀命令 <code>Tn</code> 执行。"
 
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:56
 msgid "After serial connection to printer is established"
@@ -6829,9 +6812,8 @@ msgid ""
 "Anything you put here will only be executed when closing the serial "
 "connection actively. If the serial connection to the printer is suddenly "
 "lost nothing will be sent."
-msgstr ""
-"您输入的任何内容只会在主动关闭串行连接时执行。如果与打印机的串行连接突然丢"
-"失，则不会发送任何内容。"
+msgstr "你输入的任何内容只会在主动关闭串行连接时执行。如果与打印机的串行连接突然丢失"
+"，则不会发送任何内容。"
 
 #: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:5
 msgid "Add Profile..."
@@ -6970,8 +6952,8 @@ msgid ""
 "Use this if you are running into <a href=\"%%(url)s\" target=\"_blank\" rel="
 "\"noopener noreferer\">this problem</a>."
 msgstr ""
-"如果您遇到<a href=\"%%(url)s\" target=\"_blank\" rel=\"noopener noreferer\">"
-"此问题</a>，请使用此选项。"
+"如果你遇到<a href=\"%%(url)s\" target=\"_blank\" rel=\"noopener noreferer\""
+">此问题</a>，请使用此选项。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:87
 msgid "If detected as potentially needed"
@@ -7095,9 +7077,8 @@ msgid ""
 "timed out if nothing was sent by your printer (and an attempt to get it "
 "talking again will be done). Increase this if your printer takes longer than "
 "this for some moves."
-msgstr ""
-"多久您的打印机没有发送任何信息将被视为超时(并且尝试再次进行通话)。如果您的打"
-"印机需要更长的时间才能进行某些操作 请增大此值 。"
+msgstr "多久你的打印机没有发送任何信息将被视为超时(并且尝试再次进行通话)。"
+"如果你的打印机需要更长的时间才能进行某些操作 请增大此值 。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:185
 msgid "Communication timeout"
@@ -7228,10 +7209,10 @@ msgid ""
 "                            "
 msgstr ""
 "\n"
-"                                如果启用，OctoPrint 将尝试自动找出打印机的固"
-"件，并根据这些调整一些通信参数。\n"
-"                                如果这不可行，或者您想要更细致地控制，请取消"
-"勾选，相关参数将变为可见，以便您进行调整。\n"
+"                                如果启用，OctoPrint "
+"将尝试自动找出打印机的固件，并根据这些调整一些通信参数。\n"
+"                                如果这不可行，或者你想要更细致地控制，请取消"
+"勾选，相关参数将变为可见，以便你进行调整。\n"
 "                            "
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:292
@@ -7307,7 +7288,7 @@ msgid ""
 "g. <code>Tx</code> or similar) but requires them to be treated identical to "
 "GCODE."
 msgstr ""
-"如果您的打印机支持 GCODE 格式以外的指令（例如 <code>Tx</code> 或类似命令），"
+"如果你的打印机支持 GCODE 格式以外的指令（例如 <code>Tx</code> 或类似命令），"
 "但要求将其视为 GCODE 处理，请选中此项。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:360
@@ -7567,8 +7548,9 @@ msgid ""
 "command on the serial connection. This could get abused, so only enable this "
 "if you trust your firmware and your GCODE files!"
 msgstr ""
-"如果启用并配置了系统关闭指令，您的打印机固件将能够通过串行连接上的操作命令关"
-"闭您的 OctoPrint 服务器。这可能会被滥用，所以只有在信任您的固件和您的 GCODE "
+"如果启用并配置了系统关闭指令，"
+"你的打印机固件将能够通过串行连接上的操作命令关闭你的 OctoPrint "
+"服务器。这可能会被滥用，所以只有在信任你的固件和你的 GCODE "
 "文件的情况下再启用这个功能！"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:551
@@ -7625,8 +7607,7 @@ msgid ""
 "If you disable this, the <code>pause_position</code> placeholders in your "
 "pause/resume GCODE scripts will stay unpopulated! However, pausing speed "
 "might improve slightly."
-msgstr ""
-"如果禁用此功能，您暂停/恢复G代码脚本中的<code>pause_position</code>占位符将为"
+msgstr "如果禁用此功能，你暂停/恢复G代码脚本中的<code>pause_position</code>占位符将为"
 "空！ 不过，暂停速度可能有所改善。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:588
@@ -7639,7 +7620,7 @@ msgid ""
 "cancel GCODE script and the corresponding data in the print recovery data "
 "will stay unpopulated! However, cancelling speed might improve slightly."
 msgstr ""
-"如果禁用此功能，您取消G代码脚本中的<code>cancel_position</code>占位符和打印恢"
+"如果禁用此功能，你取消G代码脚本中的<code>cancel_position</code>占位符和打印恢"
 "复数据中的相应数据将为空！ 不过，取消速度可能有所改善。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:594
@@ -7650,7 +7631,7 @@ msgstr "尝试通过代码<code>M108</code>在取消时中止任何阻止加热�
 msgid ""
 "Uncheck this if your firmware doesn't support <code>M108</code> for aborting "
 "blocking heatups!"
-msgstr "如果您的固件不支持<code>M108</code>中止阻塞加熱，請取消選中此項！"
+msgstr "如果你的固件不支持<code>M108</code>中止阻塞加熱，請取消選中此項！"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:600
 msgid "Sanity Checking"
@@ -7670,8 +7651,8 @@ msgid ""
 "misconfiguration you need to correct for proper operation."
 msgstr ""
 "如果启用，OctoPrint 将不会向打印机发送超过活动打印机配置文件中配置的挤出机数"
-"量或固件报告“无效的挤出机”错误的工具命令。仅当 OctoPrint 或您的固件错误地将有"
-"效工具标记为无效并确保调查原因时，才取消选中此选项，这可能是您需要纠正才能正"
+"量或固件报告“无效的挤出机”错误的工具命令。仅当 OctoPrint 或你的固件错误地将有"
+"效工具标记为无效并确保调查原因时，才取消选中此选项，这可能是你需要纠正才能正"
 "确操作的配置错误。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:608
@@ -7762,9 +7743,8 @@ msgstr "发送延迟"
 msgid ""
 "OctoPrint will use this delay to limit the number of sent temperature "
 "commands should you perform multiple fine adjustments in a short time."
-msgstr ""
-"如果您在短时间内执行多次精细调整，OctoPrint 将使用此延迟来限制发送温度命令的"
-"数量。"
+msgstr "如果你在短时间内执行多次精细调整，OctoPrint "
+"将使用此延迟来限制发送温度命令的数量。"
 
 #: src/octoprint/templates/dialogs/settings/temperatures.jinja2:32
 msgid "Presets"
@@ -7788,8 +7768,8 @@ msgid ""
 "\">this FAQ entry</a> for more explanation."
 msgstr ""
 "请注意，因为 OctoPrint 只嵌入了一个网络摄像头串流和快照 URL。它实际上并不运行"
-"自己的网络摄像头服务或直接与您的摄像头交互。因此，它不能设置访问限制，也不能"
-"为您启用/禁用视频流。请参阅 <a href=\"%(url)s\" target=\"_blank\">FAQ</a> "
+"自己的网络摄像头服务或直接与你的摄像头交互。因此，它不能设置访问限制，也不能"
+"为你启用/禁用视频流。请参阅 <a href=\"%(url)s\" target=\"_blank\">FAQ</a> "
 "查看更多例子。"
 
 #: src/octoprint/templates/dialogs/settings/webcam.jinja2:5
@@ -7825,12 +7805,25 @@ msgid ""
 "settings API.\n"
 "</p>"
 msgstr ""
+"<p>\n"
+"    选择网络摄像头作为回退选项，以填补旧版客户端使用的设置 API 上的流和快照 "
+"URL\n"
+"    这些客户端尚未使用于 OctoPrint 1.9.0 中引入的网络摄像头插件系统。\n"
+"    如果所选的网络摄像头未提供快照或串流 URL，\n"
+"    则该网络摄像头将不会在设置 API 上可用，\n"
+"    因此无法与旧版客户端兼容。\n"
+"</p>\n"
+"<p>\n"
+"    请注意，这不会影响 OctoPrint 核心 UI 中提供的网络摄像头串流选项，\n"
+"    也不会影响用于延时摄影录制的快照摄像头。\n"
+"    这仅适用于在设置 API 上提供的兼容性层。\n"
+"</p>"
 
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:5
 msgid ""
 "If you do not wish to change your password, just leave the following fields "
 "empty."
-msgstr "如果您不希望更改您的密码，请将下列字段为空。"
+msgstr "如果你不希望更改你的密码，请将下列字段为空。"
 
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:8
 msgid "Current Password"
@@ -7890,11 +7883,11 @@ msgid ""
 "    Your OctoPrint installation is now all set up and ready to go.\n"
 msgstr ""
 "\n"
-"    您的OctoPrint已经完成安装，现在可以开始使用了。\n"
+"    你的OctoPrint已经完成安装，现在可以开始使用了。\n"
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:7
 msgid "For your printer's safety"
-msgstr "為了您的打印机安全"
+msgstr "為了你的打印机安全"
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:10
 msgid ""
@@ -7909,11 +7902,11 @@ msgid ""
 msgstr ""
 "\n"
 "    即使连接了OctoPrint，\n"
-"    <strong class=\"text-error\">您也永远不要让您的打印机处于无人看管的状态。"
-"</strong>\n"
+"    <strong class=\"text-error\""
+">你也永远不要让你的打印机处于无人看管的状态。</strong>\n"
 "    消费类打印机中的电子器件可能而且有时确实会不幸失火。\n"
-"    因此，请保持照看或让其他人看管，以便在发生这种灾难性故障时进行物理干"
-"预。\n"
+"    因此，请保持照看或让其他人看管，以便在发生这种灾难性故障时进行物理干预。"
+"\n"
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:16
 #, python-format
@@ -7928,16 +7921,16 @@ msgid ""
 "safe way to access your instance remotely</a>.\n"
 msgstr ""
 "\n"
-"    即便启用了访问控制，您也应该\n"
-"    <strong class=\"text-error\">永远不要让您的 OctoPrint 实例向公共互联网上"
-"的任何人开放</strong>。\n"
-"    您的实例<em>总会</em>被发现，坏人<em>必然</em>尝试滥用。\n"
+"    即便启用了访问控制，你也应该\n"
+"    <strong class=\"text-error\">永远不要让你的 OctoPrint "
+"实例向公共互联网上的任何人开放</strong>。\n"
+"    你的实例<em>总会</em>被发现，坏人<em>必然</em>尝试滥用。\n"
 "    不要让自己处于危险之中，<a href=\"%(url)s\" target=\"_blank\" rel="
-"\"noopener noreferrer\">使用安全的方式远程访问您的实例</a>。\n"
+"\"noopener noreferrer\">使用安全的方式远程访问你的实例</a>。\n"
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:23
 msgid "If you enjoy OctoPrint..."
-msgstr "如果您享受 OctoPrint..."
+msgstr "如果你享受 OctoPrint..."
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:26
 #, python-format
@@ -7950,10 +7943,10 @@ msgid ""
 "    <strong>Thank you!</strong>\n"
 msgstr ""
 "\n"
-"    请考虑<strong> <a href=\"%(url)s\" target=\"_blank\">支持 OctoPrint 持续"
-"开发</a></strong>，\n"
-"    有你们的资助才能继续！您还可以在“关于”对话框中找到此链接<br>\n"
-"    <strong>谢谢您！</strong>\n"
+"    请考虑<strong> <a href=\"%(url)s\" target=\"_blank\">支持 OctoPrint "
+"持续开发</a></strong>，\n"
+"    有你们的资助才能继续！你还可以在“关于”对话框中找到此链接<br>\n"
+"    <strong>谢谢你！</strong>\n"
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:32
 msgid ""
@@ -7961,11 +7954,11 @@ msgid ""
 "    With all that being said, <strong>Happy and Safe Printing</strong>!\n"
 msgstr ""
 "\n"
-"    说了这么多，<strong>祝您打印安全又愉快</strong>！\n"
+"    说了这么多，<strong>祝你打印安全又愉快</strong>！\n"
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_start.jinja2:1
 msgid "Hello!"
-msgstr "您好!"
+msgstr "你好!"
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_start.jinja2:3
 msgid ""
@@ -7973,7 +7966,7 @@ msgid ""
 "    Thank you for installing OctoPrint!\n"
 msgstr ""
 "\n"
-"    感谢您安装 OctoPrint！\n"
+"    感谢你安装 OctoPrint！\n"
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_start.jinja2:6
 msgid ""
@@ -7983,7 +7976,7 @@ msgid ""
 "    get you printing in no time!\n"
 msgstr ""
 "\n"
-"    该向导将引导您完成最后的步骤，完成 OctoPrint 实例的所有设置和准备。\n"
+"    该向导将引导你完成最后的步骤，完成 OctoPrint 实例的所有设置和准备。\n"
 "    向导完成后就可以开始打印了！\n"
 
 #: src/octoprint/templates/navbar/login.jinja2:20
@@ -8038,7 +8031,7 @@ msgstr ""
 "\n"
 "                    现在有一个新版本的服务器处于活跃状态，\n"
 "                    需要重新加载 UI。这不会中断\n"
-"                    您可能正在进行的任何打印作业。\n"
+"                    你可能正在进行的任何打印作业。\n"
 "                    请立即单击下面的按钮以重载网页 UI。\n"
 "                "
 
@@ -8052,9 +8045,9 @@ msgid ""
 "see %(link)sthe FAQ%(endlink)s.\n"
 msgstr ""
 "\n"
-"    没有找到串行端口，您确定您的打印机是已经物理连接上并受支持的吗？\n"
-"    尝试 %(refresh)s刷新%(endrefresh)s，如果未见效，请参阅 %(link)sFAQ"
-"%(endlink)s。\n"
+"    没有找到串行端口，你确定你的打印机是已经物理连接上并受支持的吗？\n"
+"    尝试 %(refresh)s刷新%(endrefresh)s，如果未见效，请参阅 "
+"%(link)sFAQ%(endlink)s。\n"
 
 #: src/octoprint/templates/sidebar/connection.jinja2:12
 msgid "Save connection settings"
@@ -8122,7 +8115,7 @@ msgstr "创建文件夹..."
 
 #: src/octoprint/templates/sidebar/files.jinja2:91
 msgid "Hint: You can also drag and drop files on this page to upload them."
-msgstr "提示：您也可以将文件拖放至此页面上进行上传。"
+msgstr "提示：你也可以将文件拖放至此页面上进行上传。"
 
 #: src/octoprint/templates/sidebar/files_header.jinja2:2
 msgid "File list settings"
@@ -8454,9 +8447,9 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"            如果打印机的打印头可能略微移动到打印体积之外（例如用于喷嘴清洁程"
-"序）\n"
-"            您可以为下面的动作定义一个自定义的安全边界框。\n"
+"            "
+"如果打印机的打印头可能略微移动到打印体积之外（例如用于喷嘴清洁程序）\n"
+"            你可以为下面的动作定义一个自定义的安全边界框。\n"
 "        "
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorBuildvolume.jinja2:88
@@ -8504,8 +8497,7 @@ msgstr "共享喷嘴"
 msgid ""
 "Check this if your printer has a single nozzle and heater shared among its "
 "extruders instead of one nozzle and heater per extruder"
-msgstr ""
-"如果您的打印机在其挤出机中共享一个喷嘴和加热器，而不是每个挤出机一个喷嘴和加"
+msgstr "如果你的打印机在其挤出机中共享一个喷嘴和加热器，而不是每个挤出机一个喷嘴和加"
 "热器，请勾选此项"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:31
@@ -8513,9 +8505,9 @@ msgid ""
 "Please specify the nozzle offsets of the extruders relative to the first "
 "nozzle T0 <strong>if you haven't already done so in your firmware</strong>. "
 "Otherwise leave them at (0,0)."
-msgstr ""
-"请指定挤出机相对于第一个喷嘴 T0 的喷嘴偏移量，<strong>如果您还没有在您的固件"
-"中设置此项</strong>。否则，留为 (0,0)。"
+msgstr "请指定挤出机相对于第一个喷嘴 T0 "
+"的喷嘴偏移量，<strong>如果你还没有在你的固件中设置此项</strong>。否则，留为 "
+"(0,0)。"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:37
 #: src/octoprint/templates/tabs/temperature.jinja2:41
@@ -8589,10 +8581,10 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"                定义一个检查间隔、要检查的主机和端口。如果您不知道在这里设置"
-"什么，\n"
+"                "
+"定义一个检查间隔、要检查的主机和端口。如果你不知道在这里设置什么，\n"
 "                那么使用默认值（Cloudflare 的 DNS服务器）应该可以工作。\n"
-"                如果您对此有疑虑，您可以定义一个您信任的\n"
+"                如果你对此有疑虑，你可以定义一个你信任的\n"
 "                具有高可用性的在线服务器的 IP 和端口。\n"
 "            "
 
@@ -8610,11 +8602,11 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"                如果您还想检查名称解析是否有效（强烈建议），请定义主机名检查"
-"名称解析。\n"
-"                如果您不知道在此处设置什么，则使用默认值（OctoPrint 的域）应"
-"该可以工作。\n"
-"                如果您不想在执行一般的连接性检查时，仍执行定期的解析检查，\n"
+"                "
+"如果你还想检查名称解析是否有效（强烈建议），请定义主机名检查名称解析。\n"
+"                如果你不知道在此处设置什么，则使用默认值（OctoPrint "
+"的域）应该可以工作。\n"
+"                如果你不想在执行一般的连接性检查时，仍执行定期的解析检查，\n"
 "                请将该字段留空。\n"
 "            "
 
@@ -8710,7 +8702,7 @@ msgstr "黑名单缓存"
 
 #: src/octoprint/templates/snippets/settings/server/serverPluginBlacklistUrl.jinja2:1
 msgid "Plugin blacklist URL. You should normally not have to change this."
-msgstr "插件黑名单网址。您不应该去更改它。"
+msgstr "插件黑名单网址。你不应该去更改它。"
 
 #: src/octoprint/templates/snippets/settings/server/serverPluginBlacklistUrl.jinja2:2
 msgid "Blacklist URL"
@@ -8747,6 +8739,11 @@ msgid ""
 "            </p>\n"
 "        "
 msgstr ""
+"\n"
+"            <p>\n"
+"                你可以在其插件设置中更改此网络摄像头的配置（如有）。\n"
+"            </p>\n"
+"        "
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegBitrate.jinja2:1
 msgid "Bitrate to use for encoding the timelapse video"
@@ -8783,15 +8780,15 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"            您可以在这里调整完整的 FFMPEG 命令行\n"
+"            你可以在这里调整完整的 FFMPEG 命令行\n"
 "            以生成延时摄影文件，例如根据需要来\n"
 "            添加其他命令行参数。支持的占位符为：\n"
 "            <code>{ffmpeg}</code> （ffmpeg 的配置路径），<code>{fps}</code> "
 "(配置帧率)，\n"
 "            <code>{input}</code>（输入文件），<code>{videocodec}</code>（配置"
 "使用的视频编码器），\n"
-"            <code>{threads}</code>（配置使用的线程数），<code>{bitrate}</"
-"code>（配置的比特率），\n"
+"            <code>{threads}</code>（配置使用的线程数），<code>{bitrate}</code"
+">（配置的比特率），\n"
 "            <code>{containerformat}</code>（配置的容器格式），<code>{filters}"
 "</code>（用于翻转/旋转和水印的滤镜链），\n"
 "            <code>{output}</code>（输出文件）。\n"
@@ -8847,6 +8844,14 @@ msgid ""
 "            </p>\n"
 "        "
 msgstr ""
+"\n"
+"            <p>\n"
+"                选择用于拍摄延时摄影快照的网络摄像头。\n"
+"            </p>\n"
+"            <p>\n"
+"                你可以在其插件设置中更改此网络摄像头的配置（如有）。\n"
+"            </p>\n"
+"        "
 
 #: src/octoprint/templates/snippets/settings/webcam/timelapseEnabled.jinja2:4
 msgid "Enable timelapse support"
@@ -8912,7 +8917,7 @@ msgstr "步长"
 msgid ""
 "Hint: If you move your mouse over the picture, you enter keyboard control "
 "mode."
-msgstr "提示：如果您将鼠标移到图片上，您输入键盘控制模式。"
+msgstr "提示：如果你将鼠标移到图片上，你输入键盘控制模式。"
 
 #: src/octoprint/templates/tabs/control.jinja2:64
 msgid "Move front"
@@ -9088,7 +9093,7 @@ msgid ""
 msgstr ""
 "如果固件发送的确认（“OK”）由于与打印机的串行通信问题而丢失，则 OctoPrint 与它"
 "的通信可能会卡住。如果发生这种情况，这会有所帮助。请注意，此类事件提示打印机"
-"出现一般通信问题，这可能会对打印结果产生负面影响，因此您应尝试解决这些问题！"
+"出现一般通信问题，这可能会对打印结果产生负面影响，因此你应尝试解决这些问题！"
 
 #: src/octoprint/templates/tabs/terminal.jinja2:42
 msgid "Force fancy functionality"
@@ -9103,8 +9108,7 @@ msgid ""
 "Some functionality of the terminal will be disabled if OctoPrint detects "
 "that your browser is too slow for that. You may force it back on here, but "
 "be aware that this might make your browser unresponsive."
-msgstr ""
-"如果 OctoPrint 检测到您的浏览器太慢，终端的某些功能将被禁用。你可以在这里强制"
+msgstr "如果 OctoPrint 检测到你的浏览器太慢，终端的某些功能将被禁用。你可以在这里强制"
 "恢复，但要注意，这可能会使你的浏览器失去响应。"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:4
@@ -9193,7 +9197,7 @@ msgstr "勾选此项使延时摄影选项重启后保留。"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:86
 msgid "You have unsaved changes. Don't forget to save them."
-msgstr "您尚未保存变化，别忘了保存。"
+msgstr "你尚未保存变化，别忘了保存。"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:87
 msgid "Save changes"
