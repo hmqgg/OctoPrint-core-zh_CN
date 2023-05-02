@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2023-04-13 13:14+0200\n"
-"PO-Revision-Date: 2023-05-02 17:45+0000\n"
+"PO-Revision-Date: 2023-05-02 18:14+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -91,7 +91,7 @@ msgstr "允许连接到打印机或从打印机断开连接"
 
 #: src/octoprint/access/permissions.py:300
 msgid "Allows to watch the webcam stream"
-msgstr "允许观看网络摄像头流"
+msgstr "允许观看网络摄像头串流"
 
 #: src/octoprint/access/permissions.py:307
 msgid ""
@@ -1040,11 +1040,11 @@ msgstr "该插件在 OctoPrint 提供标准网络摄像头。如果你没有设�
 
 #: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:77
 msgid "If you see your webcam stream below, the entered stream URL is ok."
-msgstr "如果您看到下面的网络摄像头流，输入的流网址就可以了。"
+msgstr "如果你看到下面的网络摄像头串流，代表输入的串流 URL 可行。"
 
 #: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:126
 msgid "Stream test"
-msgstr "视频流测试"
+msgstr "串流测试"
 
 #: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:148
 msgid "Could not retrieve snapshot URL, please double check the URL"
@@ -1076,7 +1076,7 @@ msgstr "快照测试"
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_settings.jinja2:2
 msgid "Stream"
-msgstr "流"
+msgstr "串流"
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_settings.jinja2:18
 msgid "Snapshots & Timelapse"
@@ -1084,11 +1084,11 @@ msgstr "快照 & 延时摄影"
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_webcam.jinja2:30
 msgid "Webcam stream loading..."
-msgstr "网络摄像头加载中..."
+msgstr "网络摄像头串流加载中..."
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_webcam.jinja2:33
 msgid "Webcam stream not loaded"
-msgstr "网络摄像头未装载"
+msgstr "网络摄像头串流未加载"
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_webcam.jinja2:34
 msgid ""
@@ -1105,10 +1105,12 @@ msgid ""
 "\"Stream URL\". If you don't have a webcam you can also just disable webcam "
 "support there."
 msgstr ""
+"可能未正确配置或需要认证。你可以在 “设置”>“经典网络摄像头”>“串流 URL”"
+"下改变串流的 URL。如果你没有网络摄像头，你也可以于其禁用网络摄像头。"
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_webcam.jinja2:36
 msgid "Currently configured stream URL"
-msgstr "目前配置的流网址"
+msgstr "目前配置的串流 URL"
 
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_wizard.jinja2:1
 msgid "Webcam &amp; Timelapse Recordings"
@@ -1157,7 +1159,7 @@ msgid ""
 "</p>"
 msgstr ""
 "<p>\n"
-"    <strong>Stream URL</strong> 是 OctoPrint 用于将实际的网络摄像头流\n"
+"    <strong>串流 URL</strong> 是 OctoPrint 用于将实际的网络摄像头流\n"
 "    （即 MJPEG 流）嵌入到网页 UI 中的 URL。\n"
 "    此地址需要<strong>从您的浏览器</strong>可访问。\n"
 "</p><p>\n"
@@ -1166,10 +1168,10 @@ msgstr ""
 "        <li>一个完整的 URL(<code>http://host:port/path</code>)，</li>\n"
 "        <li>默认用于访问 Web UI 的\n"
 "            协议的 URL（e.g. <code>//host:port/path</code>），</li>\n"
-"        <li>与 OctoPrint 相同的主机上的绝对路径（e.g. <code>/absolute/path</"
-"code>)，</li>\n"
-"        <li>与 OctoPrint 相同的主机上的相对路径（e.g. <code>relative/path</"
-"code>）</li>\n"
+"        <li>与 OctoPrint 相同的主机上的绝对路径（e.g. <code>/absolute/"
+"path</code>)，</li>\n"
+"        <li>与 OctoPrint 相同的主机上的相对路径（e.g. <code>relative/"
+"path</code>）</li>\n"
 "    </ul>\n"
 "</p><p>\n"
 "    <strong>快照 URL</strong> 是 OctoPrint 用于从网络摄像头\n"
@@ -1248,41 +1250,40 @@ msgstr "完整的 URL，可从 OctoPrint 服务器访问"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamStreamRatio.jinja2:1
 msgid "Aspect ratio of the webcam stream, either 16:9 or 4:3"
-msgstr "网络摄像头流的长宽比，16：9或4：3"
+msgstr "网络摄像头串流的长宽比，16：9或4：3"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamStreamRatio.jinja2:2
 msgid "Stream aspect ratio"
-msgstr "流长宽比"
+msgstr "串流长宽比"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamStreamRatio.jinja2:5
 msgid ""
 "If the stream has a different aspect ratio than configured here it will be "
 "letterboxed."
-msgstr "如果视频流具有与此处配置的不同的宽高比，将会被添加黑边。"
+msgstr "如果串流具有与此处配置的不同的宽高比，将会被添加黑边。"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamStreamTimeout.jinja2:1
 msgid ""
 "Timeout after which to unload the stream if the control tab is not visible"
-msgstr "如果控制选项卡不可见，则多久后卸载该流"
+msgstr "如果控制选项卡不可见，则多久后卸载该串流"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamStreamTimeout.jinja2:2
 msgid "Stream timeout"
-msgstr "视频流超时"
+msgstr "串流超时"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamStreamUrl.jinja2:1
 msgid "URL to embed into the UI for live viewing of the webcam stream"
-msgstr "Webcam 监控 URL 用于 OctoPrint UI 实时预览功能"
+msgstr "网络摄像头监控 URL 用于 OctoPrint UI 实时预览功能"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamStreamUrl.jinja2:2
 msgid "Stream URL"
-msgstr "流URL"
+msgstr "串流 URL"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamStreamUrl.jinja2:9
 msgid ""
 "Needs to be reachable from the browser displaying the OctoPrint UI, used to "
 "embed the webcam stream into the page."
-msgstr ""
-"需要从显示 OctoPrint UI 的浏览器中访问，用于将网络摄像头流嵌入到页面中。"
+msgstr "需要从显示 OctoPrint UI 的浏览器中访问，用于将网络摄像头串流嵌入到页面中。"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamStreamUrl.jinja2:10
 msgid ""
@@ -1406,7 +1407,7 @@ msgstr "用户名"
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:14
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:86
 msgid "Invalid username"
-msgstr ""
+msgstr "无效用户名"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:18
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:3
@@ -1958,6 +1959,9 @@ msgid ""
 "used to skip \"purge/nozzle wipe\" GCode in the viewer. Note the search is "
 "case sensitive."
 msgstr ""
+"若提供，GCode 查看器将搜索以该字符串开始的行。如果找到，所有到该行的 GCode "
+"将被跳过。这可以在查看器中用于跳过“清理/喷嘴擦拭”的 "
+"GCode。请注意，搜索区分大小写。"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:12
 msgid "Maximum size for which the GCode Viewer autoloads the file for preview"
@@ -1965,7 +1969,7 @@ msgstr "GCode 查看器自动加载文件进行预览的最大大小"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:13
 msgid "File size threshold"
-msgstr ""
+msgstr "文件大小阈值"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:16
 msgid "on desktop"
@@ -1986,7 +1990,7 @@ msgstr ""
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:29
 msgid "In-memory model compression"
-msgstr ""
+msgstr "内存中模型压缩"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:30
 msgid ""
@@ -1996,20 +2000,24 @@ msgid ""
 "would be too large to view otherwise.\n"
 "        "
 msgstr ""
+"\n"
+"            内存中模型压缩可以帮助减少 GCode "
+"查看器的内存消耗，从而能处理太大而无法查看的文件。\n"
+"        "
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:36
 msgid "Always enable compression"
-msgstr ""
+msgstr "始终启用压缩"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:38
 msgid ""
 "If turned on, the GCode Viewer will always use in-memory compression of the "
 "layer data. "
-msgstr ""
+msgstr "启用后，GCode 查看器将始终为层数据使用内存中压缩。 "
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:43
 msgid "Compression threshold"
-msgstr ""
+msgstr "压缩阈值"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_settings.jinja2:47
 msgid ""
@@ -2018,6 +2026,9 @@ msgid ""
 "unit. Allowed units are: b, byte, bytes, kb, mb, gb, tb (case insensitive). "
 "Example: <code>5MB</code>, <code>500KB</code>"
 msgstr ""
+"如果此值非零，GCode 查看器将在 GCode 文件超过该尺寸时始终使用内存中压缩。提供"
+"包含单位的文件大小。允许的单位有：b、byte、bytes、kb、mb、gb、tb（不区分大小"
+"写）。例如：<code>5MB</code>，<code>500KB</code>"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:11
 msgid "Previous layer"
@@ -2197,10 +2208,18 @@ msgid ""
 "slower.\n"
 "        </p>"
 msgstr ""
+"<p>\n"
+"            您可能希望打开内存中压缩，以将此页面的内存使用保持在合理范围内。"
+"\n"
+"            "
+"你可以在插件设置中修改压缩设置，或者你可以在此处仅对该文件启用强制压缩。\n"
+"            如果该文件通常会导致你的浏览器未响应或崩溃，启用可能会有帮助。\n"
+"            文件加载将变得更慢。\n"
+"        </p>"
 
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:155
 msgid "Force compression"
-msgstr ""
+msgstr "强制压缩"
 
 #: src/octoprint/plugins/logging/__init__.py:33
 msgid "Allows to download and delete log files and list and set log levels."
@@ -2367,6 +2386,10 @@ msgid ""
 "%(pythonExtensions)s, or a plugin list export with the extension "
 "%(jsonExtensions)s."
 msgstr ""
+"这看起来不像是一个有效的插件。有效的插件应该是可以通过 <code>pip</code> "
+"安装的、扩展名为 %(archiveExtensions)s 的档案，或者扩展名为 "
+"%(pythonExtensions)s 的单文件 Python 插件，或者扩展名为 %(jsonExtensions)s "
+"的导出的插件列表。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:307
 msgid "There are no plugin notices. Great!"
@@ -2384,7 +2407,7 @@ msgstr "您已经安装的一个或多个插件有%(count)d条通知。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:487
 msgid "Installing plugins..."
-msgstr ""
+msgstr "安装插件中。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:488
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1233
@@ -2393,7 +2416,7 @@ msgstr "正在安装插件..."
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:490
 msgid "Installing plugins from uploaded file..."
-msgstr ""
+msgstr "从上传的文件安装插件中。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:491
 msgid "Installing plugin from uploaded file..."
@@ -2402,12 +2425,12 @@ msgstr "正在安装上传的插件...。"
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:501
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:617
 msgid "Confirm installation of multiple plugins"
-msgstr ""
+msgstr "确认多项插件安装"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:502
 msgid ""
 "Please confirm you want to perform all plugins specified in the json file."
-msgstr ""
+msgstr "请确认你想执行 JSON 文件中指定的所有插件。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:505
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:620
@@ -2460,16 +2483,16 @@ msgstr "重新安装"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:618
 msgid "Please confirm you want to perform these actions:"
-msgstr ""
+msgstr "请确认你要执行这些操作："
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:634
 msgid "Installing multiple plugins"
-msgstr ""
+msgstr "安装多项插件中"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:635
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2469
 msgid "Starting installation of multiple plugins..."
-msgstr ""
+msgstr "开始多项插件的安装。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:963
 #, python-format
@@ -2585,11 +2608,11 @@ msgstr "从%(url)s重新安装插件“%(name)s”..."
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1270
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2354
 msgid "The following plugins are queued to be installed."
-msgstr ""
+msgstr "以下插件正在排队等待安装。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1291
 msgid "Plugin installs queued"
-msgstr ""
+msgstr "已排队安装插件"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1357
 msgid "Uninstalling plugin..."
@@ -2668,7 +2691,7 @@ msgstr "不兼容"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1643
 msgid "Dequeue"
-msgstr ""
+msgstr "取消排队"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1654
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1953
@@ -2844,43 +2867,43 @@ msgstr "阅读更多..."
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2334
 msgid "Queued Installs"
-msgstr ""
+msgstr "已排队的安装"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2349
 msgid "Queued Installs Paused"
-msgstr ""
+msgstr "暂停排队安装"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2370
 msgid "Continue Installs"
-msgstr ""
+msgstr "继续安装"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2381
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2445
 msgid "Cancel Installs"
-msgstr ""
+msgstr "取消安装"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2408
 #, python-format
 msgid "Installing in %(sec)i secs..."
-msgstr ""
+msgstr "%(sec)i 秒安装中。。。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2414
 msgid "Starting Queued Installs"
-msgstr ""
+msgstr "排队安装开始"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2419
 msgid "The following plugins are going to be installed."
-msgstr ""
+msgstr "将安装以下插件。"
 
 #: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2468
 msgid "Installing queued plugins"
-msgstr ""
+msgstr "排队插件安装中"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:3
 msgid ""
 "Take note that most plugin management functionality is disabled while your "
 "printer is printing or paused."
-msgstr ""
+msgstr "请注意，当你的打印机正在打印或暂停时，大多数插件管理功能都被禁用。"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:8
 msgid ""
@@ -3088,7 +3111,7 @@ msgstr "主页"
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:152
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:290
 msgid "Privacy Policy"
-msgstr ""
+msgstr "隐私政策"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:164
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:194
@@ -3824,6 +3847,14 @@ msgid ""
 "locations:\n"
 "    </p>\n"
 msgstr ""
+"\n"
+"    <p>\n"
+"        <strong>可用磁盘空间不足，无法运行更新。</strong>\n"
+"    </p>\n"
+"    <p>\n"
+"        为了减少由于磁盘空间不足而遇到更新问题的可能性，OctoPrint 要求\n"
+"        在各处最小为 %(min_free_storage)s 的空闲磁盘空间：\n"
+"    </p>\n"
 
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:47
 msgid ""
@@ -4084,7 +4115,7 @@ msgstr "GitHub 访问令牌"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/githubToken.jinja2:6
 msgid "Token entered but hidden for privacy reasons"
-msgstr ""
+msgstr "令牌已输入，出于隐私隐藏"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/githubToken.jinja2:9
 msgid "Enter a new token..."
@@ -4104,7 +4135,7 @@ msgstr ""
 msgid ""
 "Please note that the deletion of the access token is applied immediately, "
 "without having to \"Confirm\" first."
-msgstr ""
+msgstr "请注意，访问令牌的删除是立即应用的，无需先“确认”。"
 
 #: src/octoprint/plugins/softwareupdate/templates/snippets/pipEnableCheck.jinja2:4
 msgid "Enable <code>pip</code> update checks"
@@ -4976,11 +5007,11 @@ msgstr "当前磁盘使用情况。"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:105
 msgid "Rename"
-msgstr ""
+msgstr "重命名"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:109
 msgid "Move & Rename"
-msgstr ""
+msgstr "移动 & 重命名"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:110
 #: src/octoprint/templates/sidebar/files.jinja2:41
@@ -5040,11 +5071,11 @@ msgstr "至"
 #: src/octoprint/static/js/app/viewmodels/files.js:911
 msgid ""
 "Could not remove entry. Please check octoprint.log for possible reasons."
-msgstr ""
+msgstr "无法移除条目。请检查 octoprint.log 以了解可能的原因。"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:921
 msgid "Failed to remove entry"
-msgstr ""
+msgstr "移除条目失败"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1061
 msgid "Model contains no extrusion.<br>"
@@ -5061,40 +5092,42 @@ msgstr "上次打印时间"
 #: src/octoprint/static/js/app/viewmodels/files.js:1208
 #, python-format
 msgid "%(culprit)s exceeds print volume in %(dimension)s.<br>"
-msgstr ""
+msgstr "%(culprit)s 超过 %(dimension)s 的打印尺寸。<br>"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1215
 #: src/octoprint/static/js/app/viewmodels/files.js:1219
 #: src/octoprint/static/js/app/viewmodels/files.js:1223
 msgid "Object"
-msgstr ""
+msgstr "对象"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1215
 #: src/octoprint/static/js/app/viewmodels/files.js:1229
 msgid "width"
-msgstr ""
+msgstr "宽度"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1219
 #: src/octoprint/static/js/app/viewmodels/files.js:1233
 msgid "depth"
-msgstr ""
+msgstr "深度"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1223
 #: src/octoprint/static/js/app/viewmodels/files.js:1237
 msgid "height"
-msgstr ""
+msgstr "高度"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1229
 #: src/octoprint/static/js/app/viewmodels/files.js:1233
 #: src/octoprint/static/js/app/viewmodels/files.js:1237
 msgid "Travel"
-msgstr ""
+msgstr "行程"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1255
 msgid ""
 "Travel area: (%(travel.minX).2f, %(travel.minY).2f, %(travel.minZ).2f) "
 "&times; (%(travel.maxX).2f, %(travel.maxY).2f, %(travel.maxZ).2f)"
 msgstr ""
+"行程区域：(%(travel.minX).2f, %(travel.minY).2f, %(travel.minZ).2f) &times; "
+"(%(travel.maxX).2f, %(travel.maxY).2f, %(travel.maxZ).2f)"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1262
 msgid ""
@@ -5117,12 +5150,13 @@ msgstr ""
 msgid ""
 "%(culprit)s in %(name)s exceeds the print volume of the currently selected "
 "printer profile, be careful when printing this."
-msgstr ""
+msgstr "%(name)s 中的 %(culprit)s "
+"超出了当前所选打印机配置文件的打印尺寸，打印时要小心。"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1294
 #, python-format
 msgid "%(culprit)s exceeds print volume"
-msgstr ""
+msgstr "%(culprit)s 超出打印尺寸"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1486
 msgid "Slicing ..."
@@ -5148,11 +5182,11 @@ msgstr "切片失败"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1562
 msgid "Streaming ..."
-msgstr "影像串流中 ..."
+msgstr "串流中。。。"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1572
 msgid "Streaming done"
-msgstr "影像串流完成"
+msgstr "串流完成"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1574
 #, python-format
@@ -5175,17 +5209,17 @@ msgstr "文件已经存在：%(name)s"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1777
 msgid "Could not upload the file. There is not enough disk space remaining."
-msgstr ""
+msgstr "无法上传文件。剩余磁盘空间不足。"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1784
 #, python-format
 msgid "Free Space: %(freespace)s"
-msgstr ""
+msgstr "可用空间：%(freespace)s"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1788
 #, python-format
 msgid "File Size: %(filesize)s"
-msgstr ""
+msgstr "文件大小：%(filesize)s"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1836
 msgid "Refreshing list ..."
@@ -5848,7 +5882,7 @@ msgstr "现在捕获延时摄影后卷，这将需要大约 %(duration)s..."
 msgid ""
 "Failed repeatedly to capture timelapse frame from webcam - is the snapshot "
 "webcam configured correctly and the camera on?"
-msgstr ""
+msgstr "从网络摄像头捕获延时帧时重复失败——快照网络摄像头的配置正确吗，摄像头开着吗？"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:738
 msgid "Could not capture snapshots"
@@ -5876,7 +5910,8 @@ msgstr "无法渲染延时摄影"
 msgid ""
 "Rendering of timelapse %(movie_prefix)s is not possible since no frames were "
 "captured. Is the snapshot webcam configured correctly?"
-msgstr ""
+msgstr "由于没有捕捉到任何帧，所以无法渲染延时 "
+"%(movie_prefix)s。快照网络摄像头的配置是否正确？"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:782
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:799
@@ -6098,7 +6133,7 @@ msgstr "新建"
 
 #: src/octoprint/templates/dialogs/files.jinja2:26
 msgid "Move or Rename "
-msgstr ""
+msgstr "移动或重命名 "
 
 #: src/octoprint/templates/dialogs/files.jinja2:31
 msgid "Select destination folder for "
@@ -6111,11 +6146,11 @@ msgstr "目前："
 
 #: src/octoprint/templates/dialogs/files.jinja2:36
 msgid "Set destination name "
-msgstr ""
+msgstr "设定目标名 "
 
 #: src/octoprint/templates/dialogs/files.jinja2:42
 msgid " will be moved to: "
-msgstr ""
+msgstr " 将移动到： "
 
 #: src/octoprint/templates/dialogs/files.jinja2:60
 #: src/octoprint/templates/dialogs/files.jinja2:69
@@ -6136,7 +6171,7 @@ msgstr "重命名"
 msgid ""
 "There is not enough free disk space to keep the existing file and upload "
 "this one."
-msgstr ""
+msgstr "没有足够的可用磁盘空间来保留现有文件并上传此文件。"
 
 #: src/octoprint/templates/dialogs/files.jinja2:79
 msgid "Upload (rename)"
@@ -6560,7 +6595,7 @@ msgstr "上传"
 msgid ""
 "This does not look like a valid language pack. Valid language packs should "
 "be zip files and have the extension \".zip\""
-msgstr ""
+msgstr "这看起来不像是有效的语言包。有效的语言包应该是压缩文件并且扩展名为“.zip”"
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:136
 msgid ""
@@ -7319,7 +7354,8 @@ msgstr ""
 msgid ""
 "Send long names for writing files to the printer's SD card via <code>M28</"
 "code>, if detected as supported by the firmware"
-msgstr ""
+msgstr "如果检测到固件支持，则通过 <code>M28</code> 发送用于将文件写入打印机 SD "
+"卡的长名称"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:424
 msgid "Simulate <code>ok</code> for <code>M29</code>"
@@ -7332,8 +7368,8 @@ msgid ""
 "you run into communication stalls following streaming of a file to your "
 "printer's SD."
 msgstr ""
-"大多数基于早于v1。1。0版本Marlin的Marlin分支不会发送<code>ok</code>来响应"
-"<code>M29</code>。如果上传文件到打印机SD卡后通讯中断，则勾选此项。"
+"大多数基于早于 v1.1.0 版本 Marlin 的 Marlin 分支不会发送 <code>ok</code> "
+"来响应 <code>M29</code>。如果上传文件到打印机 SD 卡后通讯中断，则勾选此项。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:432
 msgid "Always assume SD card is present"
@@ -7376,13 +7412,13 @@ msgstr ""
 msgid ""
 "Wait to load the SD card file list until the firmware capability report is "
 "processed."
-msgstr ""
+msgstr "等待加载 SD 卡文件列表，直到固件回报已处理。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:466
 msgid ""
 "Try checking this if the SD card file list loads improperly after connecting "
 "to the printer."
-msgstr ""
+msgstr "如果连接到打印机后 SD 卡文件列表加载不正常，尝试勾选此项。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:471
 msgid "Blocked commands"
@@ -7751,14 +7787,14 @@ msgid ""
 "disable the stream for you. Please see <a href=\"%(url)s\" target=\"_blank"
 "\">this FAQ entry</a> for more explanation."
 msgstr ""
-"请注意，因为 OctoPrint 只嵌入了一个网络摄像头视频流和快照 URL。它实际上并不运"
-"行自己的网络摄像头服务或直接与您的摄像头交互。因此，它不能设置访问限制，也不"
-"能为您启用/禁用视频流。请参阅 <a href=\"%(url)s\" target=\"_blank\">FAQ</a> "
+"请注意，因为 OctoPrint 只嵌入了一个网络摄像头串流和快照 URL。它实际上并不运行"
+"自己的网络摄像头服务或直接与您的摄像头交互。因此，它不能设置访问限制，也不能"
+"为您启用/禁用视频流。请参阅 <a href=\"%(url)s\" target=\"_blank\">FAQ</a> "
 "查看更多例子。"
 
 #: src/octoprint/templates/dialogs/settings/webcam.jinja2:5
 msgid "Webcam Streaming"
-msgstr ""
+msgstr "网络摄像头串流中"
 
 #: src/octoprint/templates/dialogs/settings/webcam.jinja2:11
 msgid "Timelapse Recordings"
@@ -7768,7 +7804,7 @@ msgstr "延时摄影"
 #: src/octoprint/templates/snippets/settings/webcam/defaultWebcam.jinja2:1
 #: src/octoprint/templates/snippets/settings/webcam/defaultWebcam.jinja2:2
 msgid "Fallback Webcam"
-msgstr ""
+msgstr "后备网络摄像头"
 
 #: src/octoprint/templates/dialogs/settings/webcam.jinja2:34
 msgid ""
@@ -8695,7 +8731,7 @@ msgstr ""
 
 #: src/octoprint/templates/snippets/settings/webcam/defaultWebcam.jinja2:14
 msgid "MJPEG stream"
-msgstr ""
+msgstr "MJPEG 流"
 
 #: src/octoprint/templates/snippets/settings/webcam/defaultWebcam.jinja2:19
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:24
@@ -8792,7 +8828,7 @@ msgstr "快照网络摄像头"
 
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:13
 msgid "Snapshot stream"
-msgstr ""
+msgstr "快照流"
 
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:20
 msgid "Supported"
