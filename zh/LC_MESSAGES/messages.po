@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2023-04-13 13:14+0200\n"
-"PO-Revision-Date: 2023-05-02 18:23+0000\n"
+"PO-Revision-Date: 2023-05-04 03:14+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
 "projects/octoprint-core-zh_cn/core/zh_Hans/>\n"
@@ -7174,7 +7174,7 @@ msgstr ""
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:257
 msgid "Max. consecutive timeouts while printing"
-msgstr "最大。打印时连续超"
+msgstr "最大打印时连续超时"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:263
 msgid ""
