@@ -4,7 +4,7 @@ on:
     types: [published]
 env:
   ZIP_FILENAME: "zh_CN"
-  PACKAGE_CONTENT: "zh/"
+  PACKAGE_CONTENT: "zh_CN/"
 
 jobs:
   build:
@@ -25,6 +25,11 @@ jobs:
           for po in $(find . -name '*.po'); do
             msgfmt -o ${po%.po}.mo $po
           done
+
+      - name: Create metadata
+        id: metadata
+        run: |
+          echo "last_update: $(date +'%FT%T')" > ./zh_CN/meta.yaml
 
       - name: Create Artifact
         id: build-zip
