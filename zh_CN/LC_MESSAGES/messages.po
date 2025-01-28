@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
-"POT-Creation-Date: 2024-11-04 10:01+0100\n"
+"POT-Creation-Date: 2025-01-27 16:27+0100\n"
 "PO-Revision-Date: 2023-05-11 13:36+0000\n"
 "Last-Translator: hmqgg <mitchx7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.dickytwister.org/"
@@ -187,22 +187,22 @@ msgstr "允许读取非敏感设置。必须使用默认 UI。"
 msgid "Allows to manage settings and also to read sensitive settings"
 msgstr "允许管理设置以及读取敏感设置"
 
-#: src/octoprint/plugins/achievements/__init__.py:100
+#: src/octoprint/plugins/achievements/__init__.py:98
 msgid "Allows to view the instance achievements & stats."
 msgstr ""
 
-#: src/octoprint/plugins/achievements/__init__.py:109
+#: src/octoprint/plugins/achievements/__init__.py:107
 msgid "Allows to reset the instance achievements & stats."
 msgstr ""
 
-#: src/octoprint/plugins/achievements/__init__.py:519
-#: src/octoprint/plugins/achievements/__init__.py:531
+#: src/octoprint/plugins/achievements/__init__.py:517
+#: src/octoprint/plugins/achievements/__init__.py:529
 #: src/octoprint/plugins/achievements/templates/achievements_about_achievements.jinja2:3
 #: src/octoprint/templates/footer.jinja2:10
 msgid "Achievements"
 msgstr ""
 
-#: src/octoprint/plugins/achievements/__init__.py:525
+#: src/octoprint/plugins/achievements/__init__.py:523
 msgid "Instance Stats"
 msgstr ""
 
@@ -301,14 +301,14 @@ msgid "Do you want to reset all time based achievements?"
 msgstr ""
 
 #: src/octoprint/plugins/achievements/static/js/achievements.js:351
-#: src/octoprint/static/js/app/viewmodels/files.js:758
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:469
+#: src/octoprint/static/js/app/viewmodels/files.js:759
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:494
 msgid "Yes"
 msgstr "是"
 
 #: src/octoprint/plugins/achievements/static/js/achievements.js:352
-#: src/octoprint/static/js/app/viewmodels/files.js:757
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:468
+#: src/octoprint/static/js/app/viewmodels/files.js:758
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:493
 msgid "No"
 msgstr "不"
 
@@ -323,14 +323,6 @@ msgid ""
 "Achievements with a %(clock)s are time based and rely on proper "
 "%(startlink)stimezone configuration%(endlink)s (currently: %(timezone)s, "
 "%(time)s)."
-msgstr ""
-
-#: src/octoprint/plugins/achievements/templates/achievements_about_achievements.jinja2:9
-#, python-format
-msgid ""
-"Achievements with a %(clock)s are time based and rely on proper timezone "
-"configuration (currently: %(timezone)s, %(time)s). If the used timezone is "
-"wrong, ask your administrator to configure it correctly."
 msgstr ""
 
 #: src/octoprint/plugins/achievements/templates/achievements_about_achievements.jinja2:22
@@ -511,6 +503,7 @@ msgstr "如果检测到固件支持（<code>PROMPT_SUPPORT</code> 功能）"
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:83
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:345
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:443
+#: src/octoprint/templates/tabs/timelapse.jinja2:79
 msgid "Always"
 msgstr "一直"
 
@@ -519,6 +512,7 @@ msgstr "一直"
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:90
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:348
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:446
+#: src/octoprint/templates/tabs/timelapse.jinja2:82
 msgid "Never"
 msgstr "从不"
 
@@ -526,12 +520,12 @@ msgstr "从不"
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_settings.jinja2:9
 #: src/octoprint/plugins/classicwebcam/templates/classicwebcam_settings.jinja2:24
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:79
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:356
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:416
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:96
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:237
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:370
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:506
-#: src/octoprint/templates/dialogs/settings/webcam.jinja2:35
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:36
 #: src/octoprint/templates/snippets/settings/server/serverPluginBlacklist.jinja2:5
 #: src/octoprint/templates/tabs/terminal.jinja2:35
 msgid "Advanced options"
@@ -605,13 +599,13 @@ msgid ""
 msgstr "你可以在设置 > 公告下编辑你的公告订阅。"
 
 #: src/octoprint/plugins/announcements/static/js/announcements.js:411
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2137
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2171
 #: src/octoprint/static/js/app/viewmodels/loginstate.js:273
 msgid "Later"
 msgstr "随后再说"
 
 #: src/octoprint/plugins/announcements/static/js/announcements.js:418
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2148
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2182
 msgid "Mark read"
 msgstr "标记为已读"
 
@@ -639,11 +633,14 @@ msgstr "全部标记为已读"
 #: src/octoprint/plugins/appkeys/templates/appkeys.jinja2:36
 #: src/octoprint/plugins/backup/templates/backup_settings.jinja2:126
 #: src/octoprint/plugins/eventmanager/templates/eventmanager_settings.jinja2:71
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:217
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:372
+#: src/octoprint/plugins/health_check/templates/health_check.jinja2:46
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:223
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:270
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:432
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:220
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:170
 #: src/octoprint/static/js/app/helpers.js:757
-#: src/octoprint/static/js/app/helpers.js:1070
+#: src/octoprint/static/js/app/helpers.js:1228
 #: src/octoprint/templates/dialogs/about.jinja2:58
 #: src/octoprint/templates/dialogs/firmwareerror.jinja2:37
 #: src/octoprint/templates/dialogs/settings.jinja2:54
@@ -659,11 +656,16 @@ msgstr "已配置的通道"
 
 #: src/octoprint/plugins/announcements/templates/announcements_settings.jinja2:6
 #: src/octoprint/plugins/backup/templates/backup_settings.jinja2:37
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:163
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:164
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:183
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:184
 #: src/octoprint/plugins/eventmanager/templates/eventmanager_settings.jinja2:6
 #: src/octoprint/plugins/eventmanager/templates/eventmanager_settings.jinja2:30
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:30
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:70
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:139
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:91
 #: src/octoprint/templates/dialogs/settings/terminalfilters.jinja2:4
 #: src/octoprint/templates/recovery.jinja2:124
 #: src/octoprint/templates/snippets/settings/accesscontrol/groups.jinja2:5
@@ -671,13 +673,13 @@ msgstr "已配置的通道"
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:4
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorGeneral.jinja2:3
 #: src/octoprint/templates/snippets/settings/printerprofiles/profiles.jinja2:4
-#: src/octoprint/templates/tabs/timelapse.jinja2:213
+#: src/octoprint/templates/tabs/timelapse.jinja2:225
 msgid "Name"
 msgstr "名字"
 
 #: src/octoprint/plugins/announcements/templates/announcements_settings.jinja2:7
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:140
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:185
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:191
 #: src/octoprint/templates/recovery.jinja2:127
 msgid "Actions"
 msgstr "操作"
@@ -707,7 +709,7 @@ msgid ""
 "through the API."
 msgstr "“<strong>%(app)s</strong>”已请求通过 API 访问控制 OctoPrint。"
 
-#: src/octoprint/plugins/appkeys/__init__.py:613
+#: src/octoprint/plugins/appkeys/__init__.py:611
 msgid ""
 "Without this plugin third party clients will no longer be able to obtain an "
 "API key without you manually copy-pasting it."
@@ -722,10 +724,10 @@ msgstr ""
 #: src/octoprint/plugins/appkeys/static/js/appkeys.js:307
 #: src/octoprint/plugins/appkeys/templates/appkeys_settings.jinja2:46
 #: src/octoprint/plugins/appkeys/templates/appkeys_usersettings.jinja2:19
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:288
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:342
 #: src/octoprint/templates/snippets/settings/accesscontrol/groups.jinja2:6
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:5
-#: src/octoprint/templates/tabs/timelapse.jinja2:151
+#: src/octoprint/templates/tabs/timelapse.jinja2:163
 msgid "Details"
 msgstr "详情"
 
@@ -878,16 +880,17 @@ msgstr "还没有注册应用程序密钥。"
 #: src/octoprint/plugins/appkeys/templates/appkeys_settings.jinja2:11
 #: src/octoprint/plugins/backup/templates/backup_settings.jinja2:25
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:17
-#: src/octoprint/templates/tabs/timelapse.jinja2:137
-#: src/octoprint/templates/tabs/timelapse.jinja2:201
+#: src/octoprint/templates/tabs/timelapse.jinja2:149
+#: src/octoprint/templates/tabs/timelapse.jinja2:213
 msgid "Select all on this page"
 msgstr "选择本页全部"
 
 #: src/octoprint/plugins/appkeys/templates/appkeys_settings.jinja2:12
 #: src/octoprint/plugins/backup/templates/backup_settings.jinja2:26
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:18
-#: src/octoprint/templates/tabs/timelapse.jinja2:138
-#: src/octoprint/templates/tabs/timelapse.jinja2:202
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:19
+#: src/octoprint/templates/tabs/timelapse.jinja2:150
+#: src/octoprint/templates/tabs/timelapse.jinja2:214
 msgid "Select all"
 msgstr "全选"
 
@@ -903,8 +906,9 @@ msgstr "选择所有的应用程序..."
 #: src/octoprint/plugins/backup/templates/backup_settings.jinja2:28
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:20
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:114
-#: src/octoprint/templates/tabs/timelapse.jinja2:140
-#: src/octoprint/templates/tabs/timelapse.jinja2:204
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:29
+#: src/octoprint/templates/tabs/timelapse.jinja2:152
+#: src/octoprint/templates/tabs/timelapse.jinja2:216
 msgid "Clear selection"
 msgstr "取消选择"
 
@@ -919,8 +923,8 @@ msgstr "撤销选择"
 #: src/octoprint/templates/snippets/settings/accesscontrol/groups.jinja2:7
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:7
 #: src/octoprint/templates/snippets/settings/printerprofiles/profiles.jinja2:6
-#: src/octoprint/templates/tabs/timelapse.jinja2:152
-#: src/octoprint/templates/tabs/timelapse.jinja2:216
+#: src/octoprint/templates/tabs/timelapse.jinja2:164
+#: src/octoprint/templates/tabs/timelapse.jinja2:228
 msgid "Action"
 msgstr "动作"
 
@@ -952,7 +956,7 @@ msgstr "备份与还原"
 msgid "Restore Backup?"
 msgstr "从备份恢复？"
 
-#: src/octoprint/plugins/backup/__init__.py:1505
+#: src/octoprint/plugins/backup/__init__.py:1602
 msgid ""
 "Without this plugin you will no longer be able to backup & restore your "
 "OctoPrint settings and data."
@@ -1049,24 +1053,27 @@ msgid "Deleting %(count)d backups..."
 msgstr "删除 %(count)d 个备份..."
 
 #: src/octoprint/plugins/backup/static/js/backup.js:368
-#: src/octoprint/plugins/logging/static/js/logging.js:349
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:507
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:539
+#: src/octoprint/plugins/logging/static/js/logging.js:372
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:752
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:518
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:550
 #, python-format
 msgid "Deleted %(filename)s..."
 msgstr "%(filename)s 已删除..."
 
 #: src/octoprint/plugins/backup/static/js/backup.js:376
-#: src/octoprint/plugins/logging/static/js/logging.js:357
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:515
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:548
+#: src/octoprint/plugins/logging/static/js/logging.js:380
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:753
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:526
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:559
 #, python-format
 msgid "Deletion of %(filename)s failed, continuing..."
 msgstr "删除 %(filename)s 文件失败，正在继续..."
 
 #: src/octoprint/plugins/backup/static/js/backup.js:380
-#: src/octoprint/plugins/logging/static/js/logging.js:361
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:519
+#: src/octoprint/plugins/logging/static/js/logging.js:384
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:754
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:530
 #, python-format
 msgid "Deletion of %(filename)s failed: %(error)s"
 msgstr "删除 %(filename)s 失败：%(error)s"
@@ -1107,8 +1114,8 @@ msgstr ""
 
 #: src/octoprint/plugins/backup/templates/backup_settings.jinja2:31
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:23
-#: src/octoprint/templates/tabs/timelapse.jinja2:143
-#: src/octoprint/templates/tabs/timelapse.jinja2:207
+#: src/octoprint/templates/tabs/timelapse.jinja2:155
+#: src/octoprint/templates/tabs/timelapse.jinja2:219
 msgid "Delete selected"
 msgstr "删除已选择项"
 
@@ -1122,13 +1129,14 @@ msgstr "日期"
 
 #: src/octoprint/plugins/backup/templates/backup_settings.jinja2:39
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:31
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:94
 #: src/octoprint/templates/dialogs/files.jinja2:77
 #: src/octoprint/templates/dialogs/files.jinja2:85
 #: src/octoprint/templates/recovery.jinja2:125
 #: src/octoprint/templates/sidebar/files.jinja2:23
 #: src/octoprint/templates/sidebar/files.jinja2:38
 #: src/octoprint/templates/sidebar/files.jinja2:52
-#: src/octoprint/templates/tabs/timelapse.jinja2:215
+#: src/octoprint/templates/tabs/timelapse.jinja2:227
 msgid "Size"
 msgstr "尺寸"
 
@@ -1144,6 +1152,7 @@ msgid "Delete"
 msgstr "删除"
 
 #: src/octoprint/plugins/backup/templates/backup_settings.jinja2:49
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:54
 #: src/octoprint/templates/recovery.jinja2:138
 #: src/octoprint/templates/sidebar/files.jinja2:26
 #: src/octoprint/templates/sidebar/files.jinja2:40
@@ -1257,7 +1266,7 @@ msgid "Backup file"
 msgstr "备份文件"
 
 #: src/octoprint/plugins/backup/templates/snippets/backup_plugin_upload_form.jinja2:7
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:345
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:405
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:126
 msgid "Browse..."
 msgstr "浏览..."
@@ -1266,11 +1275,11 @@ msgstr "浏览..."
 msgid "Upload & restore"
 msgstr "上传和还原"
 
-#: src/octoprint/plugins/classicwebcam/__init__.py:253
+#: src/octoprint/plugins/classicwebcam/__init__.py:284
 msgid "Classic Webcam"
 msgstr "经典网络摄像头"
 
-#: src/octoprint/plugins/classicwebcam/__init__.py:256
+#: src/octoprint/plugins/classicwebcam/__init__.py:287
 msgid ""
 "This plugin provides the standard webcam in OctoPrint. If you do not have "
 "any other plugin providing a webcam set up, the webcam section in the "
@@ -1279,23 +1288,23 @@ msgstr ""
 "该插件在 OctoPrint 提供标准网络摄像头。如果你没有设置其他提供网络摄像头的插"
 "件，控制选项卡的网络摄像头区块将不再可见。"
 
-#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:81
+#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:98
 msgid "If you see your webcam stream below, the entered stream URL is ok."
 msgstr "如果你看到下面的网络摄像头串流，代表输入的串流 URL 可行。"
 
-#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:130
+#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:147
 msgid "Stream test"
 msgstr "串流测试"
 
-#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:152
+#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:169
 msgid "Could not retrieve snapshot URL, please double check the URL"
 msgstr "无法从快照 URL 获取图片，请仔细检查 URL"
 
-#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:155
+#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:172
 msgid "Snapshot test failed"
 msgstr "快照测试失败"
 
-#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:175
+#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:209
 #, python-format
 msgid ""
 "Could retrieve the snapshot URL, but it didn't look like an image. Got this "
@@ -1305,13 +1314,13 @@ msgstr ""
 "从快照 URL 获取的似乎不是图片。得到的内容类型报头为 <code>%(content_type)s</"
 "code>。请检查 URL 返回的是静态图片，而不是分段数据或视频。"
 
-#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:199
+#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:233
 msgid ""
 "If you see your webcam snapshot picture below, the entered snapshot URL is "
 "ok."
 msgstr "如果你看到下面的网络摄像机快照图片，输入的快照 URL 就可以了。"
 
-#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:213
+#: src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js:247
 msgid "Snapshot test"
 msgstr "快照测试"
 
@@ -1430,8 +1439,9 @@ msgstr "启用缓存爆裂"
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamCacheBuster.jinja2:7
 #: src/octoprint/plugins/gcodeviewer/templates/gcodeviewer_tab.jinja2:126
+#: src/octoprint/plugins/health_check/static/js/health_check.js:196
 #: src/octoprint/plugins/softwareupdate/templates/snippets/pipEnableCheck.jinja2:4
-#: src/octoprint/static/js/app/viewmodels/system.js:96
+#: src/octoprint/static/js/app/viewmodels/system.js:97
 #: src/octoprint/templates/dialogs/settings/folders.jinja2:58
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:114
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:563
@@ -1462,6 +1472,52 @@ msgstr "垂直翻转摄像头"
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamOrientation.jinja2:14
 msgid "Rotate webcam 90 degrees counter clockwise"
 msgstr "旋转摄像头90度逆时针"
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:1
+msgid ""
+"What kind of authentication is needed for accessing the snapshot endpoint"
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:2
+msgid "Snapshot authentication"
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:5
+msgid "None"
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:6
+msgid "Basic"
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:7
+msgid "Digest"
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:8
+msgid "Bearer Token"
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:13
+msgid "Username needed for accessing the snapshot URL"
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:14
+msgid "Snapshot username"
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:20
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:27
+msgid "Password needed for accessing the snapshot URL"
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:21
+msgid "Snapshot password"
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotAuthentication.jinja2:28
+msgid "Snapshot bearer token"
+msgstr ""
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotSslValidation.jinja2:4
 msgid "Validate SSL on snapshot URL (if applicable)"
@@ -1494,9 +1550,24 @@ msgstr "快照 URL"
 msgid "Test"
 msgstr "测试"
 
-#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotUrl.jinja2:8
-msgid "Fully qualified URL, needs to be reachable by OctoPrint's server"
-msgstr "完整的 URL，可从 OctoPrint 服务器访问"
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotUrl.jinja2:9
+msgid ""
+"\n"
+"                Fully qualified URL, needs to be reachable by OctoPrint's "
+"server.\n"
+"            "
+msgstr ""
+
+#: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamSnapshotUrl.jinja2:12
+msgid ""
+"\n"
+"                <strong>Heads-up!</strong> The URL you entered contains "
+"credentials. Providing credentials through the URL is deprecated according "
+"to RFC3986\n"
+"                and unsupported by OctoPrint. Please use the authentication "
+"settings under the advanced snapshot options instead.\n"
+"            "
+msgstr ""
 
 #: src/octoprint/plugins/classicwebcam/templates/snippets/classicwebcamStreamRatio.jinja2:1
 msgid "Aspect ratio of the webcam stream, either 16:9 or 4:3"
@@ -1580,7 +1651,7 @@ msgstr "服务器命令"
 
 #: src/octoprint/plugins/corewizard/subwizards.py:52
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:1
-#: src/octoprint/server/views.py:1128
+#: src/octoprint/server/views.py:1214
 #: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:1
 msgid "Access Control"
 msgstr "访问控制"
@@ -1648,7 +1719,7 @@ msgstr ""
 " </p>"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:11
-#: src/octoprint/templates/login.jinja2:86
+#: src/octoprint/templates/login.jinja2:88
 #: src/octoprint/templates/navbar/login.jinja2:7
 #: src/octoprint/templates/navbar/login.jinja2:8
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:79
@@ -1664,7 +1735,7 @@ msgstr "无效用户名"
 #: src/octoprint/templates/dialogs/reauthenticate.jinja2:13
 #: src/octoprint/templates/dialogs/reauthenticate.jinja2:15
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:3
-#: src/octoprint/templates/login.jinja2:87
+#: src/octoprint/templates/login.jinja2:89
 #: src/octoprint/templates/navbar/login.jinja2:10
 #: src/octoprint/templates/navbar/login.jinja2:11
 #: src/octoprint/templates/recovery.jinja2:185
@@ -1924,14 +1995,220 @@ msgstr "OctoPrint 相关命令"
 msgid "System related commands"
 msgstr "系统相关命令"
 
-#: src/octoprint/plugins/discovery/__init__.py:802
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:123
+msgid "Create container"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:125
+msgid "Create control"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:129
+msgid "Edit container"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:131
+msgid "Edit control"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:161
+msgid "Vertical"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:162
+msgid "Horizontal"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:163
+msgid "Horizontal Grid"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:166
+#: src/octoprint/plugins/eventmanager/templates/eventmanager_settings.jinja2:42
+msgid "Command"
+msgstr "命令"
+
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:167
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:142
+msgid "Script"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:168
+msgid "Output"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/static/js/customcontrolmanager.js:519
+#, python-format
+msgid "You are about to delete the custom control with id %(id)s."
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:1
+msgid "Custom Controls"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:4
+msgid ""
+"You currently don't have any custom controls defined. Why not add some using "
+"the buttons below?"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:10
+msgid "Add control"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:11
+msgid "Add container"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:67
+msgid "output goes here..."
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:97
+msgid "Control type"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:106
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:4
+msgid "Title"
+msgstr "标题"
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:115
+msgid "Layout"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:124
+msgid "Collapse by default"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:133
+#: src/octoprint/templates/dialogs/settings/server.jinja2:5
+msgid "Commands"
+msgstr "命令"
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:151
+msgid "Parameters"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:154
+msgid ""
+"There are currently no parameters defined, you may add some with the buttons "
+"below."
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:160
+msgid "Text parameter"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:167
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:168
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:187
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:188
+msgid "Parameter"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:171
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:172
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:191
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:192
+#: src/octoprint/templates/snippets/settings/accesscontrol/groups.jinja2:87
+msgid "Default"
+msgstr "默认"
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:180
+msgid "Slider"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:195
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:196
+msgid "Min"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:199
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:200
+msgid "Max"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:203
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:204
+msgid "Step"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:211
+msgid "Add text parameter"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:212
+msgid "Add slider"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:220
+msgid "Require confirmation"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:227
+msgid "Confirmation message"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:239
+msgid "Parse command output"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:245
+msgid "Regex"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:251
+msgid "Template"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:261
+msgid "Width"
+msgstr ""
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:267
+#: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:37
+#: src/octoprint/templates/tabs/temperature.jinja2:41
+msgid "Offset"
+msgstr "偏移"
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:276
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:509
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:624
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:518
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:205
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:190
+#: src/octoprint/static/js/app/helpers.js:824
+#: src/octoprint/static/js/app/helpers.js:1036
+#: src/octoprint/static/js/app/viewmodels/temperature.js:535
+#: src/octoprint/templates/dialogs/files.jinja2:18
+#: src/octoprint/templates/dialogs/files.jinja2:48
+#: src/octoprint/templates/dialogs/files.jinja2:95
+#: src/octoprint/templates/dialogs/slicing.jinja2:57
+#: src/octoprint/templates/dialogs/temperature.jinja2:31
+#: src/octoprint/templates/sidebar/state.jinja2:31
+msgid "Cancel"
+msgstr "取消"
+
+#: src/octoprint/plugins/customcontrolmanager/templates/customcontrolmanager_settings.jinja2:277
+#: src/octoprint/templates/dialogs/reauthenticate.jinja2:23
+#: src/octoprint/templates/dialogs/usersettings.jinja2:47
+#: src/octoprint/templates/recovery.jinja2:195
+#: src/octoprint/templates/snippets/settings/accesscontrol/groups.jinja2:113
+#: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:126
+#: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:177
+#: src/octoprint/templates/snippets/settings/printerprofiles/profileEditor.jinja2:38
+msgid "Confirm"
+msgstr "确定"
+
+#: src/octoprint/plugins/discovery/__init__.py:800
 msgid ""
 "Without this plugin your OctoPrint instance will no longer be discoverable "
 "on the network via Bonjour and uPnP."
 msgstr ""
 "缺少此插件，你的 OctoPrint 实例将无法通过 Bonjour 和 uPnP 在网络上被发现。"
 
-#: src/octoprint/plugins/errortracking/__init__.py:84
+#: src/octoprint/plugins/errortracking/__init__.py:82
 #: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:1
 msgid "Error Tracking"
 msgstr "错误跟踪"
@@ -1965,6 +2242,14 @@ msgstr "忽略"
 msgid ""
 "You can still enable error tracking via \"Settings\" > \"Error Tracking\""
 msgstr "可以通过“设置>错误跟踪”启用错误跟踪"
+
+#: src/octoprint/plugins/errortracking/static/js/sentry.min.js:2
+msgid "dom"
+msgstr ""
+
+#: src/octoprint/plugins/errortracking/static/js/sentry.min.js:2
+msgid "xhr"
+msgstr ""
 
 #: src/octoprint/plugins/errortracking/templates/errortracking_settings.jinja2:3
 msgid ""
@@ -2090,10 +2375,6 @@ msgstr "添加"
 msgid "Command Editor"
 msgstr "命令编辑"
 
-#: src/octoprint/plugins/eventmanager/templates/eventmanager_settings.jinja2:42
-msgid "Command"
-msgstr "命令"
-
 #: src/octoprint/plugins/eventmanager/templates/eventmanager_settings.jinja2:48
 msgid "Type"
 msgstr "类型"
@@ -2146,7 +2427,7 @@ msgid "Ready!"
 msgstr "准备好了！"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:700
-#: src/octoprint/static/js/app/viewmodels/files.js:1085
+#: src/octoprint/static/js/app/viewmodels/files.js:1095
 msgid "Model size"
 msgstr "模型尺寸"
 
@@ -2181,15 +2462,15 @@ msgstr "GCODE 命令"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:760
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:769
-#: src/octoprint/static/js/app/viewmodels/files.js:1100
-#: src/octoprint/static/js/app/viewmodels/files.js:1116
+#: src/octoprint/static/js/app/viewmodels/files.js:1110
+#: src/octoprint/static/js/app/viewmodels/files.js:1126
 msgid "Filament"
 msgstr "耗材"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:771
 #: src/octoprint/static/js/app/viewmodels/control.js:220
-#: src/octoprint/static/js/app/viewmodels/files.js:1118
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:360
+#: src/octoprint/static/js/app/viewmodels/files.js:1128
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:378
 #: src/octoprint/static/js/app/viewmodels/temperature.js:153
 #: src/octoprint/static/js/app/viewmodels/temperature.js:164
 #: src/octoprint/static/js/app/viewmodels/temperature.js:411
@@ -2197,7 +2478,7 @@ msgid "Tool"
 msgstr "喷头"
 
 #: src/octoprint/plugins/gcodeviewer/static/js/gcodeviewer.js:783
-#: src/octoprint/static/js/app/viewmodels/files.js:1128
+#: src/octoprint/static/js/app/viewmodels/files.js:1138
 msgid "Estimated print time"
 msgstr "估计打印时间"
 
@@ -2468,22 +2749,154 @@ msgstr ""
 msgid "Force compression"
 msgstr "强制压缩"
 
+#: src/octoprint/plugins/health_check/__init__.py:129
+msgid "Allows to perform health checks and view their results"
+msgstr ""
+
+#: src/octoprint/plugins/health_check/__init__.py:224
+msgid ""
+"Without this plugin you might miss problematic issues with your OctoPrint "
+"installation."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:145
+#, python-format
+msgid "Your Python version %(python)s is nearing its end of life (%(date)s)."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:148
+msgid "Soon to be outdated Python"
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:150
+#, python-format
+msgid "Your Python version %(python)s is past its end of life (%(date)s)."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:153
+#: src/octoprint/plugins/health_check/static/js/health_check.js:214
+msgid "Outdated Python"
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:158
+#, python-format
+msgid ""
+"OctoPrint %(octoprint)s will be the last version to support this Python "
+"version."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:164
+msgid ""
+"A future version of OctoPrint will drop support for this Python version."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:178
+msgid "You should upgrade as soon as possible!"
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:181
+msgid "Please refer to the FAQ for recommended upgrade workflows:"
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:188
+msgid ""
+"This will be shown again every 30 days until you have upgraded your Python."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:225
+msgid "Your OctoPrint version is outdated."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:228
+#, python-format
+msgid ""
+"There are %(count)d newer releases. You have <strong>%(current)s</strong>, "
+"the latest is <strong>%(latest)s</strong>."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:238
+msgid "You should update as soon as possible."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:242
+msgid "Outdated OctoPrint"
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:254
+msgid ""
+"One or more folders that OctoPrint uses are starting to run out of space."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:259
+msgid "One or more folders that OctoPrint uses are about to run out of space."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:264
+#, python-format
+msgid "%(usage)f%% filled"
+msgstr ""
+
+#: src/octoprint/plugins/health_check/static/js/health_check.js:287
+msgid ""
+"Please free up some space to ensure OctoPrint will continue to function as "
+"expected."
+msgstr ""
+
+#: src/octoprint/plugins/health_check/templates/health_check.jinja2:4
+msgid "Health Check Results"
+msgstr ""
+
+#: src/octoprint/plugins/health_check/templates/health_check.jinja2:11
+msgid "Issues"
+msgstr ""
+
+#: src/octoprint/plugins/health_check/templates/health_check.jinja2:12
+msgid ""
+"\n"
+"                    The following issues were found with your OctoPrint "
+"installation. You should solve them as soon as possible.\n"
+"                "
+msgstr ""
+
+#: src/octoprint/plugins/health_check/templates/health_check.jinja2:24
+msgid "Warnings"
+msgstr ""
+
+#: src/octoprint/plugins/health_check/templates/health_check.jinja2:25
+msgid ""
+"\n"
+"                    The following warnings were found with your OctoPrint "
+"installation. You should look into them sooner rather than later.\n"
+"                "
+msgstr ""
+
+#: src/octoprint/plugins/health_check/templates/health_check.jinja2:38
+msgid ""
+"\n"
+"                    All health checks are green!\n"
+"                "
+msgstr ""
+
+#: src/octoprint/plugins/health_check/templates/health_check_navbar.jinja2:1
+msgid "Health Checks"
+msgstr ""
+
 #: src/octoprint/plugins/logging/__init__.py:33
 msgid "Allows to download and delete log files and list and set log levels."
 msgstr "允许下载和删除日志文件以及列出和设置日志级别。"
 
-#: src/octoprint/plugins/logging/__init__.py:256
+#: src/octoprint/plugins/logging/__init__.py:148
 msgid "Logging"
 msgstr ""
 
-#: src/octoprint/plugins/logging/__init__.py:271
+#: src/octoprint/plugins/logging/__init__.py:287
 msgid ""
 "Without this plugin you will no longer be able to retrieve OctoPrint's logs "
 "or modify the current logging levels through the web interface."
 msgstr ""
 "缺少此插件，将无法检索 OctoPrint 的日志或通过网页 UI 修改当前日志记录级别。"
 
-#: src/octoprint/plugins/logging/static/js/logging.js:138
+#: src/octoprint/plugins/logging/static/js/logging.js:161
 #, python-format
 msgid ""
 "You currently have <code>%(logfile)s</code> enabled. Please remember to turn "
@@ -2493,7 +2906,7 @@ msgstr ""
 "你当前已启用<code>%(logfile)s</code>。请记住，一旦调试完成，无论什么原因提示"
 "你将其打开，请再次将其关闭。"
 
-#: src/octoprint/plugins/logging/static/js/logging.js:145
+#: src/octoprint/plugins/logging/static/js/logging.js:168
 msgid ""
 "It can negatively impact print performance and also take up a lot of storage "
 "space depending on how long you keep it enabled and thus should only be used "
@@ -2502,25 +2915,25 @@ msgstr ""
 "它可能会对打印性能产生负面影响，并且还会占用大量存储空间，具体取决于你启用它"
 "的时间，因此只能用于调试。"
 
-#: src/octoprint/plugins/logging/static/js/logging.js:155
+#: src/octoprint/plugins/logging/static/js/logging.js:178
 msgid "Log storage:"
 msgstr "日志存储："
 
-#: src/octoprint/plugins/logging/static/js/logging.js:222
+#: src/octoprint/plugins/logging/static/js/logging.js:245
 #, python-format
 msgid "You are about to delete log file \"%(name)s\"."
 msgstr "你将要删除日志文件\"%(name)s\"。"
 
-#: src/octoprint/plugins/logging/static/js/logging.js:269
+#: src/octoprint/plugins/logging/static/js/logging.js:292
 #, python-format
 msgid "You are about to delete %(count)d log files."
 msgstr "你将要删除 %(count)d 个日志文件。"
 
-#: src/octoprint/plugins/logging/static/js/logging.js:340
+#: src/octoprint/plugins/logging/static/js/logging.js:363
 msgid "Deleting log files"
 msgstr "删除日志文件"
 
-#: src/octoprint/plugins/logging/static/js/logging.js:341
+#: src/octoprint/plugins/logging/static/js/logging.js:364
 #, python-format
 msgid "Deleting %(count)d log files..."
 msgstr "删除%(count)d个日志文件。。"
@@ -2547,14 +2960,14 @@ msgstr "日志"
 
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:7
 #: src/octoprint/templates/sidebar/files_header.jinja2:8
-#: src/octoprint/templates/tabs/timelapse.jinja2:127
+#: src/octoprint/templates/tabs/timelapse.jinja2:139
 msgid "Sort by name"
 msgstr "按文件名称排序"
 
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:7
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:246
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:300
 #: src/octoprint/templates/sidebar/files_header.jinja2:8
-#: src/octoprint/templates/tabs/timelapse.jinja2:127
+#: src/octoprint/templates/tabs/timelapse.jinja2:139
 msgid "ascending"
 msgstr "升序"
 
@@ -2564,27 +2977,27 @@ msgstr "按修改日期排序"
 
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:8
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:9
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:247
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:248
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:249
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:250
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:251
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:301
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:302
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:303
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:304
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:305
 #: src/octoprint/templates/sidebar/files_header.jinja2:9
 #: src/octoprint/templates/sidebar/files_header.jinja2:10
 #: src/octoprint/templates/sidebar/files_header.jinja2:11
-#: src/octoprint/templates/tabs/timelapse.jinja2:128
-#: src/octoprint/templates/tabs/timelapse.jinja2:129
+#: src/octoprint/templates/tabs/timelapse.jinja2:140
+#: src/octoprint/templates/tabs/timelapse.jinja2:141
 msgid "descending"
 msgstr "倒序"
 
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:9
 #: src/octoprint/templates/sidebar/files_header.jinja2:11
-#: src/octoprint/templates/tabs/timelapse.jinja2:129
+#: src/octoprint/templates/tabs/timelapse.jinja2:141
 msgid "Sort by file size"
 msgstr "按文件大小排序"
 
 #: src/octoprint/plugins/logging/templates/logging_settings.jinja2:24
-#: src/octoprint/templates/tabs/timelapse.jinja2:144
+#: src/octoprint/templates/tabs/timelapse.jinja2:156
 msgid "Download selected"
 msgstr "下载已选择"
 
@@ -2607,20 +3020,20 @@ msgstr "删除"
 msgid "Select a logger..."
 msgstr "选择一条记录..."
 
-#: src/octoprint/plugins/pluginmanager/__init__.py:232
+#: src/octoprint/plugins/pluginmanager/__init__.py:237
 msgid "Allows to list installed plugins."
 msgstr "允许列出已安装的插件。"
 
-#: src/octoprint/plugins/pluginmanager/__init__.py:239
+#: src/octoprint/plugins/pluginmanager/__init__.py:244
 msgid "Allows to enable, disable and uninstall installed plugins."
 msgstr "允许启用，禁用和卸载已安装的插件。"
 
-#: src/octoprint/plugins/pluginmanager/__init__.py:248
+#: src/octoprint/plugins/pluginmanager/__init__.py:253
 msgid ""
 "Allows to install new plugins. Includes the \"Manage plugins\" permission."
 msgstr "允许安装新插件。包括“管理插件”权限。"
 
-#: src/octoprint/plugins/pluginmanager/__init__.py:331
+#: src/octoprint/plugins/pluginmanager/__init__.py:356
 msgid "Plugin Manager"
 msgstr "插件管理器"
 
@@ -2641,376 +3054,361 @@ msgstr ""
 "的、扩展名为 %(archiveExtensions)s 的档案，或者扩展名为 %(pythonExtensions)s "
 "的单文件 Python 插件，或者扩展名为 %(jsonExtensions)s 的导出的插件列表。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:307
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:309
 msgid "There are no plugin notices. Great!"
 msgstr "没有插件通知。好极了！"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:309
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:311
 msgid "There is a plugin notice for one of your installed plugins."
 msgstr "你已经安装的插件有1条通知。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:314
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:316
 #, python-format
 msgid ""
 "There are %(count)d plugin notices for one or more of your installed plugins."
 msgstr "你已经安装的一个或多个插件有%(count)d条通知。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:488
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:490
 msgid "Installing plugins..."
 msgstr "安装插件中。。。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:489
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1235
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:491
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1269
 msgid "Installing plugin..."
 msgstr "正在安装插件..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:491
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:493
 msgid "Installing plugins from uploaded file..."
 msgstr "从上传的文件安装插件中。。。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:492
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:494
 msgid "Installing plugin from uploaded file..."
 msgstr "正在安装上传的插件...。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:503
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:619
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:505
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:621
 msgid "Confirm installation of multiple plugins"
 msgstr "确认多项插件安装"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:504
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:506
 msgid ""
 "Please confirm you want to perform all plugins specified in the json file."
 msgstr "请确认你想执行 JSON 文件中指定的所有插件。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:507
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:622
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:458
-#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:205
-#: src/octoprint/static/js/app/helpers.js:824
-#: src/octoprint/static/js/app/viewmodels/temperature.js:535
-#: src/octoprint/templates/dialogs/files.jinja2:18
-#: src/octoprint/templates/dialogs/files.jinja2:48
-#: src/octoprint/templates/dialogs/files.jinja2:95
-#: src/octoprint/templates/dialogs/slicing.jinja2:57
-#: src/octoprint/templates/dialogs/temperature.jinja2:31
-#: src/octoprint/templates/sidebar/state.jinja2:31
-msgid "Cancel"
-msgstr "取消"
-
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:508
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:605
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:623
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1655
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:334
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:350
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:510
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:607
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:625
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1689
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:394
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:410
 msgid "Install"
 msgstr "安装"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:538
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:931
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1323
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1378
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1434
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1472
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1858
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:540
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:933
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1357
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1412
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1468
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1506
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1892
 #: src/octoprint/plugins/tracking/static/js/usage.js:102
 msgid "Something went wrong"
 msgstr "出了些问题"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:539
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:932
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1324
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1379
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1435
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1473
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:541
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:934
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1358
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1413
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1469
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1507
 msgid "Please consult octoprint.log for details"
 msgstr "请参考 octoprint.log 了解详情"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:604
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1653
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:606
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1687
 msgid "Reinstall"
 msgstr "重新安装"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:620
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:622
 msgid "Please confirm you want to perform these actions:"
 msgstr "请确认你要执行这些操作："
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:636
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:638
 msgid "Installing multiple plugins"
 msgstr "安装多项插件中"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:637
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2477
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:639
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2512
 msgid "Starting installation of multiple plugins..."
 msgstr "开始多项插件的安装。。。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:965
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:967
 #, python-format
 msgid "You are about to disable \"%(name)s\"."
 msgstr "“%(name)s”将被禁用。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:971
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:973
 msgid "This is not recommended"
 msgstr "不推荐这样做"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:973
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:975
 msgid "Do you still want to disable it?"
 msgstr "你是否仍然要禁用它?"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:974
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:988
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:976
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:990
 msgid "Keep enabled"
 msgstr "保持启用"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:975
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:977
 msgid "Disable anyway"
 msgstr "仍然禁用"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:985
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:987
 #, python-format
 msgid "You are about to disable \"%(name)s\""
 msgstr "你即将禁用“%(name)s”"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:989
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:991
 msgid "Disable plugin"
 msgstr "关闭插件"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1027
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1029
 #, python-format
 msgid "Can't resolve plugin with key %(key)s, skipping..."
 msgstr "无法解析键值为 %(key)s 的插件，跳过中..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1038
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1040
 #, python-format
 msgid "Plugin %(plugin)s doesn't support bulk operations, skipping..."
 msgstr "插件 %(plugin)s 不支持批量操作，跳过中..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1051
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1053
 #, python-format
 msgid "Plugin %(plugin)s is already %(status)s (or pending), skipping..."
 msgstr "插件 %(plugin)s 已经处于 %(status)s（或待定），跳过中..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1107
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1109
 msgid "Enabling plugins"
 msgstr "启用插件"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1108
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1110
 #, python-format
 msgid "Enabling %(count)i plugins"
 msgstr "启用 %(count)i 个插件"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1109
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1111
 #, python-format
 msgid "Enabled plugin %(plugin)s..."
 msgstr "已启用插件 %(plugin)s ..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1110
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1112
 #, python-format
 msgid "Enabling plugin %(plugin)s failed, continuing..."
 msgstr "启用插件 %(plugin)s 失败，继续进行..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1111
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1113
 msgid "enabled"
 msgstr "已启用"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1136
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1138
 msgid "Disabling plugins"
 msgstr "禁用插件"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1137
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1139
 #, python-format
 msgid "Disabling %(count)i plugins"
 msgstr "禁用 %(count)i 个插件"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1138
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1140
 #, python-format
 msgid "Disabled plugin %(plugin)s..."
 msgstr "已禁用插件 %(plugin)s ..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1139
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1141
 #, python-format
 msgid "Disabling plugin %(plugin)s failed, continuing..."
 msgstr "禁用插件 %(plugin)s 失败，继续进行..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1140
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1142
 msgid "disabled"
 msgstr "已禁用"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1238
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1272
 #, python-format
 msgid "Installing plugin \"%(name)s\" from %(url)s..."
 msgstr "从 %(url)s 安装插件 “%(name)s”...。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1243
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1277
 #, python-format
 msgid "Installing plugin from %(url)s..."
 msgstr "从%(url)s安装插件..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1250
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1284
 msgid "Reinstalling plugin..."
 msgstr "重新安装插件。。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1252
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1286
 #, python-format
 msgid "Reinstalling plugin \"%(name)s\" from %(url)s..."
 msgstr "从%(url)s重新安装插件“%(name)s”..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1275
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2362
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1309
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2397
 msgid "The following plugins are queued to be installed."
 msgstr "以下插件正在排队等待安装。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1298
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1332
 msgid "Plugin installs queued"
 msgstr "已排队安装插件"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1365
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1399
 msgid "Uninstalling plugin..."
 msgstr "正在卸载插件..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1366
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1400
 #, python-format
 msgid "Uninstalling plugin \"%(name)s\""
 msgstr "正在卸载插件 “%(name)s”"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1391
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1425
 #, python-format
 msgid "You are about to uninstall the plugin \"%(name)s\""
 msgstr "你将要卸载插件“%(name)s”"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1394
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1428
 msgid "Keep installed"
 msgstr "保持安装"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1395
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1429
 msgid "Uninstall"
 msgstr "卸载"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1395
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1429
 msgid "Uninstall & clean up data"
 msgstr "卸载并清理数据"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1421
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1455
 msgid "Cleaning up plugin data..."
 msgstr "清理插件数据..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1422
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1456
 #, python-format
 msgid "Cleaning up data of plugin \"%(name)s\""
 msgstr "清理插件“%(name)s”的数据"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1447
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1481
 #, python-format
 msgid ""
 "You are about to cleanup the plugin data of \"%(name)s\". This operation "
 "cannot be reversed."
 msgstr "你将要清理“%(name)s”的插件数据。此操作不能撤消。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1452
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1487
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1486
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1521
 msgid "Keep data"
 msgstr "保留资料"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1453
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1487
 msgid "Cleanup data"
 msgstr "清理数据"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1465
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1499
 msgid "Cleaning up all left over plugin data..."
 msgstr "清除所有剩余的插件数据..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1484
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1518
 msgid ""
 "You are about to cleanup left over plugin settings and data of plugins no "
 "longer installed. This operation cannot be reversed."
 msgstr "你将要清理剩余的插件设置和不再安装的插件数据。此操作不能撤消。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1488
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1522
 msgid "Cleanup all data"
 msgstr "清理所有数据"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1644
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1678
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:128
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:285
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:339
 msgid "Disabled"
 msgstr "禁用"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1646
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1680
 msgid "Incompatible"
 msgstr "不兼容"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1651
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1685
 msgid "Dequeue"
 msgstr "取消排队"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1662
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1961
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1696
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1995
 msgid "Error!"
 msgstr "错误！"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1667
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1966
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1701
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2000
 #, python-format
 msgid "You can find more info on this issue in the FAQ at %(url)s"
 msgstr "你可以从FAQ中获取关于此故障的具体信息%(url)s"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1746
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1780
 msgid "Plugin management log"
 msgstr "插件管理日志"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1754
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1788
 #, python-format
 msgid "%(count)d earlier actions..."
 msgstr "%(count)d之前的动作..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1756
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1790
 #, python-format
 msgid "%(count)d earlier action"
 msgstr "%(count)d之前的动作"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1768
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1802
 #, python-format
 msgid "Install <em>%(plugin)s</em>: %(result)s"
 msgstr "安装<em>%(plugin)s</em>：%(result)s"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1772
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1806
 #, python-format
 msgid "Uninstall <em>%(plugin)s</em>: %(result)s"
 msgstr "卸载<em>%(plugin)s</em>：%(result)s"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1776
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1810
 #, python-format
 msgid "Enable <em>%(plugin)s</em>: %(result)s"
 msgstr "启用<em>%(plugin)s</em>：%(result)s"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1780
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1814
 #, python-format
 msgid "Disable <em>%(plugin)s</em>: %(result)s"
 msgstr "禁用<em>%(plugin)s</em>：%(result)s"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1784
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1818
 #, python-format
 msgid "Cleanup <em>%(plugin)s</em>: %(result)s"
 msgstr "清理<em>%(plugin)s</em>：%(result)s"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1788
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1822
 #, python-format
 msgid "Cleanup all: %(result)s"
 msgstr "全部清除：%(result)s"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1806
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1840
 msgid "Why?"
 msgstr "为什么？"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1820
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1854
 msgid "A restart is needed for the changes to take effect."
 msgstr "重启以使更改生效。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1834
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1868
 msgid "Restart now"
 msgstr "现在重启"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1839
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1873
 msgid ""
 "<strong>This will restart your OctoPrint server.</strong></p><p>This action "
 "may disrupt any ongoing print jobs (depending on your printer's controller "
@@ -3021,15 +3419,15 @@ msgstr ""
 "业（取决于打印机的控制器和一般设置，这可能也适用于直接从打印机的内部存储中运"
 "行的打印）。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1848
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1882
 msgid "Restart in progress"
 msgstr "正在重新启动"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1851
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1885
 msgid "The server is now being restarted in the background"
 msgstr "服务器正在后台重启"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1861
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1895
 msgid ""
 "Trying to restart the server produced an error, please check octoprint.log "
 "for details. You'll have to restart manually."
@@ -3037,115 +3435,115 @@ msgstr ""
 "试图重新启动服务器时产生了一个错误，请检查 octoprint.log 来查看详细信息。你需"
 "要手动重新启动。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1879
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1913
 msgid "A refresh is needed for the changes to take effect."
 msgstr "刷新以使更改生效。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1889
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1923
 #: src/octoprint/templates/overlays/reloadui.jinja2:14
 msgid "Reload now"
 msgstr "重新加载"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1902
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1936
 msgid "A reconnect to the printer is needed for the changes to take effect."
 msgstr "重新连接打印机以使更改生效。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:1975
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2009
 msgid "Done!"
 msgstr "完成！"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2016
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2050
 msgid "Blacklisted"
 msgstr "黑名单"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2018
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2052
 msgid "Disabled due to active safe mode"
 msgstr "由于安全模式被禁用"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2020
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2054
 msgid "Enable Plugin"
 msgstr "启用插件"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2023
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2057
 msgid "Disable Plugin"
 msgstr "禁用插件"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2046
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2080
 #, python-format
 msgid ""
 "There are %(count)d notices (%(important)d marked as important) available "
 "regarding this plugin - click to show!"
 msgstr "此插件有%(count)d条通知(%(important)d条标记为重要)——点击查看！"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2053
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2087
 #, python-format
 msgid ""
 "There are %(count)d notices available regarding this plugin - click to show!"
 msgstr "此插件有%(count)d条通知——点击查看！"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2061
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2095
 msgid ""
 "There is an important notice available regarding this plugin - click to show!"
 msgstr "此插件有一项重要通知——点击查看！"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2065
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2099
 msgid "There is a notice available regarding this plugin - click to show!"
 msgstr "此插件有通知——点击查看！"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2082
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2116
 #, python-format
 msgid "Important notice regarding plugin \"%(name)s\""
 msgstr "有关 \"%(name)s\"插件的重要通知"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2086
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2120
 #, python-format
 msgid "Notice regarding plugin \"%(name)s\""
 msgstr "有关\"%(name)s\"插件的通知"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2101
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2135
 #, python-format
 msgid "Affected versions: %(versions)s"
 msgstr "受影响的版本：%(versions)s"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2106
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2140
 msgid "Affected versions: all"
 msgstr "受影响版本：全部"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2115
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2149
 msgid "Read more..."
 msgstr "阅读更多..."
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2342
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2377
 msgid "Queued Installs"
 msgstr "已排队的安装"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2357
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2392
 msgid "Queued Installs Paused"
 msgstr "暂停排队安装"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2378
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2413
 msgid "Continue Installs"
 msgstr "继续安装"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2389
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2453
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2424
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2488
 msgid "Cancel Installs"
 msgstr "取消安装"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2416
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2451
 #, python-format
 msgid "Installing in %(sec)i secs..."
 msgstr "%(sec)i 秒安装中。。。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2422
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2457
 msgid "Starting Queued Installs"
 msgstr "排队安装开始"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2427
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2462
 msgid "The following plugins are going to be installed."
 msgstr "将安装以下插件。"
 
-#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2476
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:2511
 msgid "Installing queued plugins"
 msgstr "排队插件安装中"
 
@@ -3222,12 +3620,12 @@ msgstr ""
 "请在错误跟踪器中报告此问题并确保包含所有要求的信息。\n"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:47
-#: src/octoprint/server/views.py:894
+#: src/octoprint/server/views.py:979
 msgid "Plugins"
 msgstr "插件"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:50
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:177
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:183
 msgid "Cleanup"
 msgstr "清理"
 
@@ -3240,7 +3638,7 @@ msgid "Export"
 msgstr "导出"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:66
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:379
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:439
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:96
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:165
 msgid "Plugin Configuration"
@@ -3263,7 +3661,7 @@ msgid "Installed Plugins"
 msgstr "已安装插件"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:107
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:238
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:292
 #: src/octoprint/templates/sidebar/files.jinja2:3
 msgid "Search..."
 msgstr "搜索..."
@@ -3325,7 +3723,7 @@ msgid "Cannot be uninstalled through OctoPrint"
 msgstr "不能通过 OctoPrint 卸载"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:149
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:284
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:338
 msgid "Incompatible to OctoPrint or the underlying Python environment"
 msgstr "与 OctoPrint 或底层 Python 环境不兼容"
 
@@ -3354,156 +3752,244 @@ msgid "This plugin is blacklisted"
 msgstr "黑名单插件"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:151
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:289
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:343
 msgid "Homepage"
 msgstr "主页"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:152
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:290
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:344
 msgid "Privacy Policy"
 msgstr "隐私政策"
 
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:163
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:357
+msgid "Abandoned"
+msgstr ""
+
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:164
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:194
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:358
+msgid "Cloud"
+msgstr ""
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:165
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:359
+msgid "Commercial"
+msgstr ""
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:166
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:360
+msgid "Free tier"
+msgstr ""
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:170
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:200
 msgid "Cleanup Plugin Data"
 msgstr "清理插件数据"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:164
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:170
 msgid "Uninstall Plugin"
 msgstr "卸载插件"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:170
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:176
 msgid ""
 "Please note that bundled and incompatible plugins do not support bulk "
 "operations."
 msgstr "请注意，捆绑和不兼容的插件不支持批量操作。"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:174
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:180
 msgid "Refresh"
 msgstr "刷新"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:184
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:190
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorGeneral.jinja2:10
 msgid "Identifier"
 msgstr "标识符"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:201
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:207
 msgid "Cleanup all"
 msgstr "全部清理"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:204
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:210
 msgid ""
 "Nothing to cleanup! There are no settings or data left over from plugins "
 "which are no longer installed."
 msgstr "没什么要清理的！不再安装的插件没有剩余的设置或数据。"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:224
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:230
+msgid "A word on third-party plugins..."
+msgstr ""
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:233
+msgid ""
+"\n"
+"        <p>\n"
+"            Third-party plugins, like all software that you install, can "
+"potentially break things, negatively impact performance or even cause "
+"security issues.\n"
+"        </p>\n"
+"        <p>\n"
+"            As they aren't part of the core installation and developed "
+"elsewhere, we can't guarantee the quality & security of third-party "
+"plugins.\n"
+"            Here's what we do to make things as stable and safe as "
+"possible:\n"
+"        </p>\n"
+"        <ul>\n"
+"            <li>\n"
+"                <strong>Initial code review:</strong>\n"
+"                All plugins in OctoPrint's repository are reviewed by a "
+"trusted team member before they are initially published on the repository.\n"
+"            </li>\n"
+"            <li>\n"
+"                <strong>Open source:</strong>\n"
+"                All plugins in OctoPrint's repository are open source, so "
+"you and anyone else from the community can look at their published source "
+"code and see what they do for yourself.\n"
+"            </li>\n"
+"            <li>\n"
+"                <strong>Plugin blacklist:</strong>\n"
+"                We maintain a blacklist of plugins/plugin versions that are "
+"known to cause issues. Unless you have disabled the blacklist, OctoPrint "
+"will refuse to load and run any plugins installed in your system matching an "
+"entry on it.\n"
+"            </li>\n"
+"            <li>\n"
+"                <strong>Report mechanism:</strong>\n"
+"                If you encounter suspicious activity of a plugin, you can "
+"report it to us. We will then investigate and potentially remove it from the "
+"repository and/or add it to the blacklist.\n"
+"            </li>\n"
+"            <li>\n"
+"                <strong>Safe mode & recovery page:</strong>\n"
+"                If you encounter a problem with a plugin, you can start "
+"OctoPrint in safe mode to disable all third-party plugins. Even if the UI "
+"has been rendered\n"
+"                inaccessible through a malfunctioning third-party plugin, "
+"you can still access the recovery page at <code>/recovery/</code> to restart "
+"in safe mode.\n"
+"            </li>\n"
+"        </ul>\n"
+"        <p>\n"
+"            <strong>By proceeding, you acknowledge that you understand and "
+"accept the risks associated with installing third-party plugins.</strong>\n"
+"        </p>\n"
+"        "
+msgstr ""
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:271
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:945
+#: src/octoprint/static/js/app/helpers.js:825
+#: src/octoprint/static/js/app/helpers.js:1037
+msgid "Proceed"
+msgstr "继续"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:278
 msgid "Install new Plugins..."
 msgstr "安装新插件..."
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:233
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:287
 #, python-format
 msgid ""
 "... from the <a href=\"%(url)s\" target=\"_blank\">Plugin Repository</a>"
 msgstr "... 从 <a href=\"%(url)s\" target=\"_blank\">插件仓库</a>"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:246
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:300
 msgid "Sort by title"
 msgstr "按名称排序"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:247
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:301
 msgid "Sort by publication date"
 msgstr "按日期排序"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:248
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:302
 msgid "Sort by last release date"
 msgstr "按上次发布日期排序"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:249
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:303
 msgid "Sort by last push date"
 msgstr "按上次推送日期排序"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:250
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:304
 msgid "Sort by active instance count"
 msgstr "按活动实例计数排序"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:251
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:305
 msgid "Sort by Github stars"
 msgstr "按Github星排序"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:253
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:307
 msgid "Only show uninstalled plugins"
 msgstr "仅显示已卸载的插件"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:254
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:308
 msgid "Only show compatible plugins"
 msgstr "只显示兼容的插件"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:255
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:309
 msgid "Only show unabandoned plugins"
 msgstr "仅显示未放弃的插件"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:257
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:311
 msgid "Refresh list from repository"
 msgstr "从仓库刷新列表"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:279
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:333
 msgid "\"Why?\""
 msgstr "“为什么？”"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:283
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:337
 msgid "Abandoned by its maintainer"
 msgstr "被维护者放弃"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:295
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:349
 msgid "License"
 msgstr "许可"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:296
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:350
 msgid "Publication date"
 msgstr "发布日期"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:297
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:351
 msgid "Active instances past month"
 msgstr "过去一个月的活动实例"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:298
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:352
 msgid "Github stars"
 msgstr "Github星数"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:299
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:353
 msgid "Last push to main branch"
 msgstr "最后推送到主分支"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:300
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:354
 msgid "Latest release & date"
 msgstr "最新版本和日期"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:307
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:367
 msgid "plugins displayed"
 msgstr "显示的插件"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:312
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:372
 msgid "Sadly the repository is currently not available"
 msgstr "很遗憾此库目前无法使用"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:315
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:375
 msgid "Is your OctoPrint installation connected to the internet?"
 msgstr "你的 OctoPrint 是否连接到互联网？"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:322
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:382
 msgid "It looks like there are no plugins that match your search criteria"
 msgstr "没有搜索到符合你条件的插件"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:327
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:387
 msgid "... from URL"
 msgstr "...从网址"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:332
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:392
 msgid "Enter URL..."
 msgstr "输入网址..."
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:336
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:396
 #, python-format
 msgid ""
 "This does not look like a valid URL. Expected http, https or any of the <a "
@@ -3512,27 +3998,27 @@ msgstr ""
 "这看起来不像一个有效的 URL。预期使用 http、https 或任何的<a href=\"%(url)s\" "
 "target=\"_blank\">受支持的 VCS URLs</a>。"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:339
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:399
 msgid "... from an uploaded file"
 msgstr "...来自上传的文件"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:362
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:422
 msgid ""
 "Use <code>--process-dependency-links</code> with <code>pip install</code>"
 msgstr ""
 "请在<code>pip install</code>中使用 <code>--process-dependency-links</code> 参"
 "数"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:384
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:444
 msgid "Confirmations"
 msgstr "确认书"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:386
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:389
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:446
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:449
 msgid "Confirm before disabling a plugin"
 msgstr "在禁用插件之前进行确认"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:395
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:455
 msgid ""
 "You should normally <strong>not</strong> have to change <strong>any</strong> "
 "of the following settings, they are purely provided for convenience here."
@@ -3540,131 +4026,131 @@ msgstr ""
 "正常情况下你<strong>不应该</strong>改变这里的<strong>任何</strong>设置，它们"
 "纯粹是为了方便起见。。"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:398
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:458
 msgid "Plugin repository configuration"
 msgstr "插件存储库配置"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:400
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:460
 msgid ""
 "URL of the Plugin Repository to use. You should normally not have to change "
 "this."
 msgstr "使用的插件库的网址。一般无需更改。"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:401
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:461
 msgid "Repository URL"
 msgstr "库 URL"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:406
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:466
 msgid ""
 "How long to cache repository data, in minutes. You should normally not have "
 "to change this."
 msgstr "缓存存储库数据时间（分钟）。一般无需更改。"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:407
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:467
 msgid "Repository cache TTL"
 msgstr "库缓存"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:418
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:478
 msgid "Notices configuration"
 msgstr "通知配置"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:420
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:480
 msgid ""
 "URL of the Notices source to use. You should normally not have to change "
 "this."
 msgstr "通知源所使用的URL。一般无需更改。"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:421
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:481
 msgid "Notices URL"
 msgstr "通知URL"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:426
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:486
 msgid ""
 "How long to cache notices, in minutes. You should normally not have to "
 "change this."
 msgstr "缓存通知时间（分钟）。一般无需更改。"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:427
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:487
 msgid "Notices cache TTL"
 msgstr "通知缓存"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:438
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:498
 msgid "pip configuration"
 msgstr "pip配置"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:440
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:500
 msgid ""
 "Additional arguments for the pip command. You should normally not have to "
 "change this."
 msgstr "针对pip命令的附加参数。一般无需更改。"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:441
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:501
 msgid "Additional arguments"
 msgstr "附加参数"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:449
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:509
 msgid ""
 "Force the use of the <code>--user</code> flag with <code>pip install</code>"
 msgstr "在<code>pip install </code>中强制使用<code>--user</code> 参数"
 
-#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:459
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:519
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:206
 #: src/octoprint/templates/dialogs/settings.jinja2:55
 #: src/octoprint/templates/dialogs/temperature.jinja2:32
 msgid "Save"
 msgstr "保存"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:148
+#: src/octoprint/plugins/softwareupdate/__init__.py:157
 msgid "Allows to check for software updates"
 msgstr "允许检查软件更新"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:155
+#: src/octoprint/plugins/softwareupdate/__init__.py:164
 msgid "Allows to perform software updates"
 msgstr "允许执行软件更新"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:163
+#: src/octoprint/plugins/softwareupdate/__init__.py:172
 msgid "Allows to configure software update"
 msgstr "允许配置软件更新"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1159
+#: src/octoprint/plugins/softwareupdate/__init__.py:1166
 msgid "Python package installation folder"
 msgstr "Python软件包安装文件夹"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1160
+#: src/octoprint/plugins/softwareupdate/__init__.py:1167
 msgid "Plugin folder"
 msgstr "插件文件夹"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1161
+#: src/octoprint/plugins/softwareupdate/__init__.py:1168
 msgid "System temporary files"
 msgstr "系统临时文件"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1193
+#: src/octoprint/plugins/softwareupdate/__init__.py:1200
 #: src/octoprint/templates/footer.jinja2:4
 msgid "Python"
 msgstr "Python"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1200
-#: src/octoprint/plugins/softwareupdate/__init__.py:2369
+#: src/octoprint/plugins/softwareupdate/__init__.py:1207
+#: src/octoprint/plugins/softwareupdate/__init__.py:2371
 msgid "pip"
 msgstr "pip"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1207
+#: src/octoprint/plugins/softwareupdate/__init__.py:1214
 msgid "setuptools"
 msgstr "设置工具"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1490
-#: src/octoprint/plugins/softwareupdate/__init__.py:1507
+#: src/octoprint/plugins/softwareupdate/__init__.py:1492
+#: src/octoprint/plugins/softwareupdate/__init__.py:1509
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_wizard_settings.jinja2:1
 msgid "Software Update"
 msgstr "更新软件"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:1497
+#: src/octoprint/plugins/softwareupdate/__init__.py:1499
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_wizard_update.jinja2:1
 msgid "Update?"
 msgstr "是否升级？"
 
-#: src/octoprint/plugins/softwareupdate/__init__.py:2347
-#: src/octoprint/server/views.py:1126
+#: src/octoprint/plugins/softwareupdate/__init__.py:2349
+#: src/octoprint/server/views.py:1212
 #: src/octoprint/static/js/app/viewmodels/appearance.js:106
 #: src/octoprint/static/js/app/viewmodels/appearance.js:110
 #: src/octoprint/static/js/app/viewmodels/appearance.js:111
@@ -3700,7 +4186,7 @@ msgid "%(name)s: %(version)s"
 msgstr "%(name)s：%(version)s"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:406
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:266
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:290
 #: src/octoprint/templates/sidebar/files.jinja2:22
 #: src/octoprint/templates/sidebar/files.jinja2:37
 #: src/octoprint/templates/sidebar/files.jinja2:51
@@ -3902,11 +4388,6 @@ msgstr "是否确定要继续？"
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:943
 msgid "Are you sure you want to update now?"
 msgstr "你确定要现在更新吗？"
-
-#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:945
-#: src/octoprint/static/js/app/helpers.js:825
-msgid "Proceed"
-msgstr "继续"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:1127
 #, python-format
@@ -4453,8 +4934,8 @@ msgstr "跟踪分支"
 msgid "OctoPrint version tracking"
 msgstr "OctoPrint 版本跟踪"
 
-#: src/octoprint/plugins/tracking/__init__.py:197
-#: src/octoprint/plugins/tracking/__init__.py:203
+#: src/octoprint/plugins/tracking/__init__.py:198
+#: src/octoprint/plugins/tracking/__init__.py:204
 #: src/octoprint/plugins/tracking/templates/tracking_settings.jinja2:1
 msgid "Anonymous Usage Tracking"
 msgstr "使用匿名跟踪"
@@ -4632,6 +5113,286 @@ msgstr ""
 "target=\"_blank\" rel=\"noopener noreferrer\">tracking.octoprint.org 上的隐私"
 "政策</a>.\n"
 
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:245
+#, python-format
+msgid "%(count)d selected"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:255
+#, python-format
+msgid "Size: %(size)s"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:545
+msgid "Create a new folder"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:546
+msgid "Please specify the name:"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:553
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:596
+msgid "This name is already in use!"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:561
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:612
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:843
+msgid "Operation failed"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:563
+#, python-format
+msgid "Creating new folder %(filename)s failed: %(error)s"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:586
+#, python-format
+msgid "Rename %(name)s"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:587
+msgid "Please specify the new name:"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:614
+#, python-format
+msgid "Renaming %(filename)s failed: %(error)s"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:638
+msgid "Select destination for copy"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:640
+msgid "Select destination for move"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:682
+msgid "Copying"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:683
+#, python-format
+msgid "Copying %%(count)d items to %(destination)s..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:686
+#, python-format
+msgid "Copied %(filename)s..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:687
+#, python-format
+msgid "Copying %(filename)s failed, continuing..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:688
+#, python-format
+msgid "Copying %(filename)s failed: %(error)s"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:704
+msgid "Moving"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:705
+#, python-format
+msgid "Moving %%(count)d items to %(destination)s..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:708
+#, python-format
+msgid "Moved %(filename)s..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:709
+#, python-format
+msgid "Moving %(filename)s failed, continuing..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:710
+#, python-format
+msgid "Moving %(filename)s failed: %(error)s"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:725
+#, python-format
+msgid "You are about to delete %(count)d items forever."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:731
+#: src/octoprint/static/js/app/viewmodels/files.js:693
+#, python-format
+msgid ""
+"You are about to delete the folder \"%(folder)s\" forever which still "
+"contains files and/or sub folders."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:739
+#: src/octoprint/static/js/app/viewmodels/files.js:823
+#, python-format
+msgid "You are about to delete \"%(file)s\" forever."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:750
+msgid "Deleting"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/static/js/uploadmanager.js:751
+#, python-format
+msgid "Deleting %(count)d items..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:4
+msgid "Upload Manager"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:21
+msgid "Select all stored locally"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:22
+msgid "Select all stored on printer"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:24
+msgid "Select all machinecode files"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:25
+msgid "Select all model files"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:26
+msgid "Select all folders"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:28
+msgid "Invert selection"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:34
+#: src/octoprint/templates/dialogs/files.jinja2:4
+msgid "Create Folder"
+msgstr "创建文件夹"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:38
+msgid "Rename..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:39
+msgid "Copy to..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:40
+msgid "Move to..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:41
+msgid "Remove..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:45
+msgid "Slice..."
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:47
+#: src/octoprint/templates/overlays/dragndrop.jinja2:7
+#: src/octoprint/templates/sidebar/files.jinja2:78
+msgid "Upload to SD"
+msgstr "上传到SD卡"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:49
+#: src/octoprint/templates/sidebar/files.jinja2:29
+msgid "Load"
+msgstr "载入"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:50
+#: src/octoprint/templates/sidebar/files.jinja2:30
+msgid "Load and Print"
+msgstr "载入并打印"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:60
+msgid "Sort folders before files"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:61
+msgid "Sort files before folders"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:62
+msgid "Sort files and folders together"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:68
+#: src/octoprint/templates/sidebar/files_header.jinja2:15
+msgid "Sort by Folders, Files"
+msgstr "按文件夹、文件排序"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:69
+#: src/octoprint/templates/sidebar/files_header.jinja2:16
+msgid "Sort by Files, Folders"
+msgstr "按文件、文件夹排序"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:70
+#: src/octoprint/templates/sidebar/files_header.jinja2:17
+msgid "Mixed"
+msgstr "全显示"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:72
+msgid "Only show GCode files"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:73
+msgid "Only show STL files"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:76
+#: src/octoprint/templates/sidebar/files_header.jinja2:28
+msgid "Only show files stored locally"
+msgstr "仅显示本机的文件"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:77
+#: src/octoprint/templates/sidebar/files_header.jinja2:29
+msgid "Only show files stored on SD"
+msgstr "仅显示SD卡的文件"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:80
+#: src/octoprint/templates/sidebar/files_header.jinja2:32
+msgid "Hide successfully printed files"
+msgstr "隐藏已成功打印文件"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:92
+#: src/octoprint/templates/sidebar/state.jinja2:6
+msgid "Uploaded"
+msgstr "已上传"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:93
+msgid "Last Printed"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:101
+#: src/octoprint/templates/sidebar/files.jinja2:9
+msgid "Back"
+msgstr "返回"
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:182
+msgid "Select the destination folder"
+msgstr ""
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:182
+#: src/octoprint/templates/dialogs/files.jinja2:31
+#: src/octoprint/templates/dialogs/files.jinja2:36
+msgid "Currently:"
+msgstr "目前："
+
+#: src/octoprint/plugins/uploadmanager/templates/uploadmanager.jinja2:191
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:251
+msgid "Continue"
+msgstr "继续"
+
 #: src/octoprint/plugins/virtual_printer/templates/virtual_printer_settings.jinja2:7
 msgid "Enable the virtual printer"
 msgstr "启用虚拟打印机"
@@ -4645,107 +5406,107 @@ msgstr ""
 "如果启用，将有一个额外的串行端口<code>VIRTUAL</code>用于连接，为虚拟打印机提"
 "供支持，对开发有用。"
 
-#: src/octoprint/server/views.py:982
+#: src/octoprint/server/views.py:1068
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:16
 msgid "Connection"
 msgstr "连接"
 
-#: src/octoprint/server/views.py:993
+#: src/octoprint/server/views.py:1079
 #: src/octoprint/templates/sidebar/state.jinja2:1
 msgid "State"
 msgstr "状态"
 
-#: src/octoprint/server/views.py:1003
+#: src/octoprint/server/views.py:1089
 msgid "Files"
 msgstr "文件列表"
 
-#: src/octoprint/server/views.py:1020
+#: src/octoprint/server/views.py:1106
 msgid "Temperature"
 msgstr "温度"
 
-#: src/octoprint/server/views.py:1029
+#: src/octoprint/server/views.py:1115
 msgid "Control"
 msgstr "控制"
 
-#: src/octoprint/server/views.py:1038
+#: src/octoprint/server/views.py:1124
 msgid "Terminal"
 msgstr "终端"
 
-#: src/octoprint/server/views.py:1047
+#: src/octoprint/server/views.py:1133
 #: src/octoprint/templates/sidebar/state.jinja2:11
 msgid "Timelapse"
 msgstr "延时摄影"
 
-#: src/octoprint/server/views.py:1060
+#: src/octoprint/server/views.py:1146
 msgid "Printer"
 msgstr "打印机"
 
-#: src/octoprint/server/views.py:1062
+#: src/octoprint/server/views.py:1148
 msgid "Serial Connection"
 msgstr "串口连接"
 
-#: src/octoprint/server/views.py:1070
+#: src/octoprint/server/views.py:1156
 #: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:1
 msgid "Printer Profiles"
 msgstr "打印机配置文件"
 
-#: src/octoprint/server/views.py:1078
+#: src/octoprint/server/views.py:1164
 msgid "Temperatures"
 msgstr "温度"
 
-#: src/octoprint/server/views.py:1086
+#: src/octoprint/server/views.py:1172
 #: src/octoprint/templates/dialogs/settings/terminalfilters.jinja2:1
 msgid "Terminal Filters"
 msgstr "终端过滤器"
 
-#: src/octoprint/server/views.py:1094
+#: src/octoprint/server/views.py:1180
 #: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:1
 msgid "GCODE Scripts"
 msgstr "GCODE 脚本"
 
-#: src/octoprint/server/views.py:1101 src/octoprint/server/views.py:1103
+#: src/octoprint/server/views.py:1187 src/octoprint/server/views.py:1189
 #: src/octoprint/templates/dialogs/settings/features.jinja2:1
 msgid "Features"
 msgstr "特性"
 
-#: src/octoprint/server/views.py:1111
+#: src/octoprint/server/views.py:1197
 msgid "Webcam & Timelapse"
 msgstr "网络摄像头 & 延时摄影"
 
-#: src/octoprint/server/views.py:1119
+#: src/octoprint/server/views.py:1205
 msgid "API"
 msgstr "API"
 
-#: src/octoprint/server/views.py:1136
+#: src/octoprint/server/views.py:1222
 #: src/octoprint/templates/dialogs/settings/folders.jinja2:2
 #: src/octoprint/templates/sidebar/files_header.jinja2:13
 msgid "Folders"
 msgstr "文件夹"
 
-#: src/octoprint/server/views.py:1144
+#: src/octoprint/server/views.py:1230
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:1
 msgid "Appearance"
 msgstr "外观"
 
-#: src/octoprint/server/views.py:1152
+#: src/octoprint/server/views.py:1238
 #: src/octoprint/templates/dialogs/settings/server.jinja2:1
 msgid "Server"
 msgstr "服务器"
 
-#: src/octoprint/server/views.py:1165
+#: src/octoprint/server/views.py:1251
 msgid "Access"
 msgstr "访问"
 
-#: src/octoprint/server/views.py:1173
+#: src/octoprint/server/views.py:1259
 msgid "Interface"
 msgstr "界面"
 
-#: src/octoprint/server/views.py:1203
+#: src/octoprint/server/views.py:1289
 #: src/octoprint/static/js/app/viewmodels/temperature.js:533
 msgid "Start"
 msgstr "开始"
 
-#: src/octoprint/server/views.py:1210
+#: src/octoprint/server/views.py:1296
 #: src/octoprint/templates/dialogs/wizard.jinja2:57
 msgid "Finish"
 msgstr "结束"
@@ -4896,8 +5657,8 @@ msgid ""
 msgstr ""
 
 #: src/octoprint/static/js/app/dataupdater.js:339
-#: src/octoprint/static/js/app/viewmodels/files.js:1508
-#: src/octoprint/static/js/app/viewmodels/files.js:1517
+#: src/octoprint/static/js/app/viewmodels/files.js:1536
+#: src/octoprint/static/js/app/viewmodels/files.js:1545
 #, python-format
 msgid "Slicing ... (%(percentage)d%%)"
 msgstr "正在切片 ...(%(percentage)d%%)"
@@ -5110,94 +5871,106 @@ msgstr "关闭"
 msgid "Are you sure?"
 msgstr "你确定吗？"
 
-#: src/octoprint/static/js/app/helpers.js:1068
+#: src/octoprint/static/js/app/helpers.js:1030
+msgid "Enter value"
+msgstr ""
+
+#: src/octoprint/static/js/app/helpers.js:1032
+msgid "Please enter a new value:"
+msgstr ""
+
+#: src/octoprint/static/js/app/helpers.js:1226
 msgid "Progress"
 msgstr "进度"
 
-#: src/octoprint/static/js/app/main.js:261
+#: src/octoprint/static/js/app/main.js:198
+msgid "Reloading..."
+msgstr ""
+
+#: src/octoprint/static/js/app/main.js:277
 msgid "Offline"
 msgstr "离线"
 
-#: src/octoprint/static/js/app/main.js:262
+#: src/octoprint/static/js/app/main.js:278
 msgid "Offline after error"
 msgstr "错误后离线"
 
-#: src/octoprint/static/js/app/main.js:263
-#: src/octoprint/static/js/app/viewmodels/system.js:151
+#: src/octoprint/static/js/app/main.js:279
+#: src/octoprint/static/js/app/viewmodels/system.js:152
 msgid "Error"
 msgstr "错误"
 
-#: src/octoprint/static/js/app/main.js:264
+#: src/octoprint/static/js/app/main.js:280
 msgid "Opening serial connection"
 msgstr "打开串行连接"
 
-#: src/octoprint/static/js/app/main.js:265
+#: src/octoprint/static/js/app/main.js:281
 msgid "Detecting serial connection"
 msgstr "检测串行连接"
 
-#: src/octoprint/static/js/app/main.js:266
+#: src/octoprint/static/js/app/main.js:282
 msgid "Connecting"
 msgstr "正在连接"
 
-#: src/octoprint/static/js/app/main.js:267
+#: src/octoprint/static/js/app/main.js:283
 msgid "Operational"
 msgstr "正在运行"
 
-#: src/octoprint/static/js/app/main.js:268
+#: src/octoprint/static/js/app/main.js:284
 msgid "Starting"
 msgstr "启动"
 
-#: src/octoprint/static/js/app/main.js:269
+#: src/octoprint/static/js/app/main.js:285
 msgid "Starting print from SD"
 msgstr "从SD卡中打印"
 
-#: src/octoprint/static/js/app/main.js:270
+#: src/octoprint/static/js/app/main.js:286
 msgid "Starting to send file to SD"
 msgstr "开始向SD卡传输文件"
 
-#: src/octoprint/static/js/app/main.js:271
+#: src/octoprint/static/js/app/main.js:287
 msgid "Printing from SD"
 msgstr "从SD卡打印"
 
-#: src/octoprint/static/js/app/main.js:272
+#: src/octoprint/static/js/app/main.js:288
 msgid "Sending file to SD"
 msgstr "发送文件到SD卡"
 
-#: src/octoprint/static/js/app/main.js:273
+#: src/octoprint/static/js/app/main.js:289
 msgid "Printing"
 msgstr "打印中"
 
-#: src/octoprint/static/js/app/main.js:274
+#: src/octoprint/static/js/app/main.js:290
 msgid "Paused"
 msgstr "已暂停"
 
-#: src/octoprint/static/js/app/main.js:275
+#: src/octoprint/static/js/app/main.js:291
 msgid "Closed"
 msgstr "已关闭"
 
-#: src/octoprint/static/js/app/main.js:276
+#: src/octoprint/static/js/app/main.js:292
 msgid "Transferring file to SD"
 msgstr "传送文件到SD卡"
 
-#: src/octoprint/static/js/app/main.js:277
+#: src/octoprint/static/js/app/main.js:293
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:576
 msgid "Pausing"
 msgstr "暂停"
 
-#: src/octoprint/static/js/app/main.js:278
+#: src/octoprint/static/js/app/main.js:294
 msgid "Resuming"
 msgstr "恢复"
 
-#: src/octoprint/static/js/app/main.js:279
+#: src/octoprint/static/js/app/main.js:295
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:585
 msgid "Cancelling"
 msgstr "取消"
 
-#: src/octoprint/static/js/app/main.js:280
+#: src/octoprint/static/js/app/main.js:296
 msgid "Finishing"
 msgstr "结束"
 
-#: src/octoprint/static/js/app/main.js:1072
+#: src/octoprint/static/js/app/main.js:1090
 msgid "Loading OctoPrint's UI, please wait..."
 msgstr "正在载入 OctoPrint 的 UI，请稍候..."
 
@@ -5324,86 +6097,83 @@ msgstr "仅显示gcode文件"
 msgid "Only show %(type)s files"
 msgstr "只显示%(type)s文件"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:693
-#, python-format
+#: src/octoprint/static/js/app/viewmodels/files.js:754
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:489
 msgid ""
-"You are about to delete the folder \"%(folder)s\" which still contains files "
-"and/or sub folders."
-msgstr "你要删除此包含文件和或子文件夹的文件夹“%(folder)s”。"
+"This will start a new print job. Please ensure that the print bed is clear."
+msgstr ""
 
-#: src/octoprint/static/js/app/viewmodels/files.js:753
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:464
-msgid ""
-"This will start a new print job. Please check that the print bed is clear."
-msgstr "这将开始新的打印作业。请检查打印台是否干净。"
-
-#: src/octoprint/static/js/app/viewmodels/files.js:756
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:467
+#: src/octoprint/static/js/app/viewmodels/files.js:757
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:492
 msgid "Do you want to start the print job now?"
 msgstr "你要立即开始打印作业吗？"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:866
+#: src/octoprint/static/js/app/viewmodels/files.js:873
 msgid "Unable to move file or folder"
 msgstr "无法移动文件或文件夹"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:870
+#: src/octoprint/static/js/app/viewmodels/files.js:877
 msgid "to"
 msgstr "至"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:930
+#: src/octoprint/static/js/app/viewmodels/files.js:937
 msgid ""
 "Could not remove entry. Please check octoprint.log for possible reasons."
 msgstr "无法移除条目。请检查 octoprint.log 以了解可能的原因。"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:940
+#: src/octoprint/static/js/app/viewmodels/files.js:947
 msgid "Failed to remove entry"
 msgstr "移除条目失败"
 
 #: src/octoprint/static/js/app/viewmodels/files.js:1080
+msgid "Uploaded by"
+msgstr ""
+
+#: src/octoprint/static/js/app/viewmodels/files.js:1090
 msgid "Model contains no extrusion.<br>"
 msgstr "模型不包含挤出。<br>"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1142
+#: src/octoprint/static/js/app/viewmodels/files.js:1152
 msgid "Last printed"
 msgstr "上次打印的"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1148
+#: src/octoprint/static/js/app/viewmodels/files.js:1158
 msgid "Last print time"
 msgstr "上次打印时间"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1227
+#: src/octoprint/static/js/app/viewmodels/files.js:1237
 #, python-format
 msgid "%(culprit)s exceeds print volume in %(dimension)s.<br>"
 msgstr "%(culprit)s 超过 %(dimension)s 的打印尺寸。<br>"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1234
-#: src/octoprint/static/js/app/viewmodels/files.js:1238
-#: src/octoprint/static/js/app/viewmodels/files.js:1242
+#: src/octoprint/static/js/app/viewmodels/files.js:1244
+#: src/octoprint/static/js/app/viewmodels/files.js:1248
+#: src/octoprint/static/js/app/viewmodels/files.js:1252
 msgid "Object"
 msgstr "对象"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1234
-#: src/octoprint/static/js/app/viewmodels/files.js:1248
+#: src/octoprint/static/js/app/viewmodels/files.js:1244
+#: src/octoprint/static/js/app/viewmodels/files.js:1258
 msgid "width"
 msgstr "宽度"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1238
-#: src/octoprint/static/js/app/viewmodels/files.js:1252
+#: src/octoprint/static/js/app/viewmodels/files.js:1248
+#: src/octoprint/static/js/app/viewmodels/files.js:1262
 msgid "depth"
 msgstr "深度"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1242
-#: src/octoprint/static/js/app/viewmodels/files.js:1256
+#: src/octoprint/static/js/app/viewmodels/files.js:1252
+#: src/octoprint/static/js/app/viewmodels/files.js:1266
 msgid "height"
 msgstr "高度"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1248
-#: src/octoprint/static/js/app/viewmodels/files.js:1252
-#: src/octoprint/static/js/app/viewmodels/files.js:1256
+#: src/octoprint/static/js/app/viewmodels/files.js:1258
+#: src/octoprint/static/js/app/viewmodels/files.js:1262
+#: src/octoprint/static/js/app/viewmodels/files.js:1266
 msgid "Travel"
 msgstr "行程"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1274
+#: src/octoprint/static/js/app/viewmodels/files.js:1284
 msgid ""
 "Travel area: (%(travel.minX).2f, %(travel.minY).2f, %(travel.minZ).2f) "
 "&times; (%(travel.maxX).2f, %(travel.maxY).2f, %(travel.maxZ).2f)"
@@ -5411,7 +6181,7 @@ msgstr ""
 "行程区域：(%(travel.minX).2f, %(travel.minY).2f, %(travel.minZ).2f) &times; "
 "(%(travel.maxX).2f, %(travel.maxY).2f, %(travel.maxZ).2f)"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1281
+#: src/octoprint/static/js/app/viewmodels/files.js:1291
 msgid ""
 "Object's bounding box: (%(object.minX).2f, %(object.minY).2f, %(object."
 "minZ).2f) &times; (%(object.maxX).2f, %(object.maxY).2f, %(object.maxZ).2f)"
@@ -5419,7 +6189,7 @@ msgstr ""
 "对象的边框：(%(object.minX).2f, %(object.minY).2f, %(object.minZ).2f) "
 "&times; (%(object.maxX).2f, %(object.maxY).2f, %(object.maxZ).2f)"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1288
+#: src/octoprint/static/js/app/viewmodels/files.js:1298
 msgid ""
 "Print volume: (%(profile.minX).2f, %(profile.minY).2f, %(profile.minZ).2f) "
 "&times; (%(profile.maxX).2f, %(profile.maxY).2f, %(profile.maxZ).2f)"
@@ -5427,7 +6197,7 @@ msgstr ""
 "打印体积：(%(profile.minX).2f, %(profile.minY).2f, %(profile.minZ).2f) "
 "&times; (%(profile.maxX).2f, %(profile.maxY).2f, %(profile.maxZ).2f)"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1298
+#: src/octoprint/static/js/app/viewmodels/files.js:1308
 #, python-format
 msgid ""
 "%(culprit)s in %(name)s exceeds the print volume of the currently selected "
@@ -5436,108 +6206,108 @@ msgstr ""
 "%(name)s 中的 %(culprit)s 超出了当前所选打印机配置文件的打印尺寸，打印时要小"
 "心。"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1313
+#: src/octoprint/static/js/app/viewmodels/files.js:1323
 #, python-format
 msgid "%(culprit)s exceeds print volume"
 msgstr "%(culprit)s 超出打印尺寸"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1511
+#: src/octoprint/static/js/app/viewmodels/files.js:1539
 msgid "Slicing ..."
 msgstr "切片中..."
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1538
+#: src/octoprint/static/js/app/viewmodels/files.js:1566
 msgid "Slicing done"
 msgstr "切片完成"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1540
+#: src/octoprint/static/js/app/viewmodels/files.js:1568
 #, python-format
 msgid "Sliced %(stl)s to %(gcode)s, took %(time).2f seconds"
 msgstr "成功从 %(stl)s 切片成 %(gcode)s ，耗时 %(time).2f 秒"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1560
+#: src/octoprint/static/js/app/viewmodels/files.js:1588
 #, python-format
 msgid "Could not slice %(stl)s to %(gcode)s: %(reason)s"
 msgstr "无法从 %(stl)s 切片成 %(gcode)s：%(reason)s"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1568
+#: src/octoprint/static/js/app/viewmodels/files.js:1596
 msgid "Slicing failed"
 msgstr "切片失败"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1587
+#: src/octoprint/static/js/app/viewmodels/files.js:1615
 msgid "Streaming ..."
 msgstr "串流中。。。"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1597
+#: src/octoprint/static/js/app/viewmodels/files.js:1625
 msgid "Streaming done"
 msgstr "串流完成"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1599
+#: src/octoprint/static/js/app/viewmodels/files.js:1627
 #, python-format
 msgid "Streamed %(local)s to %(remote)s on SD, took %(time).2f seconds"
 msgstr "传送 %(local)s 至 SD卡上的 %(remote)s，耗时 %(time).2f 秒"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1621
+#: src/octoprint/static/js/app/viewmodels/files.js:1649
 msgid "Streaming failed"
 msgstr "串流失败"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1623
+#: src/octoprint/static/js/app/viewmodels/files.js:1651
 #, python-format
 msgid "Did not finish streaming %(local)s to %(remote)s on SD"
 msgstr "没有完成流%(local)s到%(remote)sSD卡"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1714
+#: src/octoprint/static/js/app/viewmodels/files.js:1742
 #, python-format
 msgid "File already exists: %(name)s"
 msgstr "文件已经存在：%(name)s"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1811
+#: src/octoprint/static/js/app/viewmodels/files.js:1839
 msgid "Could not upload the file. There is not enough disk space remaining."
 msgstr "无法上传文件。剩余磁盘空间不足。"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1818
+#: src/octoprint/static/js/app/viewmodels/files.js:1846
 #, python-format
 msgid "Free Space: %(freespace)s"
 msgstr "可用空间：%(freespace)s"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1822
+#: src/octoprint/static/js/app/viewmodels/files.js:1850
 #, python-format
 msgid "File Size: %(filesize)s"
 msgstr "文件大小：%(filesize)s"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1870
+#: src/octoprint/static/js/app/viewmodels/files.js:1898
 msgid "Refreshing list ..."
 msgstr "刷新列表中..."
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1890
+#: src/octoprint/static/js/app/viewmodels/files.js:1918
 msgid ""
 "Could not upload the file to the printer's SD. Make sure the SD is "
 "initialized and the printer is not busy with a print already."
 msgstr ""
 "无法将文件上传到打印机的 SD 卡。确保 SD 卡已初始化并且打印机没有忙于打印。"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1894
+#: src/octoprint/static/js/app/viewmodels/files.js:1922
 msgid ""
 "Could not upload the file, overwrite not possible. Make sure it is not "
 "already printing and that you have allowed overwriting."
 msgstr "无法上传文件，无法覆盖。确保其未在打印并且你已允许覆盖文件。"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1903
+#: src/octoprint/static/js/app/viewmodels/files.js:1931
 #, python-format
 msgid ""
 "Could not upload the file. Make sure that it is a readable, valid file with "
 "one of these extensions: %(extensions)s"
 msgstr "无法上传该文件。请确认文件是有以下扩展名的有效文件：%(extensions)s"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1912
+#: src/octoprint/static/js/app/viewmodels/files.js:1940
 msgid ""
 "Could not upload the file. Please check octoprint.log for possible reasons."
 msgstr "无法上传文件。请检查 octoprint.log 了解可能的原因。"
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1938
+#: src/octoprint/static/js/app/viewmodels/files.js:1966
 msgid "Saving ..."
 msgstr "保存中..."
 
-#: src/octoprint/static/js/app/viewmodels/files.js:1938
+#: src/octoprint/static/js/app/viewmodels/files.js:1966
 msgid "Uploading ..."
 msgstr "上传中..."
 
@@ -5754,85 +6524,81 @@ msgstr "新增打印机配置文件"
 msgid "Edit Printer Profile \"%(name)s\""
 msgstr "编辑打印机设置 “%(name)s”"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:103
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:127
 msgid "Restarts the print job from the beginning"
 msgstr "重新开始打印作业"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:106
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:130
 msgid "Starts the print job"
 msgstr "开始打印作业"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:107
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:131
 msgid "Resumes the print job"
 msgstr "继续开始打印作业"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:108
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:132
 msgid "Pauses the print job"
 msgstr "暂停打印作业"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:146
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:170
 msgid "Still stabilizing..."
 msgstr "仍在稳定中……"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:166
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:190
 msgid ""
 "Based on a linear approximation (very low accuracy, especially at the "
 "beginning of the print)"
 msgstr "基于线性近似（非常低的精度，特别是在打印开始时）"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:171
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:195
 msgid "Based on the estimate from analysis of file (medium accuracy)"
 msgstr "基于文件分析的估计（中等精度）"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:176
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:200
 msgid ""
 "Based on a mix of estimate from analysis and calculation (medium accuracy)"
 msgstr "基于分析和计算估算（中等精度）"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:181
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:205
 msgid ""
 "Based on the average total of past prints of this model with the same "
 "printer profile (usually good accuracy)"
 msgstr "根据具有相同打印机配置文件型号的以往打印件的平均总数（通常精度很好）"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:186
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:210
 msgid ""
 "Based on a mix of average total from past prints and calculation (usually "
 "good accuracy)"
 msgstr "基于以往打印和计算的平均总和（通常精度很好）"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:191
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:215
 msgid "Based on the calculated estimate (best accuracy)"
 msgstr "基于计算的估计（最佳精度）"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:227
-msgid "Continue"
-msgstr "继续"
-
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:228
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:252
 #: src/octoprint/static/js/app/viewmodels/temperature.js:536
 #: src/octoprint/templates/sidebar/state.jinja2:30
 msgid "Pause"
 msgstr "暂停"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:238
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:262
 #: src/octoprint/templates/tabs/timelapse.jinja2:16
 msgid "On Z Change"
 msgstr "当 Z 变更"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:241
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:265
 #: src/octoprint/templates/tabs/timelapse.jinja2:15
 msgid "Timed"
 msgstr "定时"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:245
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:269
 #: src/octoprint/templates/tabs/timelapse.jinja2:27
 #: src/octoprint/templates/tabs/timelapse.jinja2:38
 #: src/octoprint/templates/tabs/timelapse.jinja2:58
 msgid "sec"
 msgstr "秒"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:406
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:430
 #, python-format
 msgid ""
 "<p>%(ratio)d%% of transmitted lines have triggered resend requests. The "
@@ -5844,23 +6610,25 @@ msgstr ""
 "印伪影和故障。</p><p>请参阅<a href='%(url)s' target='_blank'>此常见问题解答条"
 "目</a>有关解决此问题的技巧。</p>"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:418
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:442
 msgid "Critical resend ratio!"
 msgstr "临界重发率！"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:433
-msgid "This will restart the print job from the beginning."
-msgstr "这将从头开始重新启动打印作业。"
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:457
+msgid ""
+"This will restart the print job from the beginning. Please ensure that the "
+"print bed is clear."
+msgstr ""
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:494
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:519
 msgid "This will cancel your print."
 msgstr "这将取消你的打印。"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:495
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:520
 msgid "No, continue the print"
 msgstr "否，继续打印"
 
-#: src/octoprint/static/js/app/viewmodels/printerstate.js:496
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:521
 msgid "Yes, cancel the print"
 msgstr "是，取消打印"
 
@@ -5878,68 +6646,68 @@ msgstr "白色"
 msgid "Autodetect from browser"
 msgstr "从浏览器自动检测"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:451
+#: src/octoprint/static/js/app/viewmodels/settings.js:452
 msgid "The path doesn't exist"
 msgstr "路径不存在"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:453
+#: src/octoprint/static/js/app/viewmodels/settings.js:454
 msgid "The path is not a file"
 msgstr "路径不是文件"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:456
+#: src/octoprint/static/js/app/viewmodels/settings.js:457
 msgid "The path is not an executable"
 msgstr "路径不是可执行文件"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:460
-#: src/octoprint/static/js/app/viewmodels/settings.js:561
+#: src/octoprint/static/js/app/viewmodels/settings.js:461
+#: src/octoprint/static/js/app/viewmodels/settings.js:562
 msgid "The path is valid"
 msgstr "路径有效"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:485
+#: src/octoprint/static/js/app/viewmodels/settings.js:486
 msgid "The server is not reachable"
 msgstr "服务器不可用"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:488
+#: src/octoprint/static/js/app/viewmodels/settings.js:489
 msgid "The server is reachable"
 msgstr "服务器可用"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:509
+#: src/octoprint/static/js/app/viewmodels/settings.js:510
 msgid "Name cannot be resolved"
 msgstr "名称无法解析"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:513
+#: src/octoprint/static/js/app/viewmodels/settings.js:514
 msgid "Name can be resolved"
 msgstr "名称可以解析"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:545
+#: src/octoprint/static/js/app/viewmodels/settings.js:546
 msgid "The path is a broken symlink."
 msgstr "此路径是一个断开的链接。"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:549
+#: src/octoprint/static/js/app/viewmodels/settings.js:550
 msgid "The path does not exist and cannot be created."
 msgstr "此路径不存在，也不能被创建。"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:553
+#: src/octoprint/static/js/app/viewmodels/settings.js:554
 msgid "The path is not a folder."
 msgstr "此路径不是一个文件夹。"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:557
+#: src/octoprint/static/js/app/viewmodels/settings.js:558
 msgid "The path is not writable."
 msgstr "此路径不能被写入。"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:697
-#: src/octoprint/static/js/app/viewmodels/usersettings.js:159
+#: src/octoprint/static/js/app/viewmodels/settings.js:698
+#: src/octoprint/static/js/app/viewmodels/usersettings.js:174
 msgid ""
 "This will generate a new API Key. The old API Key will cease to function "
 "immediately."
 msgstr "这将生成一个新的 API 密钥。旧的 API 密钥将立即失效。"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:716
-#: src/octoprint/static/js/app/viewmodels/usersettings.js:174
+#: src/octoprint/static/js/app/viewmodels/settings.js:717
+#: src/octoprint/static/js/app/viewmodels/usersettings.js:189
 msgid "This will delete the API Key. It will cease to to function immediately."
 msgstr "这将删除 API 密钥。它将立即失效。"
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:1299
+#: src/octoprint/static/js/app/viewmodels/settings.js:1300
 #, python-format
 msgid ""
 "<p>You have Autologin enabled. This means that you will be automatically "
@@ -5951,11 +6719,11 @@ msgid ""
 "noreferer'>Read more in the FAQ</a>.</p>"
 msgstr ""
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:1307
+#: src/octoprint/static/js/app/viewmodels/settings.js:1308
 msgid "Autologin Heads-up"
 msgstr ""
 
-#: src/octoprint/static/js/app/viewmodels/settings.js:1316
+#: src/octoprint/static/js/app/viewmodels/settings.js:1317
 msgid "Got it!"
 msgstr ""
 
@@ -5988,30 +6756,30 @@ msgstr "不能切片，不是所有参数都已指定"
 msgid "Start the slicing process"
 msgstr "开始切片进程"
 
-#: src/octoprint/static/js/app/viewmodels/system.js:74
+#: src/octoprint/static/js/app/viewmodels/system.js:75
 msgid ""
 "The following folder(s) were found to be unusable by OctoPrint during "
 "startup and have been turned back to the default:"
 msgstr ""
 
-#: src/octoprint/static/js/app/viewmodels/system.js:90
+#: src/octoprint/static/js/app/viewmodels/system.js:91
 msgid ""
 "Please check the permissions of these folders and make sure they are "
 "writable by the user running OctoPrint. In case of network shares, make sure "
 "they have been mounted <em>before</em> OctoPrint starts."
 msgstr ""
 
-#: src/octoprint/static/js/app/viewmodels/system.js:117
+#: src/octoprint/static/js/app/viewmodels/system.js:118
 #, python-format
 msgid "The command \"%(command)s\" was triggered asynchronously"
 msgstr "命令“%(command)s”是触发异步"
 
-#: src/octoprint/static/js/app/viewmodels/system.js:121
+#: src/octoprint/static/js/app/viewmodels/system.js:122
 #, python-format
 msgid "The command \"%(command)s\" executed successfully"
 msgstr "命令 “%(command)s”成功执行"
 
-#: src/octoprint/static/js/app/viewmodels/system.js:141
+#: src/octoprint/static/js/app/viewmodels/system.js:142
 #, python-format
 msgid "The command \"%(command)s\" could not be executed."
 msgstr "命令 “%(command)s”不能被执行。"
@@ -6133,17 +6901,17 @@ msgid ""
 "T%(fallback)d"
 msgstr "你的打印机报告工具T%(tool)d无效，还原为T%(fallback)d"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:69
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:71
 #, python-format
 msgid "Rendering %(target)s..."
 msgstr "正在渲染%(target)s ..."
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:78
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:80
 #, python-format
 msgid "Rendering %(target)s... (%(progress)d%%)"
 msgstr "正在渲染%(target)s ...（%(progress)d%%）"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:355
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:366
 #, python-format
 msgid ""
 "Failed to remove timelapse %(name)s.</p><p>Please consult octoprint.log for "
@@ -6151,96 +6919,96 @@ msgid ""
 msgstr ""
 "无法删除延时摄影 %(name)s。</p><p>更多详细信息，请参阅 octoprint.log。</p>"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:366
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:377
 msgid "Could not remove timelapse"
 msgstr "无法删除延时摄影"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:375
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:386
 #, python-format
 msgid "You are about to delete timelapse file \"%(name)s\"."
 msgstr "即将删除延时摄影文件“%(name)s”。"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:393
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:404
 #, python-format
 msgid "You are about to delete %(count)d timelapse files."
 msgstr "即将删除%(count)d个延时摄影文件。"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:462
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:473
 #, python-format
 msgid "You are about to delete unrendered timelapse \"%(name)s\"."
 msgstr "即将删除未渲染的延时摄影%(name)s。"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:487
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:498
 #, python-format
 msgid "You are about to delete %(count)d unrendered timelapses."
 msgstr "即将删除%(count)d个未渲染的延时摄影。"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:498
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:509
 msgid "Deleting timelapse files"
 msgstr "正在删除延时摄影文件"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:499
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:510
 #, python-format
 msgid "Deleting %(count)d timelapse files..."
 msgstr "正在删除%(count)d个延时摄影文件..."
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:529
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:540
 msgid "Deleting unrendered timelapses"
 msgstr "正在删除未渲染的延时摄影"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:531
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:542
 #, python-format
 msgid "Deleting %(count)d unrendered timelapses..."
 msgstr "正在删除%(count)d个未渲染的延时摄影..."
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:644
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:667
 msgid "Capturing timelapse postroll"
 msgstr "捕获延时摄影后卷"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:649
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:672
 msgid "Now capturing timelapse post roll, this will take only a moment..."
 msgstr "现在捕获延时摄影后卷，这只需要一点时间..."
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:659
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:682
 #, python-format
 msgid "%(minutes)d min"
 msgstr "%(minutes)d 分"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:663
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:686
 #, python-format
 msgid ""
 "Now capturing timelapse post roll, this will take approximately %(duration)s "
 "(so until %(time)s)..."
 msgstr "现在捕获延时摄影后卷，这将需要大约 %(duration)s（到 %(time)s）..."
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:669
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:692
 #, python-format
 msgid "%(seconds)d sec"
 msgstr "%(seconds)d 秒"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:673
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:696
 #, python-format
 msgid ""
 "Now capturing timelapse post roll, this will take approximately "
 "%(duration)s..."
 msgstr "现在捕获延时摄影后卷，这将需要大约 %(duration)s..."
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:712
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:742
 msgid ""
 "Failed repeatedly to capture timelapse frame from webcam - is the snapshot "
 "webcam configured correctly and the camera on?"
 msgstr ""
 "从网络摄像头捕获延时帧时重复失败——快照网络摄像头的配置正确吗，摄像头开着吗？"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:738
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:768
 msgid "Could not capture snapshots"
 msgstr "不能捕获快照"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:747
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:778
 msgid "Rendering timelapse"
 msgstr "正在渲染延时摄影"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:749
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:780
 #, python-format
 msgid ""
 "Now rendering timelapse %(movie_prefix)s. Due to performance reasons it is "
@@ -6249,11 +7017,11 @@ msgstr ""
 "正在渲染延时摄影 %(movie_prefix)s。由于性能原因当仍有视频在渲染时不推荐开始打"
 "印任务。"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:771
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:804
 msgid "Cannot render timelapse"
 msgstr "无法渲染延时摄影"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:775
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:808
 #, python-format
 msgid ""
 "Rendering of timelapse %(movie_prefix)s is not possible since no frames were "
@@ -6262,30 +7030,30 @@ msgstr ""
 "由于没有捕捉到任何帧，所以无法渲染延时 %(movie_prefix)s。快照网络摄像头的配置"
 "是否正确？"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:782
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:799
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:815
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:832
 msgid "Rendering timelapse failed"
 msgstr "渲染延时摄影失败"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:786
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:819
 #, python-format
 msgid ""
 "Rendering of timelapse %(movie_prefix)s failed with return code "
 "%(returncode)s"
 msgstr "渲染延时摄影 %(movie_prefix)s 失败，返回码为 %(returncode)s"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:803
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:836
 #, python-format
 msgid ""
 "Rendering of timelapse %(movie_prefix)s failed due to an unknown error, "
 "please consult the log file"
 msgstr "由于未知错误，延时摄影 %(movie_prefix)s 的渲染失败，请查阅日志文件"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:825
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:862
 msgid "Timelapse ready"
 msgstr "延时摄影已准备"
 
-#: src/octoprint/static/js/app/viewmodels/timelapse.js:827
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:864
 #, python-format
 msgid "New timelapse %(movie_prefix)s is done rendering."
 msgstr "新的延时摄影 %(movie_prefix)s 完成渲染。"
@@ -6342,46 +7110,62 @@ msgid "Incorrect username or password. Hint: Both are case sensitive!"
 msgstr "用户名或密码错误。提示：用户名或密码区分大小写！"
 
 #: src/octoprint/templates/login.jinja2:75
+msgid "CSRF protection error. Reloading the page might fix this."
+msgstr ""
+
+#: src/octoprint/templates/login.jinja2:76
 msgid "You have made too many failed login attempts. Please try again later."
 msgstr "你已进行太多次失败的登录尝试。请稍后再试。"
 
-#: src/octoprint/templates/login.jinja2:76
+#: src/octoprint/templates/login.jinja2:77
+msgid "Incorrect 2FA credentials."
+msgstr ""
+
+#: src/octoprint/templates/login.jinja2:78
 #: src/octoprint/templates/recovery.jinja2:71
 msgid "Server is currently offline."
 msgstr "服务器当前离线。"
 
-#: src/octoprint/templates/login.jinja2:76
+#: src/octoprint/templates/login.jinja2:78
 #: src/octoprint/templates/recovery.jinja2:71
 msgid "Reconnect..."
 msgstr "重新连接..."
 
-#: src/octoprint/templates/login.jinja2:79
+#: src/octoprint/templates/login.jinja2:81
 msgid ""
 "You need to reauthenticate before you can continue. Please enter your "
 "password below."
 msgstr ""
 
-#: src/octoprint/templates/login.jinja2:81
+#: src/octoprint/templates/login.jinja2:83
 msgid "The following account is required:"
 msgstr "需要以下账户："
 
-#: src/octoprint/templates/login.jinja2:83
+#: src/octoprint/templates/login.jinja2:85
 msgid "An account with the following permissions is required:"
 msgstr "需要具有以下权限的账户："
 
-#: src/octoprint/templates/login.jinja2:89
+#: src/octoprint/templates/login.jinja2:91
 #: src/octoprint/templates/navbar/login.jinja2:9
 msgid "Forgot password?"
 msgstr "忘记密码？"
 
-#: src/octoprint/templates/login.jinja2:91
+#: src/octoprint/templates/login.jinja2:93
 #: src/octoprint/templates/navbar/login.jinja2:13
 msgid "Remember me"
 msgstr "记住我"
 
-#: src/octoprint/templates/login.jinja2:94
+#: src/octoprint/templates/login.jinja2:96
 msgid "Log in"
 msgstr "登录"
+
+#: src/octoprint/templates/login.jinja2:104
+msgid ""
+"\n"
+"                You have enabled two-factor authentication. Please choose "
+"one of the following options to further authenticate yourself:\n"
+"            "
+msgstr ""
 
 #: src/octoprint/templates/recovery.jinja2:63
 msgid "Navigation"
@@ -6478,24 +7262,10 @@ msgstr ""
 msgid "Abort"
 msgstr "取消"
 
-#: src/octoprint/templates/dialogs/reauthenticate.jinja2:23
-#: src/octoprint/templates/dialogs/usersettings.jinja2:47
-#: src/octoprint/templates/recovery.jinja2:195
-#: src/octoprint/templates/snippets/settings/accesscontrol/groups.jinja2:113
-#: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:126
-#: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:177
-#: src/octoprint/templates/snippets/settings/printerprofiles/profileEditor.jinja2:38
-msgid "Confirm"
-msgstr "确定"
-
 #: src/octoprint/templates/dialogs/about.jinja2:4
 #: src/octoprint/templates/dialogs/settings.jinja2:51
 msgid "About OctoPrint"
 msgstr "关于 OctoPrint"
-
-#: src/octoprint/templates/dialogs/files.jinja2:4
-msgid "Create Folder"
-msgstr "创建文件夹"
 
 #: src/octoprint/templates/dialogs/files.jinja2:7
 msgid "Please specify the name of the folder to create."
@@ -6516,11 +7286,6 @@ msgstr "移动或重命名 "
 #: src/octoprint/templates/dialogs/files.jinja2:31
 msgid "Select destination folder for "
 msgstr "选择目标文件夹 "
-
-#: src/octoprint/templates/dialogs/files.jinja2:31
-#: src/octoprint/templates/dialogs/files.jinja2:36
-msgid "Currently:"
-msgstr "目前："
 
 #: src/octoprint/templates/dialogs/files.jinja2:36
 msgid "Set destination name "
@@ -6934,10 +7699,6 @@ msgid ""
 "Name of this OctoPrint instance, will be shown in the navigation bar and "
 "broadcast on the network"
 msgstr "此 OctoPrint 实例的名称将显示在导航栏中，并在网络上广播"
-
-#: src/octoprint/templates/dialogs/settings/appearance.jinja2:4
-msgid "Title"
-msgstr "标题"
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:9
 msgid ""
@@ -8170,10 +8931,6 @@ msgstr "在发送了这么多行之后，开始跟踪重新发送请求。"
 msgid "Tracking start"
 msgstr "追踪开始"
 
-#: src/octoprint/templates/dialogs/settings/server.jinja2:5
-msgid "Commands"
-msgstr "命令"
-
 #: src/octoprint/templates/dialogs/settings/server.jinja2:11
 msgid "Connectivity check"
 msgstr "网络连通性检查"
@@ -8275,13 +9032,13 @@ msgstr "网络摄像头串流中"
 msgid "Timelapse Recordings"
 msgstr "延时摄影"
 
-#: src/octoprint/templates/dialogs/settings/webcam.jinja2:45
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:46
 #: src/octoprint/templates/snippets/settings/webcam/defaultWebcam.jinja2:1
 #: src/octoprint/templates/snippets/settings/webcam/defaultWebcam.jinja2:2
 msgid "Fallback Webcam"
 msgstr "后备网络摄像头"
 
-#: src/octoprint/templates/dialogs/settings/webcam.jinja2:47
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:48
 msgid ""
 "<p>\n"
 "    Select the webcam to fall back on to populate the stream and snapshot "
@@ -8486,11 +9243,6 @@ msgid "Upload locally"
 msgstr "上传到本地"
 
 #: src/octoprint/templates/overlays/dragndrop.jinja2:7
-#: src/octoprint/templates/sidebar/files.jinja2:78
-msgid "Upload to SD"
-msgstr "上传到SD卡"
-
-#: src/octoprint/templates/overlays/dragndrop.jinja2:7
 msgid "Cannot upload to printer's SD while printing"
 msgstr "打印时无法上传到打印机的SD"
 
@@ -8551,10 +9303,6 @@ msgstr "在服务器启动时自动连接"
 msgid "Refresh connection options"
 msgstr "刷新连接选项"
 
-#: src/octoprint/templates/sidebar/files.jinja2:9
-msgid "Back"
-msgstr "返回"
-
 #: src/octoprint/templates/sidebar/files.jinja2:10
 msgid "Currently in"
 msgstr "当前位置"
@@ -8583,14 +9331,6 @@ msgstr ""
 #: src/octoprint/templates/sidebar/files.jinja2:27
 msgid "Move or Rename"
 msgstr "移动或重命名"
-
-#: src/octoprint/templates/sidebar/files.jinja2:29
-msgid "Load"
-msgstr "载入"
-
-#: src/octoprint/templates/sidebar/files.jinja2:30
-msgid "Load and Print"
-msgstr "载入并打印"
 
 #: src/octoprint/templates/sidebar/files.jinja2:61
 msgid "Free"
@@ -8623,30 +9363,6 @@ msgstr "按上传日期排序"
 #: src/octoprint/templates/sidebar/files_header.jinja2:10
 msgid "Sort by date of last print"
 msgstr "按最后打印日期排序"
-
-#: src/octoprint/templates/sidebar/files_header.jinja2:15
-msgid "Sort by Folders, Files"
-msgstr "按文件夹、文件排序"
-
-#: src/octoprint/templates/sidebar/files_header.jinja2:16
-msgid "Sort by Files, Folders"
-msgstr "按文件、文件夹排序"
-
-#: src/octoprint/templates/sidebar/files_header.jinja2:17
-msgid "Mixed"
-msgstr "全显示"
-
-#: src/octoprint/templates/sidebar/files_header.jinja2:28
-msgid "Only show files stored locally"
-msgstr "仅显示本机的文件"
-
-#: src/octoprint/templates/sidebar/files_header.jinja2:29
-msgid "Only show files stored on SD"
-msgstr "仅显示SD卡的文件"
-
-#: src/octoprint/templates/sidebar/files_header.jinja2:32
-msgid "Hide successfully printed files"
-msgstr "隐藏已成功打印文件"
 
 #: src/octoprint/templates/sidebar/files_header.jinja2:37
 msgid "Refresh file list"
@@ -8704,10 +9420,6 @@ msgstr "文件"
 msgid "Upload date of the file currently selected or printing"
 msgstr "当前选择或打印文件的上传日期"
 
-#: src/octoprint/templates/sidebar/state.jinja2:6
-msgid "Uploaded"
-msgstr "已上传"
-
 #: src/octoprint/templates/sidebar/state.jinja2:8
 msgid "User who selected this file for printing"
 msgstr "选择打印此文件的用户"
@@ -8764,8 +9476,8 @@ msgid "Cancels the print job"
 msgstr "停止打印工作"
 
 #: src/octoprint/templates/snippets/settings/accesscontrol/group_list.jinja2:6
-msgid "Fixed groups can't be added or removed to users."
-msgstr "固定组不能添加或删除给用户。"
+msgid "Fixed groups can't be added to or removed from users."
+msgstr ""
 
 #: src/octoprint/templates/snippets/settings/accesscontrol/group_list.jinja2:6
 #: src/octoprint/templates/snippets/settings/accesscontrol/subgroup_list.jinja2:8
@@ -8803,10 +9515,6 @@ msgstr "添加组..."
 msgid "Description"
 msgstr "描述"
 
-#: src/octoprint/templates/snippets/settings/accesscontrol/groups.jinja2:87
-msgid "Default"
-msgstr "默认"
-
 #: src/octoprint/templates/snippets/settings/accesscontrol/groups.jinja2:89
 msgid ""
 "Marking a group as default will make it get pre selected when creating new "
@@ -8823,8 +9531,8 @@ msgid "Dangerous"
 msgstr "危险"
 
 #: src/octoprint/templates/snippets/settings/accesscontrol/subgroup_list.jinja2:8
-msgid "Fixed groups can't be added or removed to other groups."
-msgstr "固定组不能添加或删除到其他组。"
+msgid "Fixed groups can't be added to or removed from other groups."
+msgstr ""
 
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:6
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:101
@@ -9004,11 +9712,6 @@ msgid ""
 msgstr ""
 "请指定挤出机相对于第一个喷嘴 T0 的喷嘴偏移量，<strong>如果你还没有在你的固件"
 "中设置此项</strong>。否则，留为 (0,0)。"
-
-#: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:37
-#: src/octoprint/templates/tabs/temperature.jinja2:41
-msgid "Offset"
-msgstr "偏移"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:55
 msgid "Default extrusion length"
@@ -9242,6 +9945,7 @@ msgstr ""
 "        "
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegBitrate.jinja2:1
+#: src/octoprint/templates/snippets/settings/webcam/renderAfterPrintDelay.jinja2:1
 msgid "Bitrate to use for encoding the timelapse video"
 msgstr "比特率(用于延时摄影视频编码)"
 
@@ -9313,6 +10017,17 @@ msgstr "用于编码的视频编解码器"
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegVideoCodec.jinja2:2
 msgid "Video codec"
 msgstr "用于编码的视频编解码器"
+
+#: src/octoprint/templates/snippets/settings/webcam/renderAfterPrintDelay.jinja2:2
+msgid "Render after print delay"
+msgstr ""
+
+#: src/octoprint/templates/snippets/settings/webcam/renderAfterPrintDelay.jinja2:8
+msgid ""
+"Enter the delay to wait for with rendering after print completion. The "
+"render job will be enqueued and only run after the delay if no new print is "
+"running, otherwise rendering will be postponed further."
+msgstr ""
 
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:1
 #: src/octoprint/templates/snippets/settings/webcam/snapshotWebcam.jinja2:2
@@ -9674,33 +10389,45 @@ msgstr ""
 "输入固件或 gcode 文件中使用的回缩 z-hop，以仅在层高真正改变时才触发延时摄影快"
 "照。为了使其正常工作，你的回缩 z-hop 必须与你的层高设置不同！"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:78
+#: src/octoprint/templates/tabs/timelapse.jinja2:76
+msgid "Render timelapse after print"
+msgstr ""
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:80
+msgid "On success"
+msgstr ""
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:81
+msgid "On failure"
+msgstr ""
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:90
 msgid "Save as default"
 msgstr "保存为默认"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:79
+#: src/octoprint/templates/tabs/timelapse.jinja2:91
 msgid ""
 "Check this to make your selected timelapse mode and options persist across "
 "restarts."
 msgstr "勾选此项使延时摄影选项重启后保留。"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:86
+#: src/octoprint/templates/tabs/timelapse.jinja2:98
 msgid "You have unsaved changes. Don't forget to save them."
 msgstr "你尚未保存变化，别忘了保存。"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:87
+#: src/octoprint/templates/tabs/timelapse.jinja2:99
 msgid "Save changes"
 msgstr "保存修改"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:88
+#: src/octoprint/templates/tabs/timelapse.jinja2:100
 msgid "Reset to active configuration"
 msgstr "重置为激活配置"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:94
+#: src/octoprint/templates/tabs/timelapse.jinja2:106
 msgid "Timelapse not fully configured"
 msgstr "延时摄影未完全配置"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:95
+#: src/octoprint/templates/tabs/timelapse.jinja2:107
 msgid ""
 "A working snapshot setup and/or the path to FFMPEG are missing. To have this "
 "fixed, get in touch with an administrator of this OctoPrint instance."
@@ -9708,7 +10435,7 @@ msgstr ""
 "缺少有效的快照设置和/或 FFMPEG 路径。要修复此问题，请联系此 OctoPrint 实例的"
 "管理员。"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:96
+#: src/octoprint/templates/tabs/timelapse.jinja2:108
 msgid ""
 "A working snapshot setup and/or the path to FFMPEG are missing. You can "
 "change both under \"Settings\" > \"Webcam & Timelapse\" and in the settings "
@@ -9719,67 +10446,89 @@ msgstr ""
 "以及你选择的网络摄像头插件的设置中进行更改。如果你没有网络摄像头或不想启用延"
 "时摄影支持，你也可以在那里禁用。"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:100
+#: src/octoprint/templates/tabs/timelapse.jinja2:112
 msgid "Currently configured snapshot (from default webcam)"
 msgstr "当前配置的快照（来自默认网络摄像头）"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:103
+#: src/octoprint/templates/tabs/timelapse.jinja2:115
 msgid "Snapshots supported by default webcam"
 msgstr "默认网络摄像头支持的快照"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:107
+#: src/octoprint/templates/tabs/timelapse.jinja2:119
 msgid "Currently configured default webcam cannot take snapshots"
 msgstr "当前配置的默认网络摄像头无法拍摄快照"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:109
+#: src/octoprint/templates/tabs/timelapse.jinja2:121
 msgid "Currently configured path to FFMPEG"
 msgstr "当前配置的 FFMPEG 路径"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:114
+#: src/octoprint/templates/tabs/timelapse.jinja2:126
 msgid "Timelapse Render Progress"
 msgstr "延时摄影渲染进度"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:121
+#: src/octoprint/templates/tabs/timelapse.jinja2:133
 msgid "Finished Timelapses"
 msgstr "已完成的延时摄影"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:128
+#: src/octoprint/templates/tabs/timelapse.jinja2:140
 msgid "Sort by date"
 msgstr "根据日期排列"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:150
+#: src/octoprint/templates/tabs/timelapse.jinja2:162
 msgid "Preview"
 msgstr "预览"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:168
+#: src/octoprint/templates/tabs/timelapse.jinja2:180
 msgid "Recorded:"
 msgstr "录制于："
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:169
+#: src/octoprint/templates/tabs/timelapse.jinja2:181
 msgid "Size:"
 msgstr "尺寸："
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:191
+#: src/octoprint/templates/tabs/timelapse.jinja2:203
 msgid ""
 "Too many files selected to download at once. Reduce number of files to "
 "enable download button."
 msgstr "一次选择下载的文件太多。减少文件数量以启用下载按钮。"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:195
+#: src/octoprint/templates/tabs/timelapse.jinja2:207
 msgid "Unrendered Timelapses"
 msgstr "未渲染的缩时影片"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:214
+#: src/octoprint/templates/tabs/timelapse.jinja2:226
 msgid "Frames"
 msgstr "帧"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:227
+#: src/octoprint/templates/tabs/timelapse.jinja2:239
 msgid "Delete unrendered timelapse"
 msgstr "删除未渲染的延时摄影"
 
-#: src/octoprint/templates/tabs/timelapse.jinja2:227
+#: src/octoprint/templates/tabs/timelapse.jinja2:239
 msgid "Render timelapse"
 msgstr "渲染延时摄影"
+
+#~ msgid "Fully qualified URL, needs to be reachable by OctoPrint's server"
+#~ msgstr "完整的 URL，可从 OctoPrint 服务器访问"
+
+#, python-format
+#~ msgid ""
+#~ "You are about to delete the folder \"%(folder)s\" which still contains "
+#~ "files and/or sub folders."
+#~ msgstr "你要删除此包含文件和或子文件夹的文件夹“%(folder)s”。"
+
+#~ msgid ""
+#~ "This will start a new print job. Please check that the print bed is clear."
+#~ msgstr "这将开始新的打印作业。请检查打印台是否干净。"
+
+#~ msgid "This will restart the print job from the beginning."
+#~ msgstr "这将从头开始重新启动打印作业。"
+
+#~ msgid "Fixed groups can't be added or removed to users."
+#~ msgstr "固定组不能添加或删除给用户。"
+
+#~ msgid "Fixed groups can't be added or removed to other groups."
+#~ msgstr "固定组不能添加或删除到其他组。"
 
 #, python-format
 #~ msgid "You are about to revoke the application key \"%(key)s\"."
